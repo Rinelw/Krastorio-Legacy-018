@@ -3,13 +3,13 @@ pipepictures = function()
   {
     straight_vertical_single =
     {
-      filename = "__Krastorio__/graphics/entity/steel-pipe/steel-pipe-straight-vertical-single.png",
+      filename = "__KrastorioPorted__/graphics/entity/steel-pipe/steel-pipe-straight-vertical-single.png",
       priority = "extra-high",
       width = 80,
       height = 80,
       hr_version =
       {
-        filename = "__Krastorio__/graphics/entity/steel-pipe/hr-steel-pipe-straight-vertical-single.png",
+        filename = "__KrastorioPorted__/graphics/entity/steel-pipe/hr-steel-pipe-straight-vertical-single.png",
         priority = "extra-high",
         width = 160,
         height = 160,
@@ -18,13 +18,13 @@ pipepictures = function()
     },
     straight_vertical =
     {
-      filename = "__Krastorio__/graphics/entity/steel-pipe/steel-pipe-straight-vertical.png",
+      filename = "__KrastorioPorted__/graphics/entity/steel-pipe/steel-pipe-straight-vertical.png",
       priority = "extra-high",
       width = 64,
       height = 64,
       hr_version =
       {
-        filename = "__Krastorio__/graphics/entity/steel-pipe/hr-steel-pipe-straight-vertical.png",
+        filename = "__KrastorioPorted__/graphics/entity/steel-pipe/hr-steel-pipe-straight-vertical.png",
         priority = "extra-high",
         width = 128,
         height = 128,
@@ -33,13 +33,13 @@ pipepictures = function()
     },
     straight_vertical_window =
     {
-      filename = "__Krastorio__/graphics/entity/steel-pipe/steel-pipe-straight-vertical-window.png",
+      filename = "__KrastorioPorted__/graphics/entity/steel-pipe/steel-pipe-straight-vertical-window.png",
       priority = "extra-high",
       width = 64,
       height = 64,
       hr_version =
       {
-        filename = "__Krastorio__/graphics/entity/steel-pipe/hr-steel-pipe-straight-vertical-window.png",
+        filename = "__KrastorioPorted__/graphics/entity/steel-pipe/hr-steel-pipe-straight-vertical-window.png",
         priority = "extra-high",
         width = 128,
         height = 128,
@@ -48,13 +48,13 @@ pipepictures = function()
     },
     straight_horizontal_window =
     {
-      filename = "__Krastorio__/graphics/entity/steel-pipe/steel-pipe-straight-horizontal-window.png",
+      filename = "__KrastorioPorted__/graphics/entity/steel-pipe/steel-pipe-straight-horizontal-window.png",
       priority = "extra-high",
       width = 64,
       height = 64,
       hr_version =
       {
-        filename = "__Krastorio__/graphics/entity/steel-pipe/hr-steel-pipe-straight-horizontal-window.png",
+        filename = "__KrastorioPorted__/graphics/entity/steel-pipe/hr-steel-pipe-straight-horizontal-window.png",
         priority = "extra-high",
         width = 128,
         height = 128,
@@ -63,13 +63,13 @@ pipepictures = function()
     },
     straight_horizontal =
     {
-      filename = "__Krastorio__/graphics/entity/steel-pipe/steel-pipe-straight-horizontal.png",
+      filename = "__KrastorioPorted__/graphics/entity/steel-pipe/steel-pipe-straight-horizontal.png",
       priority = "extra-high",
       width = 64,
       height = 64,
       hr_version =
       {
-        filename = "__Krastorio__/graphics/entity/steel-pipe/hr-steel-pipe-straight-horizontal.png",
+        filename = "__KrastorioPorted__/graphics/entity/steel-pipe/hr-steel-pipe-straight-horizontal.png",
         priority = "extra-high",
         width = 128,
         height = 128,
@@ -78,13 +78,13 @@ pipepictures = function()
     },
     corner_up_right =
     {
-      filename = "__Krastorio__/graphics/entity/steel-pipe/steel-pipe-corner-up-right.png",
+      filename = "__KrastorioPorted__/graphics/entity/steel-pipe/steel-pipe-corner-up-right.png",
       priority = "extra-high",
       width = 64,
       height = 64,
       hr_version =
       {
-        filename = "__Krastorio__/graphics/entity/steel-pipe/hr-steel-pipe-corner-up-right.png",
+        filename = "__KrastorioPorted__/graphics/entity/steel-pipe/hr-steel-pipe-corner-up-right.png",
         priority = "extra-high",
         width = 128,
         height = 128,
@@ -93,13 +93,13 @@ pipepictures = function()
     },
     corner_up_left =
     {
-      filename = "__Krastorio__/graphics/entity/steel-pipe/steel-pipe-corner-up-left.png",
+      filename = "__KrastorioPorted__/graphics/entity/steel-pipe/steel-pipe-corner-up-left.png",
       priority = "extra-high",
       width = 64,
       height = 64,
       hr_version =
       {
-        filename = "__Krastorio__/graphics/entity/steel-pipe/hr-steel-pipe-corner-up-left.png",
+        filename = "__KrastorioPorted__/graphics/entity/steel-pipe/hr-steel-pipe-corner-up-left.png",
         priority = "extra-high",
         width = 128,
         height = 128,
@@ -108,13 +108,13 @@ pipepictures = function()
     },
     corner_down_right =
     {
-      filename = "__Krastorio__/graphics/entity/steel-pipe/steel-pipe-corner-down-right.png",
+      filename = "__KrastorioPorted__/graphics/entity/steel-pipe/steel-pipe-corner-down-right.png",
       priority = "extra-high",
       width = 64,
       height = 64,
       hr_version =
       {
-        filename = "__Krastorio__/graphics/entity/steel-pipe/hr-steel-pipe-corner-down-right.png",
+        filename = "__KrastorioPorted__/graphics/entity/steel-pipe/hr-steel-pipe-corner-down-right.png",
         priority = "extra-high",
         width = 128,
         height = 128,
@@ -123,13 +123,13 @@ pipepictures = function()
     },
     corner_down_left =
     {
-      filename = "__Krastorio__/graphics/entity/steel-pipe/steel-pipe-corner-down-left.png",
+      filename = "__KrastorioPorted__/graphics/entity/steel-pipe/steel-pipe-corner-down-left.png",
       priority = "extra-high",
       width = 64,
       height = 64,
       hr_version =
       {
-        filename = "__Krastorio__/graphics/entity/steel-pipe/hr-steel-pipe-corner-down-left.png",
+        filename = "__KrastorioPorted__/graphics/entity/steel-pipe/hr-steel-pipe-corner-down-left.png",
         priority = "extra-high",
         width = 128,
         height = 128,
@@ -138,13 +138,13 @@ pipepictures = function()
     },
     t_up =
     {
-      filename = "__Krastorio__/graphics/entity/steel-pipe/steel-pipe-t-up.png",
+      filename = "__KrastorioPorted__/graphics/entity/steel-pipe/steel-pipe-t-up.png",
       priority = "extra-high",
       width = 64,
       height = 64,
       hr_version =
       {
-        filename = "__Krastorio__/graphics/entity/steel-pipe/hr-steel-pipe-t-up.png",
+        filename = "__KrastorioPorted__/graphics/entity/steel-pipe/hr-steel-pipe-t-up.png",
         priority = "extra-high",
         width = 128,
         height = 128,
@@ -153,13 +153,13 @@ pipepictures = function()
     },
     t_down =
     {
-      filename = "__Krastorio__/graphics/entity/steel-pipe/steel-pipe-t-down.png",
+      filename = "__KrastorioPorted__/graphics/entity/steel-pipe/steel-pipe-t-down.png",
       priority = "extra-high",
       width = 64,
       height = 64,
       hr_version =
       {
-        filename = "__Krastorio__/graphics/entity/steel-pipe/hr-steel-pipe-t-down.png",
+        filename = "__KrastorioPorted__/graphics/entity/steel-pipe/hr-steel-pipe-t-down.png",
         priority = "extra-high",
         width = 128,
         height = 128,
@@ -168,13 +168,13 @@ pipepictures = function()
     },
     t_right =
     {
-      filename = "__Krastorio__/graphics/entity/steel-pipe/steel-pipe-t-right.png",
+      filename = "__KrastorioPorted__/graphics/entity/steel-pipe/steel-pipe-t-right.png",
       priority = "extra-high",
       width = 64,
       height = 64,
       hr_version =
       {
-        filename = "__Krastorio__/graphics/entity/steel-pipe/hr-steel-pipe-t-right.png",
+        filename = "__KrastorioPorted__/graphics/entity/steel-pipe/hr-steel-pipe-t-right.png",
         priority = "extra-high",
         width = 128,
         height = 128,
@@ -183,13 +183,13 @@ pipepictures = function()
     },
     t_left =
     {
-      filename = "__Krastorio__/graphics/entity/steel-pipe/steel-pipe-t-left.png",
+      filename = "__KrastorioPorted__/graphics/entity/steel-pipe/steel-pipe-t-left.png",
       priority = "extra-high",
       width = 64,
       height = 64,
       hr_version =
       {
-         filename = "__Krastorio__/graphics/entity/steel-pipe/hr-steel-pipe-t-left.png",
+         filename = "__KrastorioPorted__/graphics/entity/steel-pipe/hr-steel-pipe-t-left.png",
          priority = "extra-high",
          width = 128,
          height = 128,
@@ -198,13 +198,13 @@ pipepictures = function()
     },
     cross =
     {
-      filename = "__Krastorio__/graphics/entity/steel-pipe/steel-pipe-cross.png",
+      filename = "__KrastorioPorted__/graphics/entity/steel-pipe/steel-pipe-cross.png",
       priority = "extra-high",
       width = 64,
       height = 64,
       hr_version =
       {
-        filename = "__Krastorio__/graphics/entity/steel-pipe/hr-steel-pipe-cross.png",
+        filename = "__KrastorioPorted__/graphics/entity/steel-pipe/hr-steel-pipe-cross.png",
         priority = "extra-high",
         width = 128,
         height = 128,
@@ -213,13 +213,13 @@ pipepictures = function()
     },
     ending_up =
     {
-      filename = "__Krastorio__/graphics/entity/steel-pipe/steel-pipe-ending-up.png",
+      filename = "__KrastorioPorted__/graphics/entity/steel-pipe/steel-pipe-ending-up.png",
       priority = "extra-high",
       width = 64,
       height = 64,
       hr_version =
       {
-        filename = "__Krastorio__/graphics/entity/steel-pipe/hr-steel-pipe-ending-up.png",
+        filename = "__KrastorioPorted__/graphics/entity/steel-pipe/hr-steel-pipe-ending-up.png",
         priority = "extra-high",
         width = 128,
         height = 128,
@@ -228,13 +228,13 @@ pipepictures = function()
       },
     ending_down =
     {
-      filename = "__Krastorio__/graphics/entity/steel-pipe/steel-pipe-ending-down.png",
+      filename = "__KrastorioPorted__/graphics/entity/steel-pipe/steel-pipe-ending-down.png",
       priority = "extra-high",
       width = 64,
       height = 64,
       hr_version =
       {
-        filename = "__Krastorio__/graphics/entity/steel-pipe/hr-steel-pipe-ending-down.png",
+        filename = "__KrastorioPorted__/graphics/entity/steel-pipe/hr-steel-pipe-ending-down.png",
         priority = "extra-high",
         width = 128,
         height = 128,
@@ -243,13 +243,13 @@ pipepictures = function()
     },
     ending_right =
     {
-      filename = "__Krastorio__/graphics/entity/steel-pipe/steel-pipe-ending-right.png",
+      filename = "__KrastorioPorted__/graphics/entity/steel-pipe/steel-pipe-ending-right.png",
       priority = "extra-high",
       width = 64,
       height = 64,
       hr_version =
       {
-        filename = "__Krastorio__/graphics/entity/steel-pipe/hr-steel-pipe-ending-right.png",
+        filename = "__KrastorioPorted__/graphics/entity/steel-pipe/hr-steel-pipe-ending-right.png",
         priority = "extra-high",
         width = 128,
         height = 128,
@@ -258,13 +258,13 @@ pipepictures = function()
     },
     ending_left =
     {
-      filename = "__Krastorio__/graphics/entity/steel-pipe/steel-pipe-ending-left.png",
+      filename = "__KrastorioPorted__/graphics/entity/steel-pipe/steel-pipe-ending-left.png",
       priority = "extra-high",
       width = 64,
       height = 64,
       hr_version =
       {
-        filename = "__Krastorio__/graphics/entity/steel-pipe/hr-steel-pipe-ending-left.png",
+        filename = "__KrastorioPorted__/graphics/entity/steel-pipe/hr-steel-pipe-ending-left.png",
         priority = "extra-high",
         width = 128,
         height = 128,
@@ -273,13 +273,13 @@ pipepictures = function()
     },
     horizontal_window_background =
     {
-      filename = "__Krastorio__/graphics/entity/steel-pipe/steel-pipe-horizontal-window-background.png",
+      filename = "__KrastorioPorted__/graphics/entity/steel-pipe/steel-pipe-horizontal-window-background.png",
       priority = "extra-high",
       width = 64,
       height = 64,
       hr_version =
       {
-        filename = "__Krastorio__/graphics/entity/steel-pipe/hr-steel-pipe-horizontal-window-background.png",
+        filename = "__KrastorioPorted__/graphics/entity/steel-pipe/hr-steel-pipe-horizontal-window-background.png",
         priority = "extra-high",
         width = 128,
         height = 128,
@@ -288,13 +288,13 @@ pipepictures = function()
     },
     vertical_window_background =
     {
-      filename = "__Krastorio__/graphics/entity/steel-pipe/steel-pipe-vertical-window-background.png",
+      filename = "__KrastorioPorted__/graphics/entity/steel-pipe/steel-pipe-vertical-window-background.png",
       priority = "extra-high",
       width = 64,
       height = 64,
       hr_version =
       {
-        filename = "__Krastorio__/graphics/entity/steel-pipe/hr-steel-pipe-vertical-window-background.png",
+        filename = "__KrastorioPorted__/graphics/entity/steel-pipe/hr-steel-pipe-vertical-window-background.png",
         priority = "extra-high",
         width = 128,
         height = 128,
@@ -371,7 +371,7 @@ data:extend(
   {
     type = "pipe",
     name = "steel-pipe",
-    icon = "__Krastorio__/graphics/icons/entities/steel-pipe.png",
+    icon = "__KrastorioPorted__/graphics/icons/entities/steel-pipe.png",
     icon_size = 32,
     flags = {"placeable-neutral", "player-creation", "fast-replaceable-no-build-while-moving"},
     minable = {mining_time = 0.1, result = "steel-pipe"},
@@ -426,7 +426,7 @@ data:extend(
   {
     type = "pipe-to-ground",
     name = "steel-pipe-to-ground",
-    icon = "__Krastorio__/graphics/icons/entities/steel-pipe-to-ground.png",
+    icon = "__KrastorioPorted__/graphics/icons/entities/steel-pipe-to-ground.png",
     icon_size = 32,
     flags = {"placeable-neutral", "player-creation"},
     minable = {mining_time = 0.1, result = "steel-pipe-to-ground"},
@@ -466,13 +466,13 @@ data:extend(
     {
       up =
       {
-        filename = "__Krastorio__/graphics/entity/steel-pipe/steel-pipe-to-ground-up.png",
+        filename = "__KrastorioPorted__/graphics/entity/steel-pipe/steel-pipe-to-ground-up.png",
         priority = "high",
         width = 64,
         height = 64, --, shift = {0.10, -0.04}
         hr_version =
         {
-           filename = "__Krastorio__/graphics/entity/steel-pipe/hr-steel-pipe-to-ground-up.png",
+           filename = "__KrastorioPorted__/graphics/entity/steel-pipe/hr-steel-pipe-to-ground-up.png",
            priority = "extra-high",
            width = 128,
            height = 128,
@@ -481,13 +481,13 @@ data:extend(
       },
       down =
       {
-        filename = "__Krastorio__/graphics/entity/steel-pipe/steel-pipe-to-ground-down.png",
+        filename = "__KrastorioPorted__/graphics/entity/steel-pipe/steel-pipe-to-ground-down.png",
         priority = "high",
         width = 64,
         height = 64, --, shift = {0.05, 0}
         hr_version =
         {
-           filename = "__Krastorio__/graphics/entity/steel-pipe/hr-steel-pipe-to-ground-down.png",
+           filename = "__KrastorioPorted__/graphics/entity/steel-pipe/hr-steel-pipe-to-ground-down.png",
            priority = "extra-high",
            width = 128,
            height = 128,
@@ -496,13 +496,13 @@ data:extend(
       },
       left =
       {
-        filename = "__Krastorio__/graphics/entity/steel-pipe/steel-pipe-to-ground-left.png",
+        filename = "__KrastorioPorted__/graphics/entity/steel-pipe/steel-pipe-to-ground-left.png",
         priority = "high",
         width = 64,
         height = 64, --, shift = {-0.12, 0.1}
         hr_version =
         {
-           filename = "__Krastorio__/graphics/entity/steel-pipe/hr-steel-pipe-to-ground-left.png",
+           filename = "__KrastorioPorted__/graphics/entity/steel-pipe/hr-steel-pipe-to-ground-left.png",
            priority = "extra-high",
            width = 128,
            height = 128,
@@ -511,13 +511,13 @@ data:extend(
       },
       right =
       {
-        filename = "__Krastorio__/graphics/entity/steel-pipe/steel-pipe-to-ground-right.png",
+        filename = "__KrastorioPorted__/graphics/entity/steel-pipe/steel-pipe-to-ground-right.png",
         priority = "high",
         width = 64,
         height = 64, --, shift = {0.1, 0.1}
         hr_version =
         {
-           filename = "__Krastorio__/graphics/entity/steel-pipe/hr-steel-pipe-to-ground-right.png",
+           filename = "__KrastorioPorted__/graphics/entity/steel-pipe/hr-steel-pipe-to-ground-right.png",
            priority = "extra-high",
            width = 128,
            height = 128,
@@ -532,7 +532,7 @@ data:extend(
   {
     type = "pump",
     name = "steel-pump",
-    icon = "__Krastorio__/graphics/icons/entities/steel-pump.png",
+    icon = "__KrastorioPorted__/graphics/icons/entities/steel-pump.png",
     icon_size = 32,
     flags = {"placeable-neutral", "player-creation"},
     minable = {mining_time = 0.2, result = "steel-pump"},
@@ -576,7 +576,7 @@ data:extend(
     {
       north =
       {
-        filename = "__Krastorio__/graphics/entity/steel-pump/steel-pump-north.png",
+        filename = "__KrastorioPorted__/graphics/entity/steel-pump/steel-pump-north.png",
         width = 53,
         height = 79,
         line_length =8,
@@ -585,7 +585,7 @@ data:extend(
         shift = util.by_pixel(8.000, 7.500),
         hr_version =
         {
-          filename = "__Krastorio__/graphics/entity/steel-pump/hr-steel-pump-north.png",
+          filename = "__KrastorioPorted__/graphics/entity/steel-pump/hr-steel-pump-north.png",
           width = 103,
           height = 164,
           scale = 0.5,
@@ -597,7 +597,7 @@ data:extend(
       },
       east =
       {
-        filename = "__Krastorio__/graphics/entity/steel-pump/steel-pump-east.png",
+        filename = "__KrastorioPorted__/graphics/entity/steel-pump/steel-pump-east.png",
         width = 66,
         height = 60,
         line_length =8,
@@ -606,7 +606,7 @@ data:extend(
         shift = util.by_pixel(0, 4),
         hr_version =
         {
-          filename = "__Krastorio__/graphics/entity/steel-pump/hr-steel-pump-east.png",
+          filename = "__KrastorioPorted__/graphics/entity/steel-pump/hr-steel-pump-east.png",
           width = 130,
           height = 109,
           scale = 0.5,
@@ -619,7 +619,7 @@ data:extend(
 
       south =
       {
-        filename = "__Krastorio__/graphics/entity/steel-pump/steel-pump-south.png",
+        filename = "__KrastorioPorted__/graphics/entity/steel-pump/steel-pump-south.png",
         width = 62,
         height = 87,
         line_length =8,
@@ -628,7 +628,7 @@ data:extend(
         shift = util.by_pixel(13.5, 0.5),
         hr_version =
         {
-          filename = "__Krastorio__/graphics/entity/steel-pump/hr-steel-pump-south.png",
+          filename = "__KrastorioPorted__/graphics/entity/steel-pump/hr-steel-pump-south.png",
           width = 114,
           height = 160,
           scale = 0.5,
@@ -640,7 +640,7 @@ data:extend(
       },
       west =
       {
-        filename = "__Krastorio__/graphics/entity/steel-pump/steel-pump-west.png",
+        filename = "__KrastorioPorted__/graphics/entity/steel-pump/steel-pump-west.png",
         width = 69,
         height = 51,
         line_length =8,
@@ -649,7 +649,7 @@ data:extend(
         shift = util.by_pixel(0.5, -0.5),
         hr_version =
         {
-          filename = "__Krastorio__/graphics/entity/steel-pump/hr-steel-pump-west.png",
+          filename = "__KrastorioPorted__/graphics/entity/steel-pump/hr-steel-pump-west.png",
           width = 131,
           height = 111,
           scale = 0.5,

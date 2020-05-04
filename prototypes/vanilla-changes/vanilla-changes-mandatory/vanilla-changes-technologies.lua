@@ -5,7 +5,7 @@
 aswil.technologies.setResearchUnitCount("sulfur-processing", 200)
  
 -- Changing steel-axe like a bonus
-data.raw.technology["steel-axe"].icon = "__Krastorio__/graphics/technology/pickaxe-1.png"
+data.raw.technology["steel-axe"].icon = "__KrastorioPorted__/graphics/technology/pickaxe-1.png"
 data.raw.technology["steel-axe"].icon_size = 128
 data.raw.technology["steel-axe"].effects = {{type = "character-mining-speed",  modifier = 0.5}}
 data.raw.technology["solar-energy"].unit.ingredients =

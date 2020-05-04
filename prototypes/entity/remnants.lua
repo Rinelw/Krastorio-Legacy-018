@@ -1,6 +1,6 @@
 -- -- -- PATHS
 -----------------------------------------------------------------------------------------------------------------
-krstr_entities_icon_path = "__Krastorio__/graphics/icons/entities/"
+krstr_entities_icon_path = "__KrastorioPorted__/graphics/icons/entities/"
 -----------------------------------------------------------------------------------------------------------------
 
 data:extend(
@@ -13,7 +13,7 @@ data:extend(
 	{
     type = "corpse",
     name = "k-tank-remnants",
-    icon = "__Krastorio__/graphics/icons/tank.png",
+    icon = "__KrastorioPorted__/graphics/icons/tank.png",
     icon_size = 32,
     flags = {"placeable-neutral", "building-direction-8-way", "not-on-map"},
     selection_box = {{-1.45, -2.35}, {1.45, 2.35}},
@@ -27,7 +27,7 @@ data:extend(
     remove_on_tile_placement = false,
     animation = make_rotated_animation_variations_from_sheet(1,
     {
-      filename = "__Krastorio__/graphics/entity/remnants/k-tank-remnants.png",
+      filename = "__KrastorioPorted__/graphics/entity/remnants/k-tank-remnants.png",
       line_length = 1,
       width = 200,
       height = 165,
@@ -36,7 +36,7 @@ data:extend(
       --shift = util.by_pixel(0, 5),
 	  hr_version =
           {
-		  filename = "__Krastorio__/graphics/entity/remnants/hr-k-tank-remnants.png",
+		  filename = "__KrastorioPorted__/graphics/entity/remnants/hr-k-tank-remnants.png",
 		  line_length = 1,
 		  width = 400,
 		  height = 330,
@@ -51,7 +51,7 @@ data:extend(
 	{
     type = "corpse",
     name = "medium-k-remnants",
-    icon = "__Krastorio__/graphics/icons/remnants_icon.png",
+    icon = "__KrastorioPorted__/graphics/icons/remnants_icon.png",
     icon_size = 32,
     flags = {"placeable-neutral", "building-direction-8-way", "not-on-map"},
     selection_box = {{-4.5, -4.5}, {4.5, 4.5}},
@@ -65,7 +65,7 @@ data:extend(
     remove_on_tile_placement = false,
     animation = make_rotated_animation_variations_from_sheet(1,
     {
-      filename = "__Krastorio__/graphics/entity/remnants/medium-k-remnants.png",
+      filename = "__KrastorioPorted__/graphics/entity/remnants/medium-k-remnants.png",
       line_length = 1,
       width = 175,
       height = 175,
@@ -74,7 +74,7 @@ data:extend(
       --shift = util.by_pixel(0, 5),
 	  hr_version =
           {
-		  filename = "__Krastorio__/graphics/entity/remnants/hr-medium-k-remnants.png",
+		  filename = "__KrastorioPorted__/graphics/entity/remnants/hr-medium-k-remnants.png",
 		  line_length = 1,
 		  width = 350,
 		  height = 350,
@@ -89,7 +89,7 @@ data:extend(
 	{
     type = "corpse",
     name = "big-k-remnants",
-    icon = "__Krastorio__/graphics/icons/remnants_icon.png",
+    icon = "__KrastorioPorted__/graphics/icons/remnants_icon.png",
     icon_size = 32,
     flags = {"placeable-neutral", "building-direction-8-way", "not-on-map"},
     selection_box = {{-4.5, -4.5}, {4.5, 4.5}},
@@ -103,7 +103,7 @@ data:extend(
     remove_on_tile_placement = false,
     animation = make_rotated_animation_variations_from_sheet(1,
     {
-      filename = "__Krastorio__/graphics/entity/remnants/big-k-remnants.png",
+      filename = "__KrastorioPorted__/graphics/entity/remnants/big-k-remnants.png",
       line_length = 1,
       width = 250,
       height = 250,
@@ -112,7 +112,7 @@ data:extend(
       --shift = util.by_pixel(0, 5),
 	  hr_version =
           {
-		  filename = "__Krastorio__/graphics/entity/remnants/hr-big-k-remnants.png",
+		  filename = "__KrastorioPorted__/graphics/entity/remnants/hr-big-k-remnants.png",
 		  line_length = 1,
 		  width = 500,
 		  height = 500,
@@ -127,7 +127,7 @@ data:extend(
 	{
     type = "corpse",
     name = "huge-k-remnants",
-    icon = "__Krastorio__/graphics/icons/remnants_icon.png",
+    icon = "__KrastorioPorted__/graphics/icons/remnants_icon.png",
     icon_size = 32,
     flags = {"placeable-neutral", "building-direction-8-way", "not-on-map"},
     selection_box = {{-4.5, -4.5}, {4.5, 4.5}},
@@ -141,7 +141,7 @@ data:extend(
     remove_on_tile_placement = false,
     animation = make_rotated_animation_variations_from_sheet(1,
     {
-      filename = "__Krastorio__/graphics/entity/remnants/huge-k-remnants.png",
+      filename = "__KrastorioPorted__/graphics/entity/remnants/huge-k-remnants.png",
       line_length = 1,
       width = 300,
       height = 300,
@@ -150,7 +150,7 @@ data:extend(
       --shift = util.by_pixel(0, 5),
 	  hr_version =
           {
-		  filename = "__Krastorio__/graphics/entity/remnants/hr-huge-k-remnants.png",
+		  filename = "__KrastorioPorted__/graphics/entity/remnants/hr-huge-k-remnants.png",
 		  line_length = 1,
 		  width = 600,
 		  height = 600,
@@ -181,7 +181,7 @@ data:extend(
     remove_on_tile_placement = false,
     animation = make_rotated_animation_variations_from_sheet(1,
     {
-      filename = "__Krastorio__/graphics/entity/remnants/big-krp-remnants.png",
+      filename = "__KrastorioPorted__/graphics/entity/remnants/big-krp-remnants.png",
       line_length = 1,
       width = 250,
       height = 250,
@@ -191,7 +191,7 @@ data:extend(
       scale = 1.1,
 	  hr_version =
           {
-		  filename = "__Krastorio__/graphics/entity/remnants/hr-big-krp-remnants.png",
+		  filename = "__KrastorioPorted__/graphics/entity/remnants/hr-big-krp-remnants.png",
 		  line_length = 1,
 		  width = 500,
 		  height = 500,
@@ -220,7 +220,7 @@ data:extend(
     remove_on_tile_placement = false,
     animation = make_rotated_animation_variations_from_sheet(1,
     {
-      filename = "__Krastorio__/graphics/entity/remnants/huge-kbr-remnants.png",
+      filename = "__KrastorioPorted__/graphics/entity/remnants/huge-kbr-remnants.png",
       line_length = 1,
       width = 300,
       height = 300,
@@ -230,7 +230,7 @@ data:extend(
       scale = 1.1,
 	  hr_version =
           {
-		  filename = "__Krastorio__/graphics/entity/remnants/hr-huge-kbr-remnants.png",
+		  filename = "__KrastorioPorted__/graphics/entity/remnants/hr-huge-kbr-remnants.png",
 		  line_length = 1,
 		  width = 600,
 		  height = 600,
@@ -246,7 +246,7 @@ data:extend(
 	{
     type = "corpse",
     name = "huge-kfr-remnants",
-	icon = "__Krastorio__/graphics/icons/entities/mip/fusion-reactor.png",
+	icon = "__KrastorioPorted__/graphics/icons/entities/mip/fusion-reactor.png",
     icon_size = 64,
     flags = {"placeable-neutral", "building-direction-8-way", "not-on-map"},
 	selection_box = {{-7.5, -7.5}, {7.5, 7.5}},
@@ -260,7 +260,7 @@ data:extend(
     remove_on_tile_placement = false,
     animation = make_rotated_animation_variations_from_sheet(1,
     {
-      filename = "__Krastorio__/graphics/entity/remnants/fusion-reactor-remnants.png",
+      filename = "__KrastorioPorted__/graphics/entity/remnants/fusion-reactor-remnants.png",
       line_length = 1,
       width = 550,
       height = 550,
@@ -269,7 +269,7 @@ data:extend(
 	  shift = {1.01, 0},
 	  hr_version =
           {
-		  filename = "__Krastorio__/graphics/entity/remnants/hr-fusion-reactor-remnants.png",
+		  filename = "__KrastorioPorted__/graphics/entity/remnants/hr-fusion-reactor-remnants.png",
 		  line_length = 1,
 		  width = 1100,
 		  height = 1100,
@@ -299,7 +299,7 @@ data:extend(
     remove_on_tile_placement = false,
     animation = make_rotated_animation_variations_from_sheet(1,
     {
-      filename = "__Krastorio__/graphics/entity/remnants/huge-kf-remnants.png",
+      filename = "__KrastorioPorted__/graphics/entity/remnants/huge-kf-remnants.png",
       line_length = 1,
       width = 300,
       height = 300,
@@ -308,7 +308,7 @@ data:extend(
       --shift = util.by_pixel(0, 5),
 	  hr_version =
           {
-		  filename = "__Krastorio__/graphics/entity/remnants/hr-huge-kf-remnants.png",
+		  filename = "__KrastorioPorted__/graphics/entity/remnants/hr-huge-kf-remnants.png",
 		  line_length = 1,
 		  width = 600,
 		  height = 600,
@@ -337,7 +337,7 @@ data:extend(
     remove_on_tile_placement = false,
     animation = make_rotated_animation_variations_from_sheet(1,
     {
-      filename = "__Krastorio__/graphics/entity/remnants/huge-kfc-remnants.png",
+      filename = "__KrastorioPorted__/graphics/entity/remnants/huge-kfc-remnants.png",
       line_length = 1,
       width = 300,
       height = 300,
@@ -346,7 +346,7 @@ data:extend(
       --shift = util.by_pixel(0, 5),
 	  hr_version =
           {
-		  filename = "__Krastorio__/graphics/entity/remnants/hr-huge-kfc-remnants.png",
+		  filename = "__KrastorioPorted__/graphics/entity/remnants/hr-huge-kfc-remnants.png",
 		  line_length = 1,
 		  width = 600,
 		  height = 600,
@@ -376,7 +376,7 @@ data:extend(
     remove_on_tile_placement = false,
     animation =  make_rotated_animation_variations_from_sheet (8,
     {
-      filename = "__Krastorio__/graphics/entity/remnants/k-transport-belt-remnants.png",
+      filename = "__KrastorioPorted__/graphics/entity/remnants/k-transport-belt-remnants.png",
       line_length = 1,
       width = 54,
       height = 52,
@@ -387,7 +387,7 @@ data:extend(
       shift = util.by_pixel(1, 0),
       hr_version =
 		{
-		filename = "__Krastorio__/graphics/entity/remnants/hr-k-transport-belt-remnants.png",
+		filename = "__KrastorioPorted__/graphics/entity/remnants/hr-k-transport-belt-remnants.png",
 		line_length = 1,
 		width = 106,
 		height = 102,
@@ -418,7 +418,7 @@ data:extend(
     remove_on_tile_placement = false,
     animation =
     {
-      filename = "__Krastorio__/graphics/entity/remnants/k-splitter-remnants.png",
+      filename = "__KrastorioPorted__/graphics/entity/remnants/k-splitter-remnants.png",
       line_length = 1,
       width = 86,
       height = 78,
@@ -429,7 +429,7 @@ data:extend(
       shift = util.by_pixel(1, 3),
       hr_version =
 		{
-		filename = "__Krastorio__/graphics/entity/remnants/hr-k-splitter-remnants.png",
+		filename = "__KrastorioPorted__/graphics/entity/remnants/hr-k-splitter-remnants.png",
 		line_length = 1,
 		width = 172,
 		height = 156,
@@ -460,7 +460,7 @@ data:extend(
     remove_on_tile_placement = false,
     animation =
     {
-      filename = "__Krastorio__/graphics/entity/remnants/k-underground-belt-remnants.png",
+      filename = "__KrastorioPorted__/graphics/entity/remnants/k-underground-belt-remnants.png",
       line_length = 1,
       width = 60,
       height = 50,
@@ -471,7 +471,7 @@ data:extend(
       shift = util.by_pixel(4, 3),
       hr_version =
 		{
-		filename = "__Krastorio__/graphics/entity/remnants/hr-k-underground-belt-remnants.png",
+		filename = "__KrastorioPorted__/graphics/entity/remnants/hr-k-underground-belt-remnants.png",
 		line_length = 1,
 		width = 116,
 		height = 100,
@@ -502,7 +502,7 @@ data:extend(
     remove_on_tile_placement = false,
     animation = make_rotated_animation_variations_from_sheet (2,
     {
-      filename = "__Krastorio__/graphics/entity/remnants/hr-imersite-solar-panel-remnants.png",
+      filename = "__KrastorioPorted__/graphics/entity/remnants/hr-imersite-solar-panel-remnants.png",
       line_length = 1,
       width = 131,
       height = 116,
@@ -513,7 +513,7 @@ data:extend(
       shift = util.by_pixel(5.5, 2.5),
 	  hr_version =
 		{
-		filename = "__Krastorio__/graphics/entity/remnants/hr-imersite-solar-panel-remnants.png",
+		filename = "__KrastorioPorted__/graphics/entity/remnants/hr-imersite-solar-panel-remnants.png",
 		line_length = 1,
 		width = 262,
 		height = 232,

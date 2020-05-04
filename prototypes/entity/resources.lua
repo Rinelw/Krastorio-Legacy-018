@@ -30,7 +30,7 @@ data:extend(
 	{
 		type = "resource",
 		name = "sand",
-		icon = "__Krastorio__/graphics/icons/sand.png",
+		icon = "__KrastorioPorted__/graphics/icons/sand.png",
 		icon_size = 32,
 		flags = {"placeable-neutral"},
 		order="a-b-a",
@@ -67,7 +67,7 @@ data:extend(
 		{
 		  sheet =
 		  {
-			filename = "__Krastorio__/graphics/entity/resources/sand.png",
+			filename = "__KrastorioPorted__/graphics/entity/resources/sand.png",
 			priority = "extra-high",
 			width = 64,
 			height = 64,
@@ -75,7 +75,7 @@ data:extend(
 			variation_count = 8,
 			hr_version =
 			{
-			  filename = "__Krastorio__/graphics/entity/resources/hr-sand.png",
+			  filename = "__KrastorioPorted__/graphics/entity/resources/hr-sand.png",
 			  priority = "extra-high",
 			  width = 128,
 			  height = 128,
@@ -108,7 +108,7 @@ data:extend(
 	{
 		type = "resource",
 		name = "gold-ore",
-		icon = "__Krastorio__/graphics/icons/gold-ore.png",
+		icon = "__KrastorioPorted__/graphics/icons/gold-ore.png",
 		icon_size = 32,
 		flags = {"placeable-neutral"},
 		order="a-b-a",
@@ -136,7 +136,7 @@ data:extend(
 		{
 		  sheet =
 		  {
-			filename = "__Krastorio__/graphics/entity/resources/gold-ore.png",
+			filename = "__KrastorioPorted__/graphics/entity/resources/gold-ore.png",
 			priority = "extra-high",
 			width = 64,
 			height = 64,
@@ -144,7 +144,7 @@ data:extend(
 			variation_count = 8,
 			hr_version =
 			{
-			  filename = "__Krastorio__/graphics/entity/resources/hr-gold-ore.png",
+			  filename = "__KrastorioPorted__/graphics/entity/resources/hr-gold-ore.png",
 			  priority = "extra-high",
 			  width = 128,
 			  height = 128,
@@ -178,7 +178,7 @@ data:extend(
 	{
 		type = "resource",
 		name = "rich-rock",
-		icon = "__Krastorio__/graphics/icons/raw.png",
+		icon = "__KrastorioPorted__/graphics/icons/raw.png",
 		icon_size = 32,
 		flags = {"placeable-neutral"},
 		order="a-b-a",
@@ -214,7 +214,7 @@ data:extend(
 		{
 		  sheet =
 		  {
-			filename = "__Krastorio__/graphics/entity/resources/rich-rock.png",
+			filename = "__KrastorioPorted__/graphics/entity/resources/rich-rock.png",
 			priority = "extra-high",
 			width = 64,
 			height = 64,
@@ -222,7 +222,7 @@ data:extend(
 			variation_count = 8,
 			hr_version =
 			{
-				filename = "__Krastorio__/graphics/entity/resources/hr-rich-rock.png",
+				filename = "__KrastorioPorted__/graphics/entity/resources/hr-rich-rock.png",
 				priority = "extra-high",
 				width = 128,
 				height = 128,
@@ -236,7 +236,7 @@ data:extend(
 		{
 		  sheet =
 		  {
-			filename = "__Krastorio__/graphics/entity/resources/rich-rock-glow.png",
+			filename = "__KrastorioPorted__/graphics/entity/resources/rich-rock-glow.png",
 			priority = "extra-high",
 			width = 64,
 			height = 64,
@@ -246,7 +246,7 @@ data:extend(
 			flags = {"light"},
 			hr_version =
 			{
-				filename = "__Krastorio__/graphics/entity/resources/hr-rich-rock-glow.png",
+				filename = "__KrastorioPorted__/graphics/entity/resources/hr-rich-rock-glow.png",
 				priority = "extra-high",
 				width = 128,
 				height = 128,
@@ -292,7 +292,7 @@ data:extend(
 	{
 		type = "resource",
 		name = "menarite",
-		icon = "__Krastorio__/graphics/icons/menarite-g.png",
+		icon = "__KrastorioPorted__/graphics/icons/menarite-g.png",
 		icon_size = 32,
 		flags = {"placeable-neutral"},
 		category = "gk-res",
@@ -336,7 +336,7 @@ data:extend(
 		{
 		  sheet =
 		  {
-			filename = "__Krastorio__/graphics/entity/resources/menarite-rift.png",
+			filename = "__KrastorioPorted__/graphics/entity/resources/menarite-rift.png",
 			priority = "extra-high",
 			width = 250,
 			height = 250,
@@ -344,7 +344,7 @@ data:extend(
 			variation_count = 1,
 			hr_version =
 				{
-				filename = "__Krastorio__/graphics/entity/resources/hr-menarite-rift.png",
+				filename = "__KrastorioPorted__/graphics/entity/resources/hr-menarite-rift.png",
 				priority = "extra-high",
 				width = 500,
 				height = 500,
@@ -358,7 +358,7 @@ data:extend(
 		{
 		  sheet =
 		  {
-			filename = "__Krastorio__/graphics/entity/resources/menarite-rift-glow.png",
+			filename = "__KrastorioPorted__/graphics/entity/resources/menarite-rift-glow.png",
 			priority = "extra-high",
 			width = 250,
 			height = 250,
@@ -368,7 +368,7 @@ data:extend(
 			flags = {"light"},
 			hr_version =
 			{
-				filename = "__Krastorio__/graphics/entity/resources/hr-menarite-rift-glow.png",
+				filename = "__KrastorioPorted__/graphics/entity/resources/hr-menarite-rift-glow.png",
 				priority = "extra-high",
 				width = 500,
 				height = 500,
@@ -409,7 +409,7 @@ data:extend(
 	{
 		type = "resource",
 		name = "imersite",
-		icon = "__Krastorio__/graphics/icons/imersite-g.png",
+		icon = "__KrastorioPorted__/graphics/icons/imersite-g.png",
 		icon_size = 32,
 		flags = {"placeable-neutral"},
 		category = "gk-res",
@@ -453,7 +453,7 @@ data:extend(
 		{
 		  sheet =
 		  {
-			filename = "__Krastorio__/graphics/entity/resources/imersite-rift.png",
+			filename = "__KrastorioPorted__/graphics/entity/resources/imersite-rift.png",
 			priority = "extra-high",
 			width = 250,
 			height = 250,
@@ -461,7 +461,7 @@ data:extend(
 			variation_count = 1,
 			hr_version =
 				{
-				filename = "__Krastorio__/graphics/entity/resources/hr-imersite-rift.png",
+				filename = "__KrastorioPorted__/graphics/entity/resources/hr-imersite-rift.png",
 				priority = "extra-high",
 				width = 500,
 				height = 500,
@@ -475,7 +475,7 @@ data:extend(
 		{
 		  sheet =
 		  {
-			filename = "__Krastorio__/graphics/entity/resources/imersite-rift-glow.png",
+			filename = "__KrastorioPorted__/graphics/entity/resources/imersite-rift-glow.png",
 			priority = "extra-high",
 			width = 250,
 			height = 250,
@@ -485,7 +485,7 @@ data:extend(
 			flags = {"light"},
 			hr_version =
 			{
-				filename = "__Krastorio__/graphics/entity/resources/hr-imersite-rift-glow.png",
+				filename = "__KrastorioPorted__/graphics/entity/resources/hr-imersite-rift-glow.png",
 				priority = "extra-high",
 				width = 500,
 				height = 500,

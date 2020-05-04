@@ -21,24 +21,24 @@ data:extend(
       main =
       {
         {
-          picture = "__Krastorio__/graphics/terrain/reinforced-plate.png",
+          picture = "__KrastorioPorted__/graphics/terrain/reinforced-plate.png",
           count = 16,
 		  size = 4,
           hr_version =
           {
-            picture = "__Krastorio__/graphics/terrain/hr-reinforced-plate.png",
+            picture = "__KrastorioPorted__/graphics/terrain/hr-reinforced-plate.png",
             count = 16,
             scale = 0.5,
 			size = 4,
           }
         },
         {
-          picture = "__Krastorio__/graphics/terrain/reinforced-plate.png",
+          picture = "__KrastorioPorted__/graphics/terrain/reinforced-plate.png",
           count = 16,
 		  size = 1,
           hr_version =
           {
-            picture = "__Krastorio__/graphics/terrain/hr-reinforced-plate.png",
+            picture = "__KrastorioPorted__/graphics/terrain/hr-reinforced-plate.png",
             count = 16,
             scale = 0.5,
 			size = 1,
@@ -47,12 +47,12 @@ data:extend(
       },
       inner_corner =
       {
-        picture = "__Krastorio__/graphics/terrain/plate-inner-corner.png",
+        picture = "__KrastorioPorted__/graphics/terrain/plate-inner-corner.png",
         count = 4,
         tall = true,
         hr_version =
         {
-          picture = "__Krastorio__/graphics/terrain/hr-plate-inner-corner.png",
+          picture = "__KrastorioPorted__/graphics/terrain/hr-plate-inner-corner.png",
           count = 4,
           tall = true,
           scale = 0.5
@@ -60,12 +60,12 @@ data:extend(
       },
       outer_corner =
       {
-        picture = "__Krastorio__/graphics/terrain/plate-outer-corner.png",
+        picture = "__KrastorioPorted__/graphics/terrain/plate-outer-corner.png",
         count = 4,
         tall = true,
         hr_version =
         {
-          picture = "__Krastorio__/graphics/terrain/hr-plate-outer-corner.png",
+          picture = "__KrastorioPorted__/graphics/terrain/hr-plate-outer-corner.png",
           count = 4,
           tall = true,
           scale = 0.5
@@ -73,12 +73,12 @@ data:extend(
       },
       side =
       {
-        picture = "__Krastorio__/graphics/terrain/plate-side.png",
+        picture = "__KrastorioPorted__/graphics/terrain/plate-side.png",
         count = 16,
         tall = true,
         hr_version =
         {
-          picture = "__Krastorio__/graphics/terrain/hr-plate-side.png",
+          picture = "__KrastorioPorted__/graphics/terrain/hr-plate-side.png",
           count = 16,
           tall = true,
           scale = 0.5
@@ -86,12 +86,12 @@ data:extend(
       },
       u_transition =
       {
-        picture = "__Krastorio__/graphics/terrain/plate-u.png",
+        picture = "__KrastorioPorted__/graphics/terrain/plate-u.png",
         count = 2,
         tall = true,
         hr_version =
         {
-          picture = "__Krastorio__/graphics/terrain/hr-plate-u.png",
+          picture = "__KrastorioPorted__/graphics/terrain/hr-plate-u.png",
           count = 2,
           tall = true,
           scale = 0.5
@@ -99,11 +99,11 @@ data:extend(
       },
       o_transition =
       {
-        picture = "__Krastorio__/graphics/terrain/plate-o.png",
+        picture = "__KrastorioPorted__/graphics/terrain/plate-o.png",
         count = 2,
         hr_version =
         {
-          picture = "__Krastorio__/graphics/terrain/hr-plate-o.png",
+          picture = "__KrastorioPorted__/graphics/terrain/hr-plate-o.png",
           count = 2,
           scale = 0.5
         }
@@ -149,24 +149,24 @@ data:extend(
       main =
       {
         {
-          picture = "__Krastorio__/graphics/terrain/black-reinforced-plate.png",
+          picture = "__KrastorioPorted__/graphics/terrain/black-reinforced-plate.png",
           count = 16,
 		  size = 4,
           hr_version =
           {
-            picture = "__Krastorio__/graphics/terrain/hr-black-reinforced-plate.png",
+            picture = "__KrastorioPorted__/graphics/terrain/hr-black-reinforced-plate.png",
             count = 16,
             scale = 0.5,
 			size = 4,
           }
         },
 		{
-          picture = "__Krastorio__/graphics/terrain/black-reinforced-plate.png",
+          picture = "__KrastorioPorted__/graphics/terrain/black-reinforced-plate.png",
           count = 16,
 		  size = 1,
           hr_version =
           {
-            picture = "__Krastorio__/graphics/terrain/hr-black-reinforced-plate.png",
+            picture = "__KrastorioPorted__/graphics/terrain/hr-black-reinforced-plate.png",
             count = 16,
             scale = 0.5,
 			size = 1,
@@ -175,12 +175,12 @@ data:extend(
       },
       inner_corner =
       {
-        picture = "__Krastorio__/graphics/terrain/plate-inner-corner.png",
+        picture = "__KrastorioPorted__/graphics/terrain/plate-inner-corner.png",
         count = 4,
         tall = true,
         hr_version =
         {
-          picture = "__Krastorio__/graphics/terrain/hr-plate-inner-corner.png",
+          picture = "__KrastorioPorted__/graphics/terrain/hr-plate-inner-corner.png",
           count = 4,
           tall = true,
           scale = 0.5
@@ -188,12 +188,12 @@ data:extend(
       },
       outer_corner =
       {
-        picture = "__Krastorio__/graphics/terrain/plate-outer-corner.png",
+        picture = "__KrastorioPorted__/graphics/terrain/plate-outer-corner.png",
         count = 4,
         tall = true,
         hr_version =
         {
-          picture = "__Krastorio__/graphics/terrain/hr-plate-outer-corner.png",
+          picture = "__KrastorioPorted__/graphics/terrain/hr-plate-outer-corner.png",
           count = 4,
           tall = true,
           scale = 0.5
@@ -201,12 +201,12 @@ data:extend(
       },
       side =
       {
-        picture = "__Krastorio__/graphics/terrain/plate-side.png",
+        picture = "__KrastorioPorted__/graphics/terrain/plate-side.png",
         count = 16,
         tall = true,
         hr_version =
         {
-          picture = "__Krastorio__/graphics/terrain/hr-plate-side.png",
+          picture = "__KrastorioPorted__/graphics/terrain/hr-plate-side.png",
           count = 16,
           tall = true,
           scale = 0.5
@@ -214,12 +214,12 @@ data:extend(
       },
       u_transition =
       {
-        picture = "__Krastorio__/graphics/terrain/plate-u.png",
+        picture = "__KrastorioPorted__/graphics/terrain/plate-u.png",
         count = 2,
         tall = true,
         hr_version =
         {
-          picture = "__Krastorio__/graphics/terrain/hr-plate-u.png",
+          picture = "__KrastorioPorted__/graphics/terrain/hr-plate-u.png",
           count = 2,
           tall = true,
           scale = 0.5
@@ -227,11 +227,11 @@ data:extend(
       },
       o_transition =
       {
-        picture = "__Krastorio__/graphics/terrain/plate-o.png",
+        picture = "__KrastorioPorted__/graphics/terrain/plate-o.png",
         count = 2,
         hr_version =
         {
-          picture = "__Krastorio__/graphics/terrain/hr-plate-o.png",
+          picture = "__KrastorioPorted__/graphics/terrain/hr-plate-o.png",
           count = 2,
           scale = 0.5
         }

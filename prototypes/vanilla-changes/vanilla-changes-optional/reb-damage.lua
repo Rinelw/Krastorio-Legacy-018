@@ -309,7 +309,7 @@ if settings.startup["reb-damage"] and settings.startup["reb-damage"].value then
 	---AMMO
 	
 	data.raw.ammo["atomic-bomb"].ammo_type.category = "heavy-rocket"
-	data.raw.ammo["atomic-bomb"].icon = "__Krastorio__/graphics/icons/atomic-bomb.png"
+	data.raw.ammo["atomic-bomb"].icon = "__KrastorioPorted__/graphics/icons/atomic-bomb.png"
 	data.raw.ammo["atomic-bomb"].icon_size = 32
 	data.raw.ammo["atomic-bomb"].ammo_type.range_modifier = 1
 	data.raw.ammo["atomic-bomb"].ammo_type.cooldown_modifier = 3

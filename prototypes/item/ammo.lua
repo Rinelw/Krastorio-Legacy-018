@@ -7,7 +7,7 @@ data:extend(
     {
     type = "ammo",
     name = "imersite-rounds-magazine",
-    icon = "__Krastorio__/graphics/icons/imersite-rounds-magazine.png",
+    icon = "__KrastorioPorted__/graphics/icons/imersite-rounds-magazine.png",
     icon_size = 32,
     ammo_type =
     {
@@ -48,7 +48,7 @@ data:extend(
 	{
     type = "ammo",
     name = "antimatter-artillery-shell",
-    icon = "__Krastorio__/graphics/icons/antimatter-artillery-shell.png",
+    icon = "__KrastorioPorted__/graphics/icons/antimatter-artillery-shell.png",
     icon_size = 64,
     ammo_type =
     {
@@ -84,7 +84,7 @@ data:extend(
     type = "ammo",
     name = "impulse-rifle-ammo",
     description = "impulse-rifle-ammo",
-    icon = "__Krastorio__/graphics/icons/impulse-rifle-ammo.png",
+    icon = "__KrastorioPorted__/graphics/icons/impulse-rifle-ammo.png",
     icon_size = 32,
     ammo_type =
     {
@@ -124,7 +124,7 @@ data:extend(
   {
     type = "ammo",
     name = "heavy-rocket",
-    icon = "__Krastorio__/graphics/icons/heavy-rocket.png",
+    icon = "__KrastorioPorted__/graphics/icons/heavy-rocket.png",
     icon_size = 32,
     ammo_type =
     {
@@ -160,7 +160,7 @@ data:extend(
 	{
     type = "ammo",
     name = "antimatter-rocket",
-    icon = "__Krastorio__/graphics/icons/antimatter-rocket.png",
+    icon = "__KrastorioPorted__/graphics/icons/antimatter-rocket.png",
     icon_size = 32,
     ammo_type =
     {
@@ -199,7 +199,7 @@ data:extend(
     type = "ammo",
     name = "basic-railgun-shell",
     description = "basic-railgun-shell",
-    icon = "__Krastorio__/graphics/icons/basic-railgun-shell.png",
+    icon = "__KrastorioPorted__/graphics/icons/basic-railgun-shell.png",
     icon_size = 64,
     ammo_type =
     {
@@ -236,7 +236,7 @@ data:extend(
     type = "ammo",
     name = "explosion-railgun-shell",
     description = "explosion-railgun-shell",
-    icon = "__Krastorio__/graphics/icons/explosion-railgun-shell.png",
+    icon = "__KrastorioPorted__/graphics/icons/explosion-railgun-shell.png",
     icon_size = 64,
     ammo_type =
     {
@@ -273,7 +273,7 @@ data:extend(
     type = "ammo",
     name = "antimatter-railgun-shell",
     description = "antimatter-railgun-shell",
-    icon = "__Krastorio__/graphics/icons/antimatter-railgun-shell.png",
+    icon = "__KrastorioPorted__/graphics/icons/antimatter-railgun-shell.png",
     icon_size = 64,
     ammo_type =
     {
@@ -311,7 +311,7 @@ data:extend(
     type = "ammo",
     name = "explosion-rocket-for-turret",
     description = "explosion-rocket-for-turret",
-    icon = "__Krastorio__/graphics/icons/explosion-rocket-for-turret.png",
+    icon = "__KrastorioPorted__/graphics/icons/explosion-rocket-for-turret.png",
     icon_size = 32,
     ammo_type =
     {
@@ -348,7 +348,7 @@ data:extend(
     type = "ammo",
     name = "nuclear-rocket-for-turret",
     description = "nuclear-rocket-for-turret",
-    icon = "__Krastorio__/graphics/icons/nuclear-rocket-for-turret.png",
+    icon = "__KrastorioPorted__/graphics/icons/nuclear-rocket-for-turret.png",
     icon_size = 32,
     ammo_type =
     {
@@ -385,7 +385,7 @@ data:extend(
     type = "ammo",
     name = "antimatter-rocket-for-turret",
     description = "antimatter-rocket-for-turret",
-    icon = "__Krastorio__/graphics/icons/antimatter-rocket-for-turret.png",
+    icon = "__KrastorioPorted__/graphics/icons/antimatter-rocket-for-turret.png",
     icon_size = 32,
     ammo_type =
     {

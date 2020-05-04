@@ -7,7 +7,7 @@ data:extend(
   {
     type = "car",
     name = "k-tank",
-    icon = "__Krastorio__/graphics/icons/tank.png",
+    icon = "__KrastorioPorted__/graphics/icons/tank.png",
     icon_size = 32,
     flags = {"placeable-neutral", "player-creation", "placeable-off-grid", "not-flammable"},
     minable = {mining_time = 10, result = "k-tank"},
@@ -135,7 +135,7 @@ data:extend(
           stripes =
 		  {
             {
-             filename = "__Krastorio__/graphics/entity/tank/tank-base.png",
+             filename = "__KrastorioPorted__/graphics/entity/tank/tank-base.png",
              width_in_frames = 16,
              height_in_frames = 8,
             }
@@ -154,7 +154,7 @@ data:extend(
 			  stripes =
 			  {
 				{
-				 filename = "__Krastorio__/graphics/entity/tank/hr-tank-base.png",
+				 filename = "__KrastorioPorted__/graphics/entity/tank/hr-tank-base.png",
 				 width_in_frames = 16,
 				 height_in_frames = 8,
 				},
@@ -175,7 +175,7 @@ data:extend(
           stripes =
 		  {
             {
-             filename = "__Krastorio__/graphics/entity/tank/tank-base-mask.png",
+             filename = "__KrastorioPorted__/graphics/entity/tank/tank-base-mask.png",
              width_in_frames = 16,
              height_in_frames = 8,
 			},
@@ -195,7 +195,7 @@ data:extend(
 			  stripes = 
 			  {
 				{
-				 filename = "__Krastorio__/graphics/entity/tank/hr-tank-base-mask.png",
+				 filename = "__KrastorioPorted__/graphics/entity/tank/hr-tank-base-mask.png",
 				 width_in_frames = 16,
 				 height_in_frames = 8,
 				},
@@ -215,7 +215,7 @@ data:extend(
           stripes =
 		  {
             {
-             filename = "__Krastorio__/graphics/entity/tank/tank-base-shadow.png",
+             filename = "__KrastorioPorted__/graphics/entity/tank/tank-base-shadow.png",
              width_in_frames = 16,
              height_in_frames = 8,
             }
@@ -234,7 +234,7 @@ data:extend(
 			  stripes =
 			  {
 				{
-				 filename = "__Krastorio__/graphics/entity/tank/hr-tank-base-shadow.png",
+				 filename = "__KrastorioPorted__/graphics/entity/tank/hr-tank-base-shadow.png",
 				 width_in_frames = 16,
 				 height_in_frames = 8,
 				},
@@ -260,7 +260,7 @@ data:extend(
           stripes =
 		  {
             {
-             filename = "__Krastorio__/graphics/entity/tank/tank-turret.png",
+             filename = "__KrastorioPorted__/graphics/entity/tank/tank-turret.png",
              width_in_frames = 8,
              height_in_frames = 8,
             },
@@ -279,7 +279,7 @@ data:extend(
 			  stripes =
 			  {
 				{
-				 filename = "__Krastorio__/graphics/entity/tank/hr-tank-turret.png",
+				 filename = "__KrastorioPorted__/graphics/entity/tank/hr-tank-turret.png",
 				 width_in_frames = 8,
 				 height_in_frames = 8,
 				},
@@ -300,7 +300,7 @@ data:extend(
           stripes = 
 		  {
             {
-             filename = "__Krastorio__/graphics/entity/tank/tank-turret-mask.png",
+             filename = "__KrastorioPorted__/graphics/entity/tank/tank-turret-mask.png",
              width_in_frames = 8,
              height_in_frames = 8,
 			},
@@ -320,7 +320,7 @@ data:extend(
 			  stripes = 
 			  {
 				{
-				 filename = "__Krastorio__/graphics/entity/tank/hr-tank-turret-mask.png",
+				 filename = "__KrastorioPorted__/graphics/entity/tank/hr-tank-turret-mask.png",
 				 width_in_frames = 8,
 				 height_in_frames = 8,
 				},
@@ -341,7 +341,7 @@ data:extend(
           stripes = 
 		  {
             {
-             filename = "__Krastorio__/graphics/entity/tank/tank-turret-shadow.png",
+             filename = "__KrastorioPorted__/graphics/entity/tank/tank-turret-shadow.png",
              width_in_frames = 8,
              height_in_frames = 8,
 			},
@@ -361,7 +361,7 @@ data:extend(
 			  stripes = 
 			  {
 				{
-				 filename = "__Krastorio__/graphics/entity/tank/hr-tank-turret-shadow.png",
+				 filename = "__KrastorioPorted__/graphics/entity/tank/hr-tank-turret-shadow.png",
 				 width_in_frames = 8,
 				 height_in_frames = 8,
 				},
@@ -385,12 +385,12 @@ data:extend(
     {
       sound =
       {
-        filename = "__Krastorio__/sound/tank-engine.ogg",
+        filename = "__KrastorioPorted__/sound/tank-engine.ogg",
         volume = 1
       },
       activate_sound =
       {
-        filename = "__Krastorio__/sound/tank-engine-start.ogg",
+        filename = "__KrastorioPorted__/sound/tank-engine-start.ogg",
         volume = 1
       },
       deactivate_sound =

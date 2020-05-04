@@ -4,7 +4,7 @@ matter_func = {}
 -- -- -- PUBLIC
 
 -- For use this functions call it with (ex):
--- local matter = require("__Krastorio__/lib/matter-util")
+-- local matter = require("__KrastorioPorted__/lib/matter-util")
 -- matter.whatfunctionyouwant()
 
 --[[

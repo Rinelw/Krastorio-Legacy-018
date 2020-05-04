@@ -23,7 +23,7 @@ data:extend(
   {
     type = "virtual-signal",
     name = "attention_1",
-    icon = "__Krastorio__/graphics/icons/signal/attention_1.png",
+    icon = "__KrastorioPorted__/graphics/icons/signal/attention_1.png",
     icon_size = 64,
     subgroup = "k-special-signals",
     order = "a[special-signals]-1[attention_1]"
@@ -32,7 +32,7 @@ data:extend(
   {
     type = "virtual-signal",
     name = "attention_2",
-    icon = "__Krastorio__/graphics/icons/signal/attention_2.png",
+    icon = "__KrastorioPorted__/graphics/icons/signal/attention_2.png",
     icon_size = 64,
     subgroup = "k-special-signals",
     order = "a[special-signals]-2[attention_2]"
@@ -41,7 +41,7 @@ data:extend(
   {
     type = "virtual-signal",
     name = "attention_3",
-    icon = "__Krastorio__/graphics/icons/signal/attention_3.png",
+    icon = "__KrastorioPorted__/graphics/icons/signal/attention_3.png",
     icon_size = 64,
     subgroup = "k-special-signals",
     order = "a[special-signals]-3[attention_3]"
@@ -52,7 +52,7 @@ data:extend(
   {
     type = "virtual-signal",
     name = "nuclear-1",
-    icon = "__Krastorio__/graphics/icons/signal/nuclear-1.png",
+    icon = "__KrastorioPorted__/graphics/icons/signal/nuclear-1.png",
     icon_size = 64,
     subgroup = "k-special-signals",
     order = "a[special-signals]-4[nuclear-1]"
@@ -61,7 +61,7 @@ data:extend(
   {
     type = "virtual-signal",
     name = "nuclear-2",
-    icon = "__Krastorio__/graphics/icons/signal/nuclear-2.png",
+    icon = "__KrastorioPorted__/graphics/icons/signal/nuclear-2.png",
     icon_size = 64,
     subgroup = "k-special-signals",
     order = "a[special-signals]-5[nuclear-2]"
@@ -70,7 +70,7 @@ data:extend(
   {
     type = "virtual-signal",
     name = "biohazard",
-    icon = "__Krastorio__/graphics/icons/signal/biohazard.png",
+    icon = "__KrastorioPorted__/graphics/icons/signal/biohazard.png",
     icon_size = 64,
     subgroup = "k-special-signals",
     order = "a[special-signals]-6[biohazard]"
@@ -81,7 +81,7 @@ data:extend(
   {
     type = "virtual-signal",
     name = "power",
-    icon = "__Krastorio__/graphics/icons/signal/power.png",
+    icon = "__KrastorioPorted__/graphics/icons/signal/power.png",
     icon_size = 64,
     subgroup = "k-special-signals",
     order = "a[special-signals]-7[power]"
@@ -90,7 +90,7 @@ data:extend(
   {
     type = "virtual-signal",
     name = "power_on",
-    icon = "__Krastorio__/graphics/icons/signal/power_on.png",
+    icon = "__KrastorioPorted__/graphics/icons/signal/power_on.png",
     icon_size = 64,
     subgroup = "k-special-signals",
     order = "a[special-signals]-8[power_on]"
@@ -99,7 +99,7 @@ data:extend(
   {
     type = "virtual-signal",
     name = "power_off",
-    icon = "__Krastorio__/graphics/icons/signal/power_off.png",
+    icon = "__KrastorioPorted__/graphics/icons/signal/power_off.png",
     icon_size = 64,
     subgroup = "k-special-signals",
     order = "a[special-signals]-9[power_off]"
@@ -110,7 +110,7 @@ data:extend(
   {
     type = "virtual-signal",
     name = "battery",
-    icon = "__Krastorio__/graphics/icons/signal/battery.png",
+    icon = "__KrastorioPorted__/graphics/icons/signal/battery.png",
     icon_size = 64,
     subgroup = "k-special-signals",
     order = "a[special-signals]-a[battery]"
@@ -119,7 +119,7 @@ data:extend(
   {
     type = "virtual-signal",
     name = "battery_low",
-    icon = "__Krastorio__/graphics/icons/signal/battery_low.png",
+    icon = "__KrastorioPorted__/graphics/icons/signal/battery_low.png",
     icon_size = 64,
     subgroup = "k-special-signals",
     order = "a[special-signals]-b[battery_low]"
@@ -130,7 +130,7 @@ data:extend(
   {
     type = "virtual-signal",
     name = "star_w",
-    icon = "__Krastorio__/graphics/icons/signal/star_w.png",
+    icon = "__KrastorioPorted__/graphics/icons/signal/star_w.png",
     icon_size = 64,
     subgroup = "k-special-signals",
     order = "a[special-signals]-c[star_w]"
@@ -139,7 +139,7 @@ data:extend(
   {
     type = "virtual-signal",
     name = "star_b",
-    icon = "__Krastorio__/graphics/icons/signal/star_b.png",
+    icon = "__KrastorioPorted__/graphics/icons/signal/star_b.png",
     icon_size = 64,
     subgroup = "k-special-signals",
     order = "a[special-signals]-d[star_b]"
@@ -150,7 +150,7 @@ data:extend(
   {
     type = "virtual-signal",
     name = "energy",
-    icon = "__Krastorio__/graphics/icons/signal/energy.png",
+    icon = "__KrastorioPorted__/graphics/icons/signal/energy.png",
     icon_size = 64,
     subgroup = "k-special-signals",
     order = "a[special-signals]-e[energy]"
@@ -159,7 +159,7 @@ data:extend(
   {
     type = "virtual-signal",
     name = "time",
-    icon = "__Krastorio__/graphics/icons/signal/time.png",
+    icon = "__KrastorioPorted__/graphics/icons/signal/time.png",
     icon_size = 64,
     subgroup = "k-special-signals",
     order = "a[special-signals]-f[time]"
@@ -170,7 +170,7 @@ data:extend(
   {
     type = "virtual-signal",
     name = "gear_w",
-    icon = "__Krastorio__/graphics/icons/signal/gear_w.png",
+    icon = "__KrastorioPorted__/graphics/icons/signal/gear_w.png",
     icon_size = 64,
     subgroup = "k-special-signals",
     order = "a[special-signals]-g[gear_w]"
@@ -179,7 +179,7 @@ data:extend(
   {
     type = "virtual-signal",
     name = "gear_b",
-    icon = "__Krastorio__/graphics/icons/signal/gear_b.png",
+    icon = "__KrastorioPorted__/graphics/icons/signal/gear_b.png",
     icon_size = 64,
     subgroup = "k-special-signals",
     order = "a[special-signals]-h[gear_b]"
@@ -191,7 +191,7 @@ data:extend(
   {
     type = "virtual-signal",
     name = "build_here",
-    icon = "__Krastorio__/graphics/icons/signal/build_here.png",
+    icon = "__KrastorioPorted__/graphics/icons/signal/build_here.png",
     icon_size = 64,
     subgroup = "k-special-signals-2",
     order = "a[special-signals]-1[build_here]"
@@ -200,7 +200,7 @@ data:extend(
   {
     type = "virtual-signal",
     name = "dont_touch",
-    icon = "__Krastorio__/graphics/icons/signal/dont_touch.png",
+    icon = "__KrastorioPorted__/graphics/icons/signal/dont_touch.png",
     icon_size = 64,
     subgroup = "k-special-signals-2",
     order = "a[special-signals]-2[dont_touch]"
@@ -209,7 +209,7 @@ data:extend(
   {
     type = "virtual-signal",
     name = "kill",
-    icon = "__Krastorio__/graphics/icons/signal/kill.png",
+    icon = "__KrastorioPorted__/graphics/icons/signal/kill.png",
     icon_size = 64,
     subgroup = "k-special-signals-2",
     order = "a[special-signals]-3[kill]"
@@ -218,7 +218,7 @@ data:extend(
   {
     type = "virtual-signal",
     name = "wtf",
-    icon = "__Krastorio__/graphics/icons/signal/wtf.png",
+    icon = "__KrastorioPorted__/graphics/icons/signal/wtf.png",
     icon_size = 64,
     subgroup = "k-special-signals-2",
     order = "a[special-signals]-4[wtf]"
@@ -228,7 +228,7 @@ data:extend(
   {
     type = "virtual-signal",
     name = "smile",
-    icon = "__Krastorio__/graphics/icons/signal/smile.png",
+    icon = "__KrastorioPorted__/graphics/icons/signal/smile.png",
     icon_size = 64,
     subgroup = "k-special-signals-2",
     order = "a[special-signals]-zz9[smile]"
@@ -237,7 +237,7 @@ data:extend(
   {
     type = "virtual-signal",
     name = "scull",
-    icon = "__Krastorio__/graphics/icons/signal/scull.png",
+    icon = "__KrastorioPorted__/graphics/icons/signal/scull.png",
     icon_size = 64,
     subgroup = "k-special-signals-2",
     order = "a[special-signals]-zz9[scull]"
@@ -246,7 +246,7 @@ data:extend(
   {
     type = "virtual-signal",
     name = "krastorio",
-    icon = "__Krastorio__/graphics/icons/signal/krastorio.png",
+    icon = "__KrastorioPorted__/graphics/icons/signal/krastorio.png",
     icon_size = 64,
     subgroup = "k-special-signals-2",
     order = "a[special-signals]-zzz[krastorio]"

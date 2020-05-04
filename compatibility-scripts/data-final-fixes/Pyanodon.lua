@@ -1,4 +1,4 @@
-require("__Krastorio__/compatibility-scripts/data-final-fixes/Pyanodon/pycoalprocessing")
-require("__Krastorio__/compatibility-scripts/data-final-fixes/Pyanodon/pyrawores")
-require("__Krastorio__/compatibility-scripts/data-final-fixes/Pyanodon/pyfusionenergy")
-require("__Krastorio__/compatibility-scripts/data-final-fixes/Pyanodon/pyhightech")
+require("__KrastorioPorted__/compatibility-scripts/data-final-fixes/Pyanodon/pycoalprocessing")
+require("__KrastorioPorted__/compatibility-scripts/data-final-fixes/Pyanodon/pyrawores")
+require("__KrastorioPorted__/compatibility-scripts/data-final-fixes/Pyanodon/pyfusionenergy")
+require("__KrastorioPorted__/compatibility-scripts/data-final-fixes/Pyanodon/pyhightech")

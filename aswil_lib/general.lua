@@ -1,4 +1,4 @@
-require("__Krastorio__/aswil_lib/utils/split")
+require("__KrastorioPorted__/aswil_lib/utils/split")
 
 aswil.general = {}
 

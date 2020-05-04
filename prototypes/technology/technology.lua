@@ -124,7 +124,7 @@ data:extend(
 		type = "technology",
 		name = "electric-mining-drill-mk2",
 		icon_size = 128,
-		icon = "__Krastorio__/graphics/technology/electric-mining-drill-mk2.png",
+		icon = "__KrastorioPorted__/graphics/technology/electric-mining-drill-mk2.png",
 		upgrade = false,
 		effects = 
 		{
@@ -152,7 +152,7 @@ data:extend(
 	{
 		type = "technology",
 		name = "k-flare-stack",
-		icon = "__Krastorio__/graphics/technology/flare-stack.png",
+		icon = "__KrastorioPorted__/graphics/technology/flare-stack.png",
 		icon_size = 128,
 		effects =
 		{
@@ -179,7 +179,7 @@ data:extend(
 	{
 		type = "technology",
 		name = "reinforced-plate",
-		icon = "__Krastorio__/graphics/technology/reinforced-plate.png",
+		icon = "__KrastorioPorted__/graphics/technology/reinforced-plate.png",
 		icon_size = 128,
 		effects =
 		{
@@ -212,7 +212,7 @@ data:extend(
 	{
 		type = "technology",
 		name = "k-liquid-evaporator",
-		icon = "__Krastorio__/graphics/technology/liquid-evaporator.png",
+		icon = "__KrastorioPorted__/graphics/technology/liquid-evaporator.png",
 		icon_size = 128,
 		effects =
 		{
@@ -240,7 +240,7 @@ data:extend(
 	{
 		type = "technology",
 		name = "advanced-storage",
-		icon = "__Krastorio__/graphics/technology/as.png",
+		icon = "__KrastorioPorted__/graphics/technology/as.png",
 		icon_size = 128,
 		effects =
 		{
@@ -271,7 +271,7 @@ data:extend(
 	{
 		type = "technology",
 		name = "k-filtration-plant",
-		icon = "__Krastorio__/graphics/technology/filtration-plant.png",
+		icon = "__KrastorioPorted__/graphics/technology/filtration-plant.png",
 		icon_size = 128,
 		effects =
 		{
@@ -319,7 +319,7 @@ data:extend(
 	{
 		type = "technology",
 		name = "enriched-ore",
-		icon = "__Krastorio__/graphics/technology/enriched-ore.png",
+		icon = "__KrastorioPorted__/graphics/technology/enriched-ore.png",
 		icon_size = 128,
 		effects =
 		{
@@ -359,7 +359,7 @@ data:extend(
 		type = "technology",
 		name = "k-steel-pickaxe",
 		icon_size = 128,
-		icon = "__Krastorio__/graphics/technology/pickaxe-2.png",
+		icon = "__KrastorioPorted__/graphics/technology/pickaxe-2.png",
 		effects =
 		{
 			{
@@ -386,7 +386,7 @@ data:extend(
     {
         type = "technology",
         name = "k-silicon-processing",
-        icon = "__Krastorio__/graphics/technology/silicon-processing.png",
+        icon = "__KrastorioPorted__/graphics/technology/silicon-processing.png",
         icon_size = 128,
         effects =
         {
@@ -418,7 +418,7 @@ data:extend(
 	{
 		type = "technology",
 		name = "carbon-steel-processing",
-		icon = "__Krastorio__/graphics/technology/carbon-steel-processing.png",
+		icon = "__KrastorioPorted__/graphics/technology/carbon-steel-processing.png",
 		icon_size = 128,
 		prerequisites = {"k-silicon-processing"},
 		order = "c-a",
@@ -464,7 +464,7 @@ data:extend(
 	{
 		type = "technology",
 		name = "reinforced-wall",
-		icon = "__Krastorio__/graphics/technology/reinforced-wall.png",
+		icon = "__KrastorioPorted__/graphics/technology/reinforced-wall.png",
 		icon_size = 128,
 		effects =
 		{
@@ -491,7 +491,7 @@ data:extend(
 	{
 		type = "technology",
 		name = "reinforced-gate",
-		icon = "__Krastorio__/graphics/technology/reinforced-gate.png",
+		icon = "__KrastorioPorted__/graphics/technology/reinforced-gate.png",
 		icon_size = 128,
 		effects =
 		{
@@ -522,7 +522,7 @@ data:extend(
 	{
 		type = "technology",
 		name = "k-gold-processing",
-		icon = "__Krastorio__/graphics/technology/gold-processing.png",
+		icon = "__KrastorioPorted__/graphics/technology/gold-processing.png",
 		icon_size = 128,
 		prerequisites = {"sulfur-processing", "k-filtration-plant", "k-electrolysis-plant"},
 		order = "c-a",
@@ -556,7 +556,7 @@ data:extend(
 	{
 		type = "technology",
 		name = "kr-air-filter",
-		icon = "__Krastorio__/graphics/technology/air-filter.png",
+		icon = "__KrastorioPorted__/graphics/technology/air-filter.png",
 		icon_size = 128,
 		effects =
 		{
@@ -588,7 +588,7 @@ data:extend(
 	{
 		type = "technology",
 		name = "advanced-fluid-handling",
-		icon = "__Krastorio__/graphics/technology/fs-200.png",
+		icon = "__KrastorioPorted__/graphics/technology/fs-200.png",
 		icon_size = 128,
 		effects =
 		{
@@ -626,7 +626,7 @@ data:extend(
 	{
 		type = "technology",
 		name = "k-electrolysis-plant",
-		icon = "__Krastorio__/graphics/technology/electrolysis-plant.png",
+		icon = "__KrastorioPorted__/graphics/technology/electrolysis-plant.png",
 		icon_size = 128,
 		effects =
 		{
@@ -662,7 +662,7 @@ data:extend(
 	{
 		type = "technology",
 		name = "k-advanced-chemistry",
-		icon = "__Krastorio__/graphics/technology/advanced-chemistry.png",
+		icon = "__KrastorioPorted__/graphics/technology/advanced-chemistry.png",
 		icon_size = 128,
 		effects =
 		{
@@ -694,7 +694,7 @@ data:extend(
 	{
 		type = "technology",
 		name = "k-air-purifier",
-		icon = "__Krastorio__/graphics/technology/air-purifier.png",
+		icon = "__KrastorioPorted__/graphics/technology/air-purifier.png",
 		icon_size = 128,
 		effects =
 		{
@@ -737,7 +737,7 @@ data:extend(
 	{
 		type = "technology",
 		name = "k-advanced-chemical-plant",
-		icon = "__Krastorio__/graphics/technology/advanced-chemical-plant.png",
+		icon = "__KrastorioPorted__/graphics/technology/advanced-chemical-plant.png",
 		icon_size = 128,	
 		order = "e-d-d",
 		effects =
@@ -773,7 +773,7 @@ data:extend(
 		type = "technology",
 		name = "k-multifunctional-furnace",
 		icon_size = 128,
-		icon = "__Krastorio__/graphics/technology/multifunctional-electric-furnace.png",
+		icon = "__KrastorioPorted__/graphics/technology/multifunctional-electric-furnace.png",
 		order = "e-e-d",
 		effects =
 		{
@@ -812,7 +812,7 @@ data:extend(
 	{
 		type = "technology",
 		name = "advanced-logistic-system",
-		icon = "__Krastorio__/graphics/technology/als.png",
+		icon = "__KrastorioPorted__/graphics/technology/als.png",
 		icon_size = 128,
 		effects =
 		{
@@ -876,7 +876,7 @@ data:extend(
 	{
 		type = "technology",
 		name = "advanced-robotics",
-		icon = "__Krastorio__/graphics/technology/drone-hub.png",
+		icon = "__KrastorioPorted__/graphics/technology/drone-hub.png",
 		icon_size = 128,
 		effects =
 		{
@@ -904,7 +904,7 @@ data:extend(
 	{
 		type = "technology",
 		name = "drone-charging-station",
-		icon = "__Krastorio__/graphics/technology/drone-charging-station.png",
+		icon = "__KrastorioPorted__/graphics/technology/drone-charging-station.png",
 		icon_size = 128,
 		effects =
 		{
@@ -932,7 +932,7 @@ data:extend(
 	{
 		type = "technology",
 		name = "k-minerals-extraction",
-		icon = "__Krastorio__/graphics/technology/minerals-extraction.png",
+		icon = "__KrastorioPorted__/graphics/technology/minerals-extraction.png",
 		icon_size = 128,
 		effects =
 		{
@@ -977,7 +977,7 @@ data:extend(
 	{
 		type = "technology",
 		name = "rich-rocks-processing",
-		icon = "__Krastorio__/graphics/technology/rich-rocks-processing.png",
+		icon = "__KrastorioPorted__/graphics/technology/rich-rocks-processing.png",
 		icon_size = 128,
 		effects =
 		{
@@ -1020,7 +1020,7 @@ data:extend(
 	{
 		type = "technology",
 		name = "railgun-turret",
-		icon = "__Krastorio__/graphics/technology/railgun-turret.png",
+		icon = "__KrastorioPorted__/graphics/technology/railgun-turret.png",
 		icon_size = 128,
 		effects = 
 		{
@@ -1058,7 +1058,7 @@ data:extend(
 	{
 		type = "technology",
 		name = "menarite-processing-1",
-		icon = "__Krastorio__/graphics/technology/menarite-processing.png",
+		icon = "__KrastorioPorted__/graphics/technology/menarite-processing.png",
 		icon_size = 128,
 		prerequisites = {"k-minerals-extraction"},
 		order = "e-d-d",
@@ -1099,7 +1099,7 @@ data:extend(
 	{
 		type = "technology",
 		name = "imersite-processing-1",
-		icon = "__Krastorio__/graphics/technology/imersite-processor.png",
+		icon = "__KrastorioPorted__/graphics/technology/imersite-processor.png",
 		icon_size = 128,
 		prerequisites = {"k-minerals-extraction"},
 		order = "e-d-d",
@@ -1141,7 +1141,7 @@ data:extend(
 		type = "technology",
 		name = "k-titanium-pickaxe",
 		icon_size = 128,
-		icon = "__Krastorio__/graphics/technology/pickaxe-3.png",
+		icon = "__KrastorioPorted__/graphics/technology/pickaxe-3.png",
 		effects =
 		{
 			{
@@ -1170,7 +1170,7 @@ data:extend(
 		type = "technology",
 		name = "menarite-processor",
 		icon_size = 128,
-		icon = "__Krastorio__/graphics/technology/advanced-electronics-3.png",
+		icon = "__KrastorioPorted__/graphics/technology/advanced-electronics-3.png",
 		prerequisites = {"utility-science-pack", "production-science-pack", "menarite-processing-1"},
 		order = "a-d-c",
 		effects =
@@ -1220,7 +1220,7 @@ data:extend(
 		type = "technology",
 		name = "electric-mining-drill-mk3",
 		icon_size = 128,
-		icon = "__Krastorio__/graphics/technology/electric-mining-drill-mk3.png",
+		icon = "__KrastorioPorted__/graphics/technology/electric-mining-drill-mk3.png",
 		upgrade = false,
 		effects = 
 		{
@@ -1251,7 +1251,7 @@ data:extend(
 	{
 		type = "technology",
 		name = "menarite-processing-2",
-		icon = "__Krastorio__/graphics/technology/menarite-processing.png",
+		icon = "__KrastorioPorted__/graphics/technology/menarite-processing.png",
 		icon_size = 128,
 		prerequisites = {"menarite-processing-1", "k-advanced-chemistry", "k-advanced-chemical-plant"},
 		order = "e-e-d",
@@ -1279,7 +1279,7 @@ data:extend(
 	{
 		type = "technology",
 		name = "imersite-processing-2",
-		icon = "__Krastorio__/graphics/technology/imersite-processor.png",
+		icon = "__KrastorioPorted__/graphics/technology/imersite-processor.png",
 		icon_size = 128,
 		prerequisites = {"imersite-processing-1", "k-advanced-chemistry", "k-advanced-chemical-plant"},
 		order = "e-e-d",
@@ -1307,7 +1307,7 @@ data:extend(
 	{
 		type = "technology",
 		name = "k-advanced-furnace",
-		icon = "__Krastorio__/graphics/technology/advanced-furnace.png",
+		icon = "__KrastorioPorted__/graphics/technology/advanced-furnace.png",
 		icon_size = 128,
 		order = "g-d-d",
 		effects =
@@ -1373,7 +1373,7 @@ data:extend(
 	{
 		type = "technology",
 		name = "k-tank",
-		icon = "__Krastorio__/graphics/technology/tank.png",
+		icon = "__KrastorioPorted__/graphics/technology/tank.png",
 		icon_size = 128,
 		effects =
 		{
@@ -1398,7 +1398,7 @@ data:extend(
 	{
 		type = "technology",
 		name = "k-matter",
-		icon = "__Krastorio__/graphics/technology/matter.png",
+		icon = "__KrastorioPorted__/graphics/technology/matter.png",
 		icon_size = 128,
 		effects =
 		{
@@ -1452,7 +1452,7 @@ data:extend(
 	{
 		type = "technology",
 		name = "advanced-assembler",
-		icon = "__Krastorio__/graphics/technology/advanced-assembler.png",
+		icon = "__KrastorioPorted__/graphics/technology/advanced-assembler.png",
 		icon_size = 128,
 		effects =
 		{
@@ -1481,7 +1481,7 @@ data:extend(
 	{
 		type = "technology",
 		name = "singularity-beacon",
-		icon = "__Krastorio__/graphics/technology/singularity-beacon.png",
+		icon = "__KrastorioPorted__/graphics/technology/singularity-beacon.png",
 		icon_size = 128,
 		effects =
 		{
@@ -1505,7 +1505,7 @@ data:extend(
 	{
 		type = "technology",
 		name = "imersite-energy",
-		icon = "__Krastorio__/graphics/technology/imersite-energy.png",
+		icon = "__KrastorioPorted__/graphics/technology/imersite-energy.png",
 		icon_size = 128,
 		effects =
 		{
@@ -1553,7 +1553,7 @@ data:extend(
 	{
 		type = "technology",
 		name = "k-fusion",
-		icon = "__Krastorio__/graphics/technology/fusion-energy.png",
+		icon = "__KrastorioPorted__/graphics/technology/fusion-energy.png",
 		icon_size = 128,
 		effects =
 		{
@@ -1611,7 +1611,7 @@ data:extend(
 	{
 		type = "technology",
 		name = "k-advanced-minerals-extraction",
-		icon = "__Krastorio__/graphics/technology/advanced-minerals-extraction.png",
+		icon = "__KrastorioPorted__/graphics/technology/advanced-minerals-extraction.png",
 		icon_size = 128,
 		effects =
 		{
@@ -1640,7 +1640,7 @@ data:extend(
 	{
 		type = "technology",
 		name = "k-deep-mining",
-		icon = "__Krastorio__/graphics/technology/deep-mining.png",
+		icon = "__KrastorioPorted__/graphics/technology/deep-mining.png",
 		icon_size = 128,
 		effects =
 		{
@@ -1701,7 +1701,7 @@ data:extend(
 	{
 		type = "technology",
 		name = "rocket-turret",
-		icon = "__Krastorio__/graphics/technology/rocket-turret.png",
+		icon = "__KrastorioPorted__/graphics/technology/rocket-turret.png",
 		icon_size = 128,
 		effects =
 		{
@@ -1776,7 +1776,7 @@ data:extend(
 		type = "technology",
 		name = "k-menarite-pickaxe",
 		icon_size = 128,
-		icon = "__Krastorio__/graphics/technology/pickaxe-4.png",
+		icon = "__KrastorioPorted__/graphics/technology/pickaxe-4.png",
 		effects =
 		{
 			{
@@ -1803,7 +1803,7 @@ data:extend(
 		type = "technology",
 		name = "k-imersite-pickaxe",
 		icon_size = 128,
-		icon = "__Krastorio__/graphics/technology/pickaxe-5.png",
+		icon = "__KrastorioPorted__/graphics/technology/pickaxe-5.png",
 		effects =
 		{
 			{
@@ -1829,7 +1829,7 @@ data:extend(
     {
 		type = "technology",
 		name = "new-robot-battery",
-		icon = "__Krastorio__/graphics/technology/new-robot-battery.png",
+		icon = "__KrastorioPorted__/graphics/technology/new-robot-battery.png",
 		icon_size = 128,
 		effects =
 		{
@@ -1859,7 +1859,7 @@ data:extend(
 	{
 		type = "technology",
 		name = "k-quantum-computer",
-		icon = "__Krastorio__/graphics/technology/quantum-computer.png",
+		icon = "__KrastorioPorted__/graphics/technology/quantum-computer.png",
 		icon_size = 128,
 		effects =
 		{
@@ -1891,7 +1891,7 @@ data:extend(
 	{
 		type = "technology",
 		name = "matter-assembler-plus",
-		icon = "__Krastorio__/graphics/technology/matter-assembler-plus.png",
+		icon = "__KrastorioPorted__/graphics/technology/matter-assembler-plus.png",
 		icon_size = 128,
 		effects = {},
 		prerequisites = {"matter+sand-processing", "matter+stone-processing", "matter+coal-processing", "matter+oil-processing", "matter+water-processing", "matter+gold-processing", "matter+minerals-processing"},
@@ -1914,7 +1914,7 @@ data:extend(
 	{
 		type = "technology",
 		name = "matter-converter",
-		icon = "__Krastorio__/graphics/technology/matter-converter.png",
+		icon = "__KrastorioPorted__/graphics/technology/matter-converter.png",
 		icon_size = 128,
 		effects =
 		{
@@ -1947,7 +1947,7 @@ data:extend(
 	{
 		type = "technology",
 		name = "antimatter-reactor-prototype",
-		icon = "__Krastorio__/graphics/technology/antimatter-reactor-prototype.png",
+		icon = "__KrastorioPorted__/graphics/technology/antimatter-reactor-prototype.png",
 		icon_size = 128,
 		effects =
 		{
@@ -1984,7 +1984,7 @@ data:extend(
 	{
 		type = "technology",
 		name = "matter-is-science",
-		icon = "__Krastorio__/graphics/technology/matter-is-science.png",
+		icon = "__KrastorioPorted__/graphics/technology/matter-is-science.png",
 		icon_size = 128,
 		effects = {},
 		prerequisites = {"matter-assembler-plus"},
@@ -2009,7 +2009,7 @@ data:extend(
 	{
 		type = "technology",
 		name = "antimatter-bomb",
-		icon = "__Krastorio__/graphics/technology/matter-bomb.png",
+		icon = "__KrastorioPorted__/graphics/technology/matter-bomb.png",
 		icon_size = 128,
 		effects =
 		{
@@ -2051,7 +2051,7 @@ data:extend(
 	{
 		type = "technology",
 		name = "matter+sand-processing",
-		icon = "__Krastorio__/graphics/technology/matter-plus-sand.png",
+		icon = "__KrastorioPorted__/graphics/technology/matter-plus-sand.png",
 		icon_size = 128,
 		effects = {},
 		prerequisites = {"k-matter"},
@@ -2074,7 +2074,7 @@ data:extend(
 	{
 		type = "technology",
 		name = "matter+stone-processing",
-		icon = "__Krastorio__/graphics/technology/matter-plus-stone.png",
+		icon = "__KrastorioPorted__/graphics/technology/matter-plus-stone.png",
 		icon_size = 128,
 		effects = {},
 		prerequisites = {"k-matter"},
@@ -2097,7 +2097,7 @@ data:extend(
 	{
 		type = "technology",
 		name = "matter+coal-processing",
-		icon = "__Krastorio__/graphics/technology/matter-plus-coal.png",
+		icon = "__KrastorioPorted__/graphics/technology/matter-plus-coal.png",
 		icon_size = 128,
 		effects = {},
 		prerequisites = {"k-matter"},
@@ -2120,7 +2120,7 @@ data:extend(
 	{
 		type = "technology",
 		name = "matter+oil-processing",
-		icon = "__Krastorio__/graphics/technology/matter-plus-oil.png",
+		icon = "__KrastorioPorted__/graphics/technology/matter-plus-oil.png",
 		icon_size = 128,
 		effects = {},
 		prerequisites = {"k-matter"},
@@ -2143,7 +2143,7 @@ data:extend(
 	{
 		type = "technology",
 		name = "matter+water-processing",
-		icon = "__Krastorio__/graphics/technology/matter-plus-water.png",
+		icon = "__KrastorioPorted__/graphics/technology/matter-plus-water.png",
 		icon_size = 128,
 		effects = 
 		{
@@ -2168,7 +2168,7 @@ data:extend(
 	{
 		type = "technology",
 		name = "matter+gold-processing",
-		icon = "__Krastorio__/graphics/technology/matter-plus-gold.png",
+		icon = "__KrastorioPorted__/graphics/technology/matter-plus-gold.png",
 		icon_size = 128,
 		effects = {},
 		prerequisites = {"k-matter"},
@@ -2191,7 +2191,7 @@ data:extend(
 	{
 		type = "technology",
 		name = "matter+uranium-processing",
-		icon = "__Krastorio__/graphics/technology/matter-plus-uran.png",
+		icon = "__KrastorioPorted__/graphics/technology/matter-plus-uran.png",
 		icon_size = 128,
 		effects =
 		{
@@ -2220,7 +2220,7 @@ data:extend(
 	{
 		type = "technology",
 		name = "matter+minerals-processing",
-		icon = "__Krastorio__/graphics/technology/matter-plus-minerals.png",
+		icon = "__KrastorioPorted__/graphics/technology/matter-plus-minerals.png",
 		icon_size = 128,
 		effects = {},
 		prerequisites = {"k-matter"},
@@ -2245,7 +2245,7 @@ data:extend(
 	{
 		type = "technology",
 		name = "advanced-antimatter-reactor",
-		icon = "__Krastorio__/graphics/technology/antimatter-reactor.png",
+		icon = "__KrastorioPorted__/graphics/technology/antimatter-reactor.png",
 		icon_size = 128,
 		effects =
 		{
@@ -2279,7 +2279,7 @@ data:extend(
 	{
 		type = "technology",
 		name = "matter-cube",
-		icon = "__Krastorio__/graphics/technology/matter-cube.png",
+		icon = "__KrastorioPorted__/graphics/technology/matter-cube.png",
 		icon_size = 128,
 		effects =
 		{

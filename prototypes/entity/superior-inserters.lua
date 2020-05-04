@@ -67,7 +67,7 @@ data:extend(
     remove_on_tile_placement = false,
     animation = make_rotated_animation_variations_from_sheet (3,
     {
-      filename = "__Krastorio__/graphics/entity/superior-inserter/remnants/superior-inserter-remnants.png",
+      filename = "__KrastorioPorted__/graphics/entity/superior-inserter/remnants/superior-inserter-remnants.png",
       line_length = 1,
       width = 52,
       height = 42,
@@ -78,7 +78,7 @@ data:extend(
       shift = util.by_pixel(1, 5),
       hr_version =
       {
-        filename = "__Krastorio__/graphics/entity/superior-inserter/remnants/hr-superior-inserter-remnants.png",
+        filename = "__KrastorioPorted__/graphics/entity/superior-inserter/remnants/hr-superior-inserter-remnants.png",
         line_length = 1,
         width = 102,
         height = 80,
@@ -156,13 +156,13 @@ data:extend(
     },
     hand_base_picture =
     {
-      filename = "__Krastorio__/graphics/entity/superior-inserter/superior-inserter-hand-base.png",
+      filename = "__KrastorioPorted__/graphics/entity/superior-inserter/superior-inserter-hand-base.png",
       priority = "extra-high",
       width = 8,
       height = 34,
       hr_version =
       {
-        filename = "__Krastorio__/graphics/entity/superior-inserter/hr-superior-inserter-hand-base.png",
+        filename = "__KrastorioPorted__/graphics/entity/superior-inserter/hr-superior-inserter-hand-base.png",
         priority = "extra-high",
         width = 32,
         height = 136,
@@ -171,13 +171,13 @@ data:extend(
     },
     hand_closed_picture =
     {
-      filename = "__Krastorio__/graphics/entity/superior-inserter/superior-inserter-hand-closed.png",
+      filename = "__KrastorioPorted__/graphics/entity/superior-inserter/superior-inserter-hand-closed.png",
       priority = "extra-high",
       width = 24,
       height = 41,
       hr_version =
       {
-        filename = "__Krastorio__/graphics/entity/superior-inserter/hr-superior-inserter-hand-closed.png",
+        filename = "__KrastorioPorted__/graphics/entity/superior-inserter/hr-superior-inserter-hand-closed.png",
         priority = "extra-high",
         width = 100,
         height = 164,
@@ -186,13 +186,13 @@ data:extend(
     },
     hand_open_picture =
     {
-      filename = "__Krastorio__/graphics/entity/superior-inserter/superior-inserter-hand-open.png",
+      filename = "__KrastorioPorted__/graphics/entity/superior-inserter/superior-inserter-hand-open.png",
       priority = "extra-high",
       width = 32,
       height = 41,
       hr_version =
       {
-        filename = "__Krastorio__/graphics/entity/superior-inserter/hr-superior-inserter-hand-open.png",
+        filename = "__KrastorioPorted__/graphics/entity/superior-inserter/hr-superior-inserter-hand-open.png",
         priority = "extra-high",
         width = 130,
         height = 164,
@@ -216,13 +216,13 @@ data:extend(
     },
     hand_closed_shadow =
     {
-      filename = "__Krastorio__/graphics/entity/superior-inserter/superior-inserter-hand-closed-shadow.png",
+      filename = "__KrastorioPorted__/graphics/entity/superior-inserter/superior-inserter-hand-closed-shadow.png",
       priority = "extra-high",
       width = 24,
       height = 41,
       hr_version =
       {
-        filename = "__Krastorio__/graphics/entity/superior-inserter/hr-superior-inserter-hand-closed-shadow.png",
+        filename = "__KrastorioPorted__/graphics/entity/superior-inserter/hr-superior-inserter-hand-closed-shadow.png",
         priority = "extra-high",
         width = 100,
         height = 164,
@@ -231,13 +231,13 @@ data:extend(
     },
     hand_open_shadow =
     {
-      filename = "__Krastorio__/graphics/entity/superior-inserter/superior-inserter-hand-open-shadow.png",
+      filename = "__KrastorioPorted__/graphics/entity/superior-inserter/superior-inserter-hand-open-shadow.png",
       priority = "extra-high",
       width = 32,
       height = 41,
       hr_version =
       {
-        filename = "__Krastorio__/graphics/entity/superior-inserter/hr-superior-inserter-hand-open-shadow.png",
+        filename = "__KrastorioPorted__/graphics/entity/superior-inserter/hr-superior-inserter-hand-open-shadow.png",
         priority = "extra-high",
         width = 130,
         height = 164,
@@ -248,14 +248,14 @@ data:extend(
     {
       sheet =
       {
-        filename = "__Krastorio__/graphics/entity/superior-inserter/superior-inserter-platform.png",
+        filename = "__KrastorioPorted__/graphics/entity/superior-inserter/superior-inserter-platform.png",
         priority = "extra-high",
         width = 46,
         height = 46,
         shift = {0.09375, 0},
         hr_version =
         {
-          filename = "__Krastorio__/graphics/entity/superior-inserter/hr-superior-inserter-platform.png",
+          filename = "__KrastorioPorted__/graphics/entity/superior-inserter/hr-superior-inserter-platform.png",
           priority = "extra-high",
           width = 105,
           height = 79,
@@ -334,13 +334,13 @@ data:extend(
     },
     hand_base_picture =
     {
-      filename = "__Krastorio__/graphics/entity/superior-inserter/superior-inserter-hand-base.png",
+      filename = "__KrastorioPorted__/graphics/entity/superior-inserter/superior-inserter-hand-base.png",
       priority = "extra-high",
       width = 8,
       height = 34,
       hr_version =
       {
-        filename = "__Krastorio__/graphics/entity/superior-inserter/hr-superior-inserter-hand-base.png",
+        filename = "__KrastorioPorted__/graphics/entity/superior-inserter/hr-superior-inserter-hand-base.png",
         priority = "extra-high",
         width = 32,
         height = 136,
@@ -349,13 +349,13 @@ data:extend(
     },
     hand_closed_picture =
     {
-      filename = "__Krastorio__/graphics/entity/superior-inserter/superior-long-inserter-hand-closed.png",
+      filename = "__KrastorioPorted__/graphics/entity/superior-inserter/superior-long-inserter-hand-closed.png",
       priority = "extra-high",
       width = 24,
       height = 41,
       hr_version =
       {
-        filename = "__Krastorio__/graphics/entity/superior-inserter/hr-superior-long-inserter-hand-closed.png",
+        filename = "__KrastorioPorted__/graphics/entity/superior-inserter/hr-superior-long-inserter-hand-closed.png",
         priority = "extra-high",
         width = 100,
         height = 164,
@@ -364,13 +364,13 @@ data:extend(
     },
     hand_open_picture =
     {
-      filename = "__Krastorio__/graphics/entity/superior-inserter/superior-long-inserter-hand-open.png",
+      filename = "__KrastorioPorted__/graphics/entity/superior-inserter/superior-long-inserter-hand-open.png",
       priority = "extra-high",
       width = 32,
       height = 41,
       hr_version =
       {
-        filename = "__Krastorio__/graphics/entity/superior-inserter/hr-superior-long-inserter-hand-open.png",
+        filename = "__KrastorioPorted__/graphics/entity/superior-inserter/hr-superior-long-inserter-hand-open.png",
         priority = "extra-high",
         width = 130,
         height = 164,
@@ -394,13 +394,13 @@ data:extend(
     },
     hand_closed_shadow =
     {
-      filename = "__Krastorio__/graphics/entity/superior-inserter/superior-inserter-hand-closed-shadow.png",
+      filename = "__KrastorioPorted__/graphics/entity/superior-inserter/superior-inserter-hand-closed-shadow.png",
       priority = "extra-high",
       width = 24,
       height = 41,
       hr_version =
       {
-        filename = "__Krastorio__/graphics/entity/superior-inserter/hr-superior-inserter-hand-closed-shadow.png",
+        filename = "__KrastorioPorted__/graphics/entity/superior-inserter/hr-superior-inserter-hand-closed-shadow.png",
         priority = "extra-high",
         width = 100,
         height = 164,
@@ -409,13 +409,13 @@ data:extend(
     },
     hand_open_shadow =
     {
-      filename = "__Krastorio__/graphics/entity/superior-inserter/superior-inserter-hand-open-shadow.png",
+      filename = "__KrastorioPorted__/graphics/entity/superior-inserter/superior-inserter-hand-open-shadow.png",
       priority = "extra-high",
       width = 32,
       height = 41,
       hr_version =
       {
-        filename = "__Krastorio__/graphics/entity/superior-inserter/hr-superior-inserter-hand-open-shadow.png",
+        filename = "__KrastorioPorted__/graphics/entity/superior-inserter/hr-superior-inserter-hand-open-shadow.png",
         priority = "extra-high",
         width = 130,
         height = 164,
@@ -426,14 +426,14 @@ data:extend(
     {
       sheet =
       {
-        filename = "__Krastorio__/graphics/entity/superior-inserter/superior-inserter-platform.png",
+        filename = "__KrastorioPorted__/graphics/entity/superior-inserter/superior-inserter-platform.png",
         priority = "extra-high",
         width = 46,
         height = 46,
         shift = {0.09375, 0},
         hr_version =
         {
-          filename = "__Krastorio__/graphics/entity/superior-inserter/hr-superior-inserter-platform.png",
+          filename = "__KrastorioPorted__/graphics/entity/superior-inserter/hr-superior-inserter-platform.png",
           priority = "extra-high",
           width = 105,
           height = 79,
@@ -513,13 +513,13 @@ data:extend(
     },
     hand_base_picture =
     {
-      filename = "__Krastorio__/graphics/entity/superior-inserter/superior-inserter-hand-base.png",
+      filename = "__KrastorioPorted__/graphics/entity/superior-inserter/superior-inserter-hand-base.png",
       priority = "extra-high",
       width = 8,
       height = 34,
       hr_version =
       {
-        filename = "__Krastorio__/graphics/entity/superior-inserter/hr-superior-inserter-hand-base.png",
+        filename = "__KrastorioPorted__/graphics/entity/superior-inserter/hr-superior-inserter-hand-base.png",
         priority = "extra-high",
         width = 32,
         height = 136,
@@ -528,13 +528,13 @@ data:extend(
     },
     hand_closed_picture =
     {
-      filename = "__Krastorio__/graphics/entity/superior-inserter/superior-filter-inserter-hand-closed.png",
+      filename = "__KrastorioPorted__/graphics/entity/superior-inserter/superior-filter-inserter-hand-closed.png",
       priority = "extra-high",
       width = 24,
       height = 41,
       hr_version =
       {
-        filename = "__Krastorio__/graphics/entity/superior-inserter/hr-superior-filter-inserter-hand-closed.png",
+        filename = "__KrastorioPorted__/graphics/entity/superior-inserter/hr-superior-filter-inserter-hand-closed.png",
         priority = "extra-high",
         width = 100,
         height = 164,
@@ -543,13 +543,13 @@ data:extend(
     },
     hand_open_picture =
     {
-      filename = "__Krastorio__/graphics/entity/superior-inserter/superior-filter-inserter-hand-open.png",
+      filename = "__KrastorioPorted__/graphics/entity/superior-inserter/superior-filter-inserter-hand-open.png",
       priority = "extra-high",
       width = 32,
       height = 41,
       hr_version =
       {
-        filename = "__Krastorio__/graphics/entity/superior-inserter/hr-superior-filter-inserter-hand-open.png",
+        filename = "__KrastorioPorted__/graphics/entity/superior-inserter/hr-superior-filter-inserter-hand-open.png",
         priority = "extra-high",
         width = 130,
         height = 164,
@@ -573,13 +573,13 @@ data:extend(
     },
     hand_closed_shadow =
     {
-      filename = "__Krastorio__/graphics/entity/superior-inserter/superior-inserter-hand-closed-shadow.png",
+      filename = "__KrastorioPorted__/graphics/entity/superior-inserter/superior-inserter-hand-closed-shadow.png",
       priority = "extra-high",
       width = 24,
       height = 41,
       hr_version =
       {
-        filename = "__Krastorio__/graphics/entity/superior-inserter/hr-superior-inserter-hand-closed-shadow.png",
+        filename = "__KrastorioPorted__/graphics/entity/superior-inserter/hr-superior-inserter-hand-closed-shadow.png",
         priority = "extra-high",
         width = 100,
         height = 164,
@@ -588,13 +588,13 @@ data:extend(
     },
     hand_open_shadow =
     {
-      filename = "__Krastorio__/graphics/entity/superior-inserter/superior-inserter-hand-open-shadow.png",
+      filename = "__KrastorioPorted__/graphics/entity/superior-inserter/superior-inserter-hand-open-shadow.png",
       priority = "extra-high",
       width = 32,
       height = 41,
       hr_version =
       {
-        filename = "__Krastorio__/graphics/entity/superior-inserter/hr-superior-inserter-hand-open-shadow.png",
+        filename = "__KrastorioPorted__/graphics/entity/superior-inserter/hr-superior-inserter-hand-open-shadow.png",
         priority = "extra-high",
         width = 130,
         height = 164,
@@ -605,14 +605,14 @@ data:extend(
     {
       sheet =
       {
-        filename = "__Krastorio__/graphics/entity/superior-inserter/superior-inserter-platform.png",
+        filename = "__KrastorioPorted__/graphics/entity/superior-inserter/superior-inserter-platform.png",
         priority = "extra-high",
         width = 46,
         height = 46,
         shift = {0.09375, 0},
         hr_version =
         {
-          filename = "__Krastorio__/graphics/entity/superior-inserter/hr-superior-inserter-platform.png",
+          filename = "__KrastorioPorted__/graphics/entity/superior-inserter/hr-superior-inserter-platform.png",
           priority = "extra-high",
           width = 105,
           height = 79,
@@ -692,13 +692,13 @@ data:extend(
     },
     hand_base_picture =
     {
-      filename = "__Krastorio__/graphics/entity/superior-inserter/superior-inserter-hand-base.png",
+      filename = "__KrastorioPorted__/graphics/entity/superior-inserter/superior-inserter-hand-base.png",
       priority = "extra-high",
       width = 8,
       height = 34,
       hr_version =
       {
-        filename = "__Krastorio__/graphics/entity/superior-inserter/hr-superior-inserter-hand-base.png",
+        filename = "__KrastorioPorted__/graphics/entity/superior-inserter/hr-superior-inserter-hand-base.png",
         priority = "extra-high",
         width = 32,
         height = 136,
@@ -707,13 +707,13 @@ data:extend(
     },
     hand_closed_picture =
     {
-      filename = "__Krastorio__/graphics/entity/superior-inserter/superior-long-filter-inserter-hand-closed.png",
+      filename = "__KrastorioPorted__/graphics/entity/superior-inserter/superior-long-filter-inserter-hand-closed.png",
       priority = "extra-high",
       width = 24,
       height = 41,
       hr_version =
       {
-        filename = "__Krastorio__/graphics/entity/superior-inserter/hr-superior-long-filter-inserter-hand-closed.png",
+        filename = "__KrastorioPorted__/graphics/entity/superior-inserter/hr-superior-long-filter-inserter-hand-closed.png",
         priority = "extra-high",
         width = 100,
         height = 164,
@@ -722,13 +722,13 @@ data:extend(
     },
     hand_open_picture =
     {
-      filename = "__Krastorio__/graphics/entity/superior-inserter/superior-long-filter-inserter-hand-open.png",
+      filename = "__KrastorioPorted__/graphics/entity/superior-inserter/superior-long-filter-inserter-hand-open.png",
       priority = "extra-high",
       width = 32,
       height = 41,
       hr_version =
       {
-        filename = "__Krastorio__/graphics/entity/superior-inserter/hr-superior-long-filter-inserter-hand-open.png",
+        filename = "__KrastorioPorted__/graphics/entity/superior-inserter/hr-superior-long-filter-inserter-hand-open.png",
         priority = "extra-high",
         width = 130,
         height = 164,
@@ -752,13 +752,13 @@ data:extend(
     },
     hand_closed_shadow =
     {
-      filename = "__Krastorio__/graphics/entity/superior-inserter/superior-inserter-hand-closed-shadow.png",
+      filename = "__KrastorioPorted__/graphics/entity/superior-inserter/superior-inserter-hand-closed-shadow.png",
       priority = "extra-high",
       width = 24,
       height = 41,
       hr_version =
       {
-        filename = "__Krastorio__/graphics/entity/superior-inserter/hr-superior-inserter-hand-closed-shadow.png",
+        filename = "__KrastorioPorted__/graphics/entity/superior-inserter/hr-superior-inserter-hand-closed-shadow.png",
         priority = "extra-high",
         width = 100,
         height = 164,
@@ -767,13 +767,13 @@ data:extend(
     },
     hand_open_shadow =
     {
-      filename = "__Krastorio__/graphics/entity/superior-inserter/superior-inserter-hand-open-shadow.png",
+      filename = "__KrastorioPorted__/graphics/entity/superior-inserter/superior-inserter-hand-open-shadow.png",
       priority = "extra-high",
       width = 32,
       height = 41,
       hr_version =
       {
-        filename = "__Krastorio__/graphics/entity/superior-inserter/hr-superior-inserter-hand-open-shadow.png",
+        filename = "__KrastorioPorted__/graphics/entity/superior-inserter/hr-superior-inserter-hand-open-shadow.png",
         priority = "extra-high",
         width = 130,
         height = 164,
@@ -784,14 +784,14 @@ data:extend(
     {
       sheet =
       {
-        filename = "__Krastorio__/graphics/entity/superior-inserter/superior-inserter-platform.png",
+        filename = "__KrastorioPorted__/graphics/entity/superior-inserter/superior-inserter-platform.png",
         priority = "extra-high",
         width = 46,
         height = 46,
         shift = {0.09375, 0},
         hr_version =
         {
-          filename = "__Krastorio__/graphics/entity/superior-inserter/hr-superior-inserter-platform.png",
+          filename = "__KrastorioPorted__/graphics/entity/superior-inserter/hr-superior-inserter-platform.png",
           priority = "extra-high",
           width = 105,
           height = 79,
@@ -865,7 +865,7 @@ data:extend(
     type = "technology",
     name = "superior-inserter",
     icon_size = 128,
-    icon = "__Krastorio__/graphics/technology/superior-inserter.png",
+    icon = "__KrastorioPorted__/graphics/technology/superior-inserter.png",
     effects =
     {
       {

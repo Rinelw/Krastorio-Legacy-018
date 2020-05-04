@@ -5,21 +5,21 @@ if settings.startup["princessorio"] and settings.startup["princessorio"].value t
 	data.raw.gun["rocket-launcher"].attack_parameters.sound =
 	{
 		{
-			filename = "__Krastorio__/sound/ohboiii/j-rs.ogg",
+			filename = "__KrastorioPorted__/sound/ohboiii/j-rs.ogg",
 			volume = 1
 		}
 	} 
 	data.raw.gun["tank-cannon"].attack_parameters.sound =
 	{
 		{
-			filename = "__Krastorio__/sound/ohboiii/j-gs.ogg",
+			filename = "__KrastorioPorted__/sound/ohboiii/j-gs.ogg",
 			volume = 1
 		}
 	}
 	data.raw.gun["artillery-wagon-cannon"].attack_parameters.sound =
 	{
 		{
-			filename = "__Krastorio__/sound/ohboiii/j-ms.ogg",
+			filename = "__KrastorioPorted__/sound/ohboiii/j-ms.ogg",
 			volume = 1
 		}
 	}	  

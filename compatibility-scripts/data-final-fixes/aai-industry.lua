@@ -65,7 +65,7 @@ if mods["aai-industry"] then
 		aswil.technologies.removeUnlockRecipe("oil-processing", "flare-stack")
 		data.raw.recipe["flare-stack"] = nil
 		-- -- --Technologies fixes
-		-- require("__Krastorio__/compatibility-scripts/data-updates/IndustrialRevolution/IndustrialRevolution-technologies")
+		-- require("__KrastorioPorted__/compatibility-scripts/data-updates/IndustrialRevolution/IndustrialRevolution-technologies")
 		-- table.remove(data.raw.technology["deadlock-grinding-1"].prerequisites, "enriched-ore")
 		-- aswil.technologies.removePrerequisite("sulfur-processing", "deadlock-grinding-1")
 	end

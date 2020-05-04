@@ -18,7 +18,7 @@ return
   layers = 
   {
     {
-      filename = "__Krastorio__/graphics/entity/turrets/railgun-turret-sheet.png",
+      filename = "__KrastorioPorted__/graphics/entity/turrets/railgun-turret-sheet.png",
       priority = "medium",
       width = 175,
       height = 175,
@@ -30,7 +30,7 @@ return
       --shift = { 0, 0 },
 	  hr_version =
 		{
-		  filename = "__Krastorio__/graphics/entity/turrets/hr-railgun-turret-sheet.png",
+		  filename = "__KrastorioPorted__/graphics/entity/turrets/hr-railgun-turret-sheet.png",
 		  priority = "medium",
 		  scale = 0.5,
 		  width = 350,
@@ -53,7 +53,7 @@ return
   layers = 
   {
     {
-      filename = "__Krastorio__/graphics/entity/turrets/railgun-turret-attack-sheet.png",
+      filename = "__KrastorioPorted__/graphics/entity/turrets/railgun-turret-attack-sheet.png",
       priority = "medium",
       width = 175,
       height = 175,
@@ -65,7 +65,7 @@ return
       --shift = { 0, 0 },
 	  hr_version =
 		{
-			filename = "__Krastorio__/graphics/entity/turrets/hr-railgun-turret-attack-sheet.png",
+			filename = "__KrastorioPorted__/graphics/entity/turrets/hr-railgun-turret-attack-sheet.png",
 			priority = "high",
 			scale = 0.5,
 			width = 350,
@@ -91,7 +91,7 @@ return
   layers = 
   {
     {
-      filename = "__Krastorio__/graphics/entity/turrets/rocket_turret_sheet.png",
+      filename = "__KrastorioPorted__/graphics/entity/turrets/rocket_turret_sheet.png",
       priority = "medium",
       width = 175,
       height = 175,
@@ -103,7 +103,7 @@ return
       --shift = { 0, 0 },
 	  hr_version =
 		{
-      filename = "__Krastorio__/graphics/entity/turrets/hr-rocket_turret_sheet.png",
+      filename = "__KrastorioPorted__/graphics/entity/turrets/hr-rocket_turret_sheet.png",
       priority = "medium",
       scale = 0.5,
       width = 350,
@@ -128,7 +128,7 @@ function imersite_accumulator_picture(tint, repeat_count)
     layers =
     {
       {
-        filename = "__Krastorio__/graphics/entity/imersite-accumulator/imersite-accumulator.png",
+        filename = "__KrastorioPorted__/graphics/entity/imersite-accumulator/imersite-accumulator.png",
         priority = "high",
         width = 65,
         height = 95,
@@ -138,7 +138,7 @@ function imersite_accumulator_picture(tint, repeat_count)
         animation_speed = 0.5,
 		hr_version =
 			{
-			filename = "__Krastorio__/graphics/entity/imersite-accumulator/hr-imersite-accumulator.png",
+			filename = "__KrastorioPorted__/graphics/entity/imersite-accumulator/hr-imersite-accumulator.png",
 			priority = "high",
 			width = 130,
 			height = 189,
@@ -150,7 +150,7 @@ function imersite_accumulator_picture(tint, repeat_count)
 			}
       },
       {
-        filename = "__Krastorio__/graphics/entity/imersite-accumulator/imersite-accumulator-shadow.png",
+        filename = "__KrastorioPorted__/graphics/entity/imersite-accumulator/imersite-accumulator-shadow.png",
         priority = "high",
         width = 117,
         height = 53,
@@ -159,7 +159,7 @@ function imersite_accumulator_picture(tint, repeat_count)
         draw_as_shadow = true,
 		hr_version =
 			{
-			filename = "__Krastorio__/graphics/entity/imersite-accumulator/hr-imersite-accumulator-shadow.png",
+			filename = "__KrastorioPorted__/graphics/entity/imersite-accumulator/hr-imersite-accumulator-shadow.png",
 			priority = "high",
 			width = 234,
 			height = 106,
@@ -180,7 +180,7 @@ function imersite_accumulator_charge()
     {
       accumulator_picture({ r=1, g=1, b=1, a=1 } , 24),
       {
-        filename = "__Krastorio__/graphics/entity/imersite-accumulator/imersite-accumulator-charge.png",
+        filename = "__KrastorioPorted__/graphics/entity/imersite-accumulator/imersite-accumulator-charge.png",
         priority = "high",
         width = 89,
         height = 103,
@@ -190,7 +190,7 @@ function imersite_accumulator_charge()
         shift = util.by_pixel(0, -22),
 		hr_version =
 			{
-			filename = "__Krastorio__/graphics/entity/imersite-accumulator/hr-imersite-accumulator-charge.png",
+			filename = "__KrastorioPorted__/graphics/entity/imersite-accumulator/hr-imersite-accumulator-charge.png",
 			priority = "high",
 			width = 178,
 			height = 206,
@@ -212,7 +212,7 @@ function imersite_accumulator_discharge()
     {
       accumulator_picture({ r=1, g=1, b=1, a=1 } , 24),
       {
-        filename = "__Krastorio__/graphics/entity/imersite-accumulator/imersite-accumulator-discharge.png",
+        filename = "__KrastorioPorted__/graphics/entity/imersite-accumulator/imersite-accumulator-discharge.png",
         priority = "high",
         width = 85,
         height = 105,
@@ -222,7 +222,7 @@ function imersite_accumulator_discharge()
         shift = util.by_pixel(-1, -23),
 		hr_version =
         {
-        filename = "__Krastorio__/graphics/entity/imersite-accumulator/hr-imersite-accumulator-discharge.png",
+        filename = "__KrastorioPorted__/graphics/entity/imersite-accumulator/hr-imersite-accumulator-discharge.png",
         priority = "high",
         width = 170,
         height = 210,
@@ -240,7 +240,7 @@ end
 k_belt_animation_set = {
   animation_set =
   {
-    filename = "__Krastorio__/graphics/entity/superior-belt/k-transport-belt.png",
+    filename = "__KrastorioPorted__/graphics/entity/superior-belt/k-transport-belt.png",
     priority = "extra-high",
     width = 64,
     height = 64,
@@ -248,7 +248,7 @@ k_belt_animation_set = {
     direction_count = 20,
     hr_version =
     {
-      filename = "__Krastorio__/graphics/entity/superior-belt/hr-k-transport-belt.png",
+      filename = "__KrastorioPorted__/graphics/entity/superior-belt/hr-k-transport-belt.png",
       priority = "extra-high",
       width = 128,
       height = 128,
@@ -371,7 +371,7 @@ data:extend(
 	fast_replaceable_group = "assembling-machine",
 	animation =
 	{
-		filename = "__Krastorio__/graphics/entity/advanced-chemical-plant/advanced-chemical-plant.png",
+		filename = "__KrastorioPorted__/graphics/entity/advanced-chemical-plant/advanced-chemical-plant.png",
 		priority = "high",
 		scale = scale,
 		width = 300,
@@ -379,7 +379,7 @@ data:extend(
 		frame_count = 1,
 		hr_version =
 			{
-			filename = "__Krastorio__/graphics/entity/advanced-chemical-plant/hr-advanced-chemical-plant.png",
+			filename = "__KrastorioPorted__/graphics/entity/advanced-chemical-plant/hr-advanced-chemical-plant.png",
 			priority = "high",
 			scale = scale,
 			width = 600,
@@ -393,7 +393,7 @@ data:extend(
        {
        animation =
        {
-		filename = "__Krastorio__/graphics/entity/advanced-chemical-plant/advanced-chemical-plant-animation.png",
+		filename = "__KrastorioPorted__/graphics/entity/advanced-chemical-plant/advanced-chemical-plant-animation.png",
 		priority = "high",
 		scale = scale,
 		width = 200,
@@ -403,7 +403,7 @@ data:extend(
 		animation_speed=0.05,
 		hr_version =
 			{
-		filename = "__Krastorio__/graphics/entity/advanced-chemical-plant/hr-advanced-chemical-plant-animation.png",
+		filename = "__KrastorioPorted__/graphics/entity/advanced-chemical-plant/hr-advanced-chemical-plant-animation.png",
 		priority = "high",
 		scale = scale,
 		width = 400,
@@ -431,7 +431,7 @@ data:extend(
            sound =
        {
        {
-           filename = "__Krastorio__/sound/filtration-plant.ogg",
+           filename = "__KrastorioPorted__/sound/filtration-plant.ogg",
            volume = 1
        }
        },
@@ -507,7 +507,7 @@ data:extend(
       layers =
       {
         {
-          filename = "__Krastorio__/graphics/entity/multifunctional-furnace/multifunctional-furnace.png",
+          filename = "__KrastorioPorted__/graphics/entity/multifunctional-furnace/multifunctional-furnace.png",
           priority = "high",
           width = 129,
           height = 100,
@@ -515,7 +515,7 @@ data:extend(
           shift = {0.421875, 0},
           hr_version =
           {
-            filename = "__Krastorio__/graphics/entity/multifunctional-furnace/hr-multifunctional-furnace.png",
+            filename = "__KrastorioPorted__/graphics/entity/multifunctional-furnace/hr-multifunctional-furnace.png",
             priority = "high",
             width = 239,
             height = 219,
@@ -648,7 +648,7 @@ data:extend(
       layers =
       {
         {
-          filename = "__Krastorio__/graphics/entity/advanced-furnace/advanced-furnace.png",
+          filename = "__KrastorioPorted__/graphics/entity/advanced-furnace/advanced-furnace.png",
           priority = "high",
           width = 240,
           height = 240,
@@ -656,7 +656,7 @@ data:extend(
 		  frame_count = 1,
 		  hr_version =
 			  {
-			  filename = "__Krastorio__/graphics/entity/advanced-furnace/hr-advanced-furnace.png",
+			  filename = "__KrastorioPorted__/graphics/entity/advanced-furnace/hr-advanced-furnace.png",
 			  priority = "high",
 			  width = 480,
 			  height = 480,
@@ -666,7 +666,7 @@ data:extend(
 			  }
         },
         {
-		  filename = "__Krastorio__/graphics/entity/advanced-furnace/advanced-furnace-sh.png",
+		  filename = "__KrastorioPorted__/graphics/entity/advanced-furnace/advanced-furnace-sh.png",
 		  priority = "high",
 		  scale = scale,
 		  width = 83,
@@ -676,7 +676,7 @@ data:extend(
 		  draw_as_shadow = true,
 		  hr_version =
 			  {
-			  filename = "__Krastorio__/graphics/entity/advanced-furnace/hr-advanced-furnace-sh.png",
+			  filename = "__KrastorioPorted__/graphics/entity/advanced-furnace/hr-advanced-furnace-sh.png",
 			  priority = "high",
 			  scale = scale,
 			  width = 165,
@@ -694,7 +694,7 @@ data:extend(
 		{
 		animation =
         {
-          filename = "__Krastorio__/graphics/entity/advanced-furnace/advanced-furnace-anim.png",
+          filename = "__KrastorioPorted__/graphics/entity/advanced-furnace/advanced-furnace-anim.png",
           priority = "high",
           width = 240,
           height = 240,
@@ -704,7 +704,7 @@ data:extend(
 		  animation_speed=0.03,
 		  hr_version =
 			  {
-			  filename = "__Krastorio__/graphics/entity/advanced-furnace/hr-advanced-furnace-anim.png",
+			  filename = "__KrastorioPorted__/graphics/entity/advanced-furnace/hr-advanced-furnace-anim.png",
 			  priority = "high",
 			  width = 480,
 			  height = 480,
@@ -732,7 +732,7 @@ data:extend(
     {
       sound =
       {
-        --filename = "__Krastorio__/sound/advanced-furnace.ogg",
+        --filename = "__KrastorioPorted__/sound/advanced-furnace.ogg",
         filename = "__base__/sound/electric-furnace.ogg",
         volume = 0.75,
       },
@@ -820,7 +820,7 @@ data:extend(
     {
       north =
       {
-        filename = "__Krastorio__/graphics/entity/air-filter/air-filter-h.png",
+        filename = "__KrastorioPorted__/graphics/entity/air-filter/air-filter-h.png",
         width = 190,
         height = 190,
         frame_count = 1,
@@ -829,7 +829,7 @@ data:extend(
 		--animation_speed = 0.5
 		hr_version =
 			{
-			filename = "__Krastorio__/graphics/entity/air-filter/hr-air-filter-h.png",
+			filename = "__KrastorioPorted__/graphics/entity/air-filter/hr-air-filter-h.png",
 			width = 380,
 			height = 380,
 			scale = 0.5,
@@ -841,7 +841,7 @@ data:extend(
       },
       east =
       {
-        filename = "__Krastorio__/graphics/entity/air-filter/air-filter-v.png",
+        filename = "__KrastorioPorted__/graphics/entity/air-filter/air-filter-v.png",
         width = 190,
         height = 190,
         frame_count = 1,
@@ -850,7 +850,7 @@ data:extend(
 		--animation_speed = 0.5
 		hr_version =
 			{
-			filename = "__Krastorio__/graphics/entity/air-filter/hr-air-filter-v.png",
+			filename = "__KrastorioPorted__/graphics/entity/air-filter/hr-air-filter-v.png",
 			width = 380,
 			height = 380,
 			scale = 0.5,
@@ -862,7 +862,7 @@ data:extend(
       },
       south =
       {
-        filename = "__Krastorio__/graphics/entity/air-filter/air-filter-h.png",
+        filename = "__KrastorioPorted__/graphics/entity/air-filter/air-filter-h.png",
         width = 190,
         height = 190,
         frame_count = 1,
@@ -871,7 +871,7 @@ data:extend(
 		--animation_speed = 0.5
 		hr_version =
 			{
-			filename = "__Krastorio__/graphics/entity/air-filter/hr-air-filter-h.png",
+			filename = "__KrastorioPorted__/graphics/entity/air-filter/hr-air-filter-h.png",
 			width = 380,
 			height = 380,
 			scale = 0.5,
@@ -883,7 +883,7 @@ data:extend(
       },
       west =
       {
-        filename = "__Krastorio__/graphics/entity/air-filter/air-filter-v.png",
+        filename = "__KrastorioPorted__/graphics/entity/air-filter/air-filter-v.png",
         width = 190,
         height = 190,
         frame_count = 1,
@@ -892,7 +892,7 @@ data:extend(
 		--animation_speed = 0.5
 		hr_version =
 			{
-			filename = "__Krastorio__/graphics/entity/air-filter/hr-air-filter-v.png",
+			filename = "__KrastorioPorted__/graphics/entity/air-filter/hr-air-filter-v.png",
 			width = 380,
 			height = 380,
 			scale = 0.5,
@@ -918,7 +918,7 @@ data:extend(
 	{
 	animation =
     {
-        filename = "__Krastorio__/graphics/entity/air-filter/air-filter-anim.png",
+        filename = "__KrastorioPorted__/graphics/entity/air-filter/air-filter-anim.png",
         width = 190,
         height = 190,
         frame_count = 12,
@@ -927,7 +927,7 @@ data:extend(
 		animation_speed = 1,
 		hr_version =
 			{
-			filename = "__Krastorio__/graphics/entity/air-filter/hr-air-filter-anim.png",
+			filename = "__KrastorioPorted__/graphics/entity/air-filter/hr-air-filter-anim.png",
 			width = 380,
 			height = 380,
 			scale = 0.5,
@@ -946,7 +946,7 @@ data:extend(
            sound =
        {
        {
-           filename = "__Krastorio__/sound/air-purifier.ogg",
+           filename = "__KrastorioPorted__/sound/air-purifier.ogg",
            volume = 1
        }
        },
@@ -1034,7 +1034,7 @@ data:extend(
     {
       north =
       {
-        filename = "__Krastorio__/graphics/entity/electrolysis-plant/electrolysis-plant-h.png",
+        filename = "__KrastorioPorted__/graphics/entity/electrolysis-plant/electrolysis-plant-h.png",
         width = 190,
         height = 190,
         frame_count = 1,
@@ -1043,7 +1043,7 @@ data:extend(
 		--animation_speed = 0.5
 		hr_version =
 			{
-			filename = "__Krastorio__/graphics/entity/electrolysis-plant/hr-electrolysis-plant-h.png",
+			filename = "__KrastorioPorted__/graphics/entity/electrolysis-plant/hr-electrolysis-plant-h.png",
 			width = 380,
 			height = 380,
 			scale = 0.5,
@@ -1055,7 +1055,7 @@ data:extend(
       },
       east =
       {
-        filename = "__Krastorio__/graphics/entity/electrolysis-plant/electrolysis-plant-v.png",
+        filename = "__KrastorioPorted__/graphics/entity/electrolysis-plant/electrolysis-plant-v.png",
         width = 190,
         height = 190,
         frame_count = 1,
@@ -1064,7 +1064,7 @@ data:extend(
 		--animation_speed = 0.5
 		hr_version =
 			{
-			filename = "__Krastorio__/graphics/entity/electrolysis-plant/hr-electrolysis-plant-v.png",
+			filename = "__KrastorioPorted__/graphics/entity/electrolysis-plant/hr-electrolysis-plant-v.png",
 			width = 380,
 			height = 380,
 			scale = 0.5,
@@ -1076,7 +1076,7 @@ data:extend(
       },
       south =
       {
-        filename = "__Krastorio__/graphics/entity/electrolysis-plant/electrolysis-plant-h.png",
+        filename = "__KrastorioPorted__/graphics/entity/electrolysis-plant/electrolysis-plant-h.png",
         width = 190,
         height = 190,
         frame_count = 1,
@@ -1085,7 +1085,7 @@ data:extend(
 		--animation_speed = 0.5
 		hr_version =
 			{
-			filename = "__Krastorio__/graphics/entity/electrolysis-plant/hr-electrolysis-plant-h.png",
+			filename = "__KrastorioPorted__/graphics/entity/electrolysis-plant/hr-electrolysis-plant-h.png",
 			width = 380,
 			height = 380,
 			scale = 0.5,
@@ -1097,7 +1097,7 @@ data:extend(
       },
       west =
       {
-        filename = "__Krastorio__/graphics/entity/electrolysis-plant/electrolysis-plant-v.png",
+        filename = "__KrastorioPorted__/graphics/entity/electrolysis-plant/electrolysis-plant-v.png",
         width = 190,
         height = 190,
         frame_count = 1,
@@ -1106,7 +1106,7 @@ data:extend(
 		--animation_speed = 0.5
 		hr_version =
 			{
-			filename = "__Krastorio__/graphics/entity/electrolysis-plant/hr-electrolysis-plant-v.png",
+			filename = "__KrastorioPorted__/graphics/entity/electrolysis-plant/hr-electrolysis-plant-v.png",
 			width = 380,
 			height = 380,
 			scale = 0.5,
@@ -1132,7 +1132,7 @@ data:extend(
 	{
 	animation =
     {
-        filename = "__Krastorio__/graphics/entity/electrolysis-plant/electrolysis-plant-anim.png",
+        filename = "__KrastorioPorted__/graphics/entity/electrolysis-plant/electrolysis-plant-anim.png",
         width = 190,
         height = 190,
         frame_count = 8,
@@ -1141,7 +1141,7 @@ data:extend(
 		animation_speed = 0.3,
 		hr_version =
 			{
-			filename = "__Krastorio__/graphics/entity/electrolysis-plant/hr-electrolysis-plant-anim.png",
+			filename = "__KrastorioPorted__/graphics/entity/electrolysis-plant/hr-electrolysis-plant-anim.png",
 			width = 380,
 			height = 380,
 			scale = 0.5,
@@ -1160,7 +1160,7 @@ data:extend(
            sound =
        {
        {
-           filename = "__Krastorio__/sound/electrolysis-plant.ogg",
+           filename = "__KrastorioPorted__/sound/electrolysis-plant.ogg",
            volume = 0.8
        }
        },
@@ -1228,7 +1228,7 @@ data:extend(
 	fast_replaceable_group = "assembling-machine",
 	animation =
 	{
-		filename = "__Krastorio__/graphics/entity/filtration-plant/filtration-plant.png",
+		filename = "__KrastorioPorted__/graphics/entity/filtration-plant/filtration-plant.png",
 		priority = "high",
 		scale = scale,
 		width = 300,
@@ -1236,7 +1236,7 @@ data:extend(
 		frame_count = 1,
 		hr_version =
 			{
-			filename = "__Krastorio__/graphics/entity/filtration-plant/hr-filtration-plant.png",
+			filename = "__KrastorioPorted__/graphics/entity/filtration-plant/hr-filtration-plant.png",
 			priority = "high",
 			scale = scale,
 			width = 600,
@@ -1250,7 +1250,7 @@ data:extend(
 	{
 	animation =
 	{
-		filename = "__Krastorio__/graphics/entity/filtration-plant/filtration-plant-animation.png",
+		filename = "__KrastorioPorted__/graphics/entity/filtration-plant/filtration-plant-animation.png",
 		priority = "high",
 		scale = scale,
 		width = 200,
@@ -1260,7 +1260,7 @@ data:extend(
 		animation_speed=0.5,
 		hr_version =
 			{
-			filename = "__Krastorio__/graphics/entity/filtration-plant/hr-filtration-plant-animation.png",
+			filename = "__KrastorioPorted__/graphics/entity/filtration-plant/hr-filtration-plant-animation.png",
 			priority = "high",
 			scale = scale,
 			width = 400,
@@ -1288,7 +1288,7 @@ data:extend(
 		sound =
 	{
 	{
-		filename = "__Krastorio__/sound/filtration-plant.ogg",
+		filename = "__KrastorioPorted__/sound/filtration-plant.ogg",
 		volume = 1
 	}
 	},
@@ -1352,7 +1352,7 @@ data:extend(
 			layers =
 				{
 				{
-				filename = "__Krastorio__/graphics/entity/flare-stack/flare-stack-n.png",
+				filename = "__KrastorioPorted__/graphics/entity/flare-stack/flare-stack-n.png",
 				width = 75,
 				height = 150,
 				frame_count = 1,
@@ -1361,7 +1361,7 @@ data:extend(
 				--animation_speed = 0.5
 				hr_version =
 					{
-					filename = "__Krastorio__/graphics/entity/flare-stack/hr-flare-stack-n.png",
+					filename = "__KrastorioPorted__/graphics/entity/flare-stack/hr-flare-stack-n.png",
 					width = 150,
 					height = 300,
 					scale = 0.5,
@@ -1372,7 +1372,7 @@ data:extend(
 					}
 				},
 				{
-				filename = "__Krastorio__/graphics/entity/flare-stack/flare-stack-sh.png",
+				filename = "__KrastorioPorted__/graphics/entity/flare-stack/flare-stack-sh.png",
 				priority = "high",
 				scale = scale,
 				width = 129,
@@ -1382,7 +1382,7 @@ data:extend(
 				draw_as_shadow = true,
 				hr_version =
 					{
-					filename = "__Krastorio__/graphics/entity/flare-stack/hr-flare-stack-sh.png",
+					filename = "__KrastorioPorted__/graphics/entity/flare-stack/hr-flare-stack-sh.png",
 					priority = "high",
 					scale = scale,
 					width = 258,
@@ -1400,7 +1400,7 @@ data:extend(
 				layers =
 				{
 				{
-				filename = "__Krastorio__/graphics/entity/flare-stack/flare-stack-e.png",
+				filename = "__KrastorioPorted__/graphics/entity/flare-stack/flare-stack-e.png",
 				width = 75,
 				height = 150,
 				frame_count = 1,
@@ -1409,7 +1409,7 @@ data:extend(
 				--animation_speed = 0.5
 				hr_version =
 					{
-					filename = "__Krastorio__/graphics/entity/flare-stack/hr-flare-stack-e.png",
+					filename = "__KrastorioPorted__/graphics/entity/flare-stack/hr-flare-stack-e.png",
 					width = 150,
 					height = 300,
 					scale = 0.5,
@@ -1420,7 +1420,7 @@ data:extend(
 					}
 				},
 				{
-				filename = "__Krastorio__/graphics/entity/flare-stack/flare-stack-sh.png",
+				filename = "__KrastorioPorted__/graphics/entity/flare-stack/flare-stack-sh.png",
 				priority = "high",
 				scale = scale,
 				width = 129,
@@ -1430,7 +1430,7 @@ data:extend(
 				draw_as_shadow = true,
 				hr_version =
 					{
-					filename = "__Krastorio__/graphics/entity/flare-stack/hr-flare-stack-sh.png",
+					filename = "__KrastorioPorted__/graphics/entity/flare-stack/hr-flare-stack-sh.png",
 					priority = "high",
 					scale = scale,
 					width = 258,
@@ -1448,7 +1448,7 @@ data:extend(
 				layers =
 				{
 				{
-				filename = "__Krastorio__/graphics/entity/flare-stack/flare-stack-s.png",
+				filename = "__KrastorioPorted__/graphics/entity/flare-stack/flare-stack-s.png",
 				width = 75,
 				height = 150,
 				frame_count = 1,
@@ -1457,7 +1457,7 @@ data:extend(
 				--animation_speed = 0.5
 				hr_version =
 					{
-					filename = "__Krastorio__/graphics/entity/flare-stack/hr-flare-stack-s.png",
+					filename = "__KrastorioPorted__/graphics/entity/flare-stack/hr-flare-stack-s.png",
 					width = 150,
 					height = 300,
 					scale = 0.5,
@@ -1468,7 +1468,7 @@ data:extend(
 					}
 				},
 				{
-				filename = "__Krastorio__/graphics/entity/flare-stack/flare-stack-sh.png",
+				filename = "__KrastorioPorted__/graphics/entity/flare-stack/flare-stack-sh.png",
 				priority = "high",
 				scale = scale,
 				width = 129,
@@ -1478,7 +1478,7 @@ data:extend(
 				draw_as_shadow = true,
 				hr_version =
 					{
-					filename = "__Krastorio__/graphics/entity/flare-stack/hr-flare-stack-sh.png",
+					filename = "__KrastorioPorted__/graphics/entity/flare-stack/hr-flare-stack-sh.png",
 					priority = "high",
 					scale = scale,
 					width = 258,
@@ -1496,7 +1496,7 @@ data:extend(
 				layers =
 				{
 				{
-				filename = "__Krastorio__/graphics/entity/flare-stack/flare-stack-w.png",
+				filename = "__KrastorioPorted__/graphics/entity/flare-stack/flare-stack-w.png",
 				width = 75,
 				height = 150,
 				frame_count = 1,
@@ -1505,7 +1505,7 @@ data:extend(
 				--animation_speed = 0.5
 				hr_version =
 					{
-					filename = "__Krastorio__/graphics/entity/flare-stack/hr-flare-stack-w.png",
+					filename = "__KrastorioPorted__/graphics/entity/flare-stack/hr-flare-stack-w.png",
 					width = 150,
 					height = 300,
 					scale = 0.5,
@@ -1516,7 +1516,7 @@ data:extend(
 					}
 				},
 				{
-				filename = "__Krastorio__/graphics/entity/flare-stack/flare-stack-sh.png",
+				filename = "__KrastorioPorted__/graphics/entity/flare-stack/flare-stack-sh.png",
 				priority = "high",
 				scale = scale,
 				width = 129,
@@ -1526,7 +1526,7 @@ data:extend(
 				draw_as_shadow = true,
 				hr_version =
 					{
-					filename = "__Krastorio__/graphics/entity/flare-stack/hr-flare-stack-sh.png",
+					filename = "__KrastorioPorted__/graphics/entity/flare-stack/hr-flare-stack-sh.png",
 					priority = "high",
 					scale = scale,
 					width = 258,
@@ -1547,7 +1547,7 @@ data:extend(
 			fadeout = true,
 			animation =
 			{
-			filename = "__Krastorio__/graphics/entity/flare-stack/flare-stack-fire.png",
+			filename = "__KrastorioPorted__/graphics/entity/flare-stack/flare-stack-fire.png",
             line_length = 10,
             width = 40,
             height = 81,
@@ -1576,7 +1576,7 @@ data:extend(
            sound =
        {
        {
-           filename = "__Krastorio__/sound/flare-stack.ogg",
+           filename = "__KrastorioPorted__/sound/flare-stack.ogg",
            volume = 0.5
        }
        },
@@ -1641,7 +1641,7 @@ data:extend(
 			layers =
 				{
 				{
-				filename = "__Krastorio__/graphics/entity/liquid-evaporator/liquid-evaporator-n.png",
+				filename = "__KrastorioPorted__/graphics/entity/liquid-evaporator/liquid-evaporator-n.png",
 				width = 75,
 				height = 150,
 				frame_count = 1,
@@ -1650,7 +1650,7 @@ data:extend(
 				--animation_speed = 0.5
 				hr_version =
 					{
-					filename = "__Krastorio__/graphics/entity/liquid-evaporator/hr-liquid-evaporator-n.png",
+					filename = "__KrastorioPorted__/graphics/entity/liquid-evaporator/hr-liquid-evaporator-n.png",
 					width = 150,
 					height = 300,
 					scale = 0.5,
@@ -1661,7 +1661,7 @@ data:extend(
 					}
 				},
 				{
-				filename = "__Krastorio__/graphics/entity/flare-stack/flare-stack-sh.png",
+				filename = "__KrastorioPorted__/graphics/entity/flare-stack/flare-stack-sh.png",
 				priority = "high",
 				scale = scale,
 				width = 129,
@@ -1671,7 +1671,7 @@ data:extend(
 				draw_as_shadow = true,
 				hr_version =
 					{
-					filename = "__Krastorio__/graphics/entity/flare-stack/hr-flare-stack-sh.png",
+					filename = "__KrastorioPorted__/graphics/entity/flare-stack/hr-flare-stack-sh.png",
 					priority = "high",
 					scale = scale,
 					width = 258,
@@ -1689,7 +1689,7 @@ data:extend(
 				layers =
 				{
 				{
-				filename = "__Krastorio__/graphics/entity/liquid-evaporator/liquid-evaporator-e.png",
+				filename = "__KrastorioPorted__/graphics/entity/liquid-evaporator/liquid-evaporator-e.png",
 				width = 75,
 				height = 150,
 				frame_count = 1,
@@ -1698,7 +1698,7 @@ data:extend(
 				--animation_speed = 0.5
 				hr_version =
 					{
-					filename = "__Krastorio__/graphics/entity/liquid-evaporator/hr-liquid-evaporator-e.png",
+					filename = "__KrastorioPorted__/graphics/entity/liquid-evaporator/hr-liquid-evaporator-e.png",
 					width = 150,
 					height = 300,
 					scale = 0.5,
@@ -1709,7 +1709,7 @@ data:extend(
 					}
 				},
 				{
-				filename = "__Krastorio__/graphics/entity/flare-stack/flare-stack-sh.png",
+				filename = "__KrastorioPorted__/graphics/entity/flare-stack/flare-stack-sh.png",
 				priority = "high",
 				scale = scale,
 				width = 129,
@@ -1719,7 +1719,7 @@ data:extend(
 				draw_as_shadow = true,
 				hr_version =
 					{
-					filename = "__Krastorio__/graphics/entity/flare-stack/hr-flare-stack-sh.png",
+					filename = "__KrastorioPorted__/graphics/entity/flare-stack/hr-flare-stack-sh.png",
 					priority = "high",
 					scale = scale,
 					width = 258,
@@ -1737,7 +1737,7 @@ data:extend(
 				layers =
 				{
 				{
-				filename = "__Krastorio__/graphics/entity/liquid-evaporator/liquid-evaporator-s.png",
+				filename = "__KrastorioPorted__/graphics/entity/liquid-evaporator/liquid-evaporator-s.png",
 				width = 75,
 				height = 150,
 				frame_count = 1,
@@ -1746,7 +1746,7 @@ data:extend(
 				--animation_speed = 0.5
 				hr_version =
 					{
-					filename = "__Krastorio__/graphics/entity/liquid-evaporator/hr-liquid-evaporator-s.png",
+					filename = "__KrastorioPorted__/graphics/entity/liquid-evaporator/hr-liquid-evaporator-s.png",
 					width = 150,
 					height = 300,
 					scale = 0.5,
@@ -1757,7 +1757,7 @@ data:extend(
 					}
 				},
 				{
-				filename = "__Krastorio__/graphics/entity/flare-stack/flare-stack-sh.png",
+				filename = "__KrastorioPorted__/graphics/entity/flare-stack/flare-stack-sh.png",
 				priority = "high",
 				scale = scale,
 				width = 129,
@@ -1767,7 +1767,7 @@ data:extend(
 				draw_as_shadow = true,
 				hr_version =
 					{
-					filename = "__Krastorio__/graphics/entity/flare-stack/hr-flare-stack-sh.png",
+					filename = "__KrastorioPorted__/graphics/entity/flare-stack/hr-flare-stack-sh.png",
 					priority = "high",
 					scale = scale,
 					width = 258,
@@ -1785,7 +1785,7 @@ data:extend(
 				layers =
 				{
 				{
-				filename = "__Krastorio__/graphics/entity/liquid-evaporator/liquid-evaporator-w.png",
+				filename = "__KrastorioPorted__/graphics/entity/liquid-evaporator/liquid-evaporator-w.png",
 				width = 75,
 				height = 150,
 				frame_count = 1,
@@ -1794,7 +1794,7 @@ data:extend(
 				--animation_speed = 0.5
 				hr_version =
 					{
-					filename = "__Krastorio__/graphics/entity/liquid-evaporator/hr-liquid-evaporator-w.png",
+					filename = "__KrastorioPorted__/graphics/entity/liquid-evaporator/hr-liquid-evaporator-w.png",
 					width = 150,
 					height = 300,
 					scale = 0.5,
@@ -1805,7 +1805,7 @@ data:extend(
 					}
 				},
 				{
-				filename = "__Krastorio__/graphics/entity/flare-stack/flare-stack-sh.png",
+				filename = "__KrastorioPorted__/graphics/entity/flare-stack/flare-stack-sh.png",
 				priority = "high",
 				scale = scale,
 				width = 129,
@@ -1815,7 +1815,7 @@ data:extend(
 				draw_as_shadow = true,
 				hr_version =
 					{
-					filename = "__Krastorio__/graphics/entity/flare-stack/hr-flare-stack-sh.png",
+					filename = "__KrastorioPorted__/graphics/entity/flare-stack/hr-flare-stack-sh.png",
 					priority = "high",
 					scale = scale,
 					width = 258,
@@ -1836,7 +1836,7 @@ data:extend(
 			fadeout = true,
 			animation =
 			{
-			filename = "__Krastorio__/graphics/entity/liquid-evaporator/liquid-evaporator-steam.png",
+			filename = "__KrastorioPorted__/graphics/entity/liquid-evaporator/liquid-evaporator-steam.png",
             line_length = 10,
             width = 40,
             height = 81,
@@ -1865,7 +1865,7 @@ data:extend(
            sound =
        {
        {
-           filename = "__Krastorio__/sound/liquid-evaporator.ogg",
+           filename = "__KrastorioPorted__/sound/liquid-evaporator.ogg",
            volume = 0.5
        }
        },
@@ -1923,7 +1923,7 @@ data:extend(
     animation_speed_coefficient = 32,
     animations =
     {
-      filename = "__Krastorio__/graphics/entity/superior-belt/k-transport-belt.png",
+      filename = "__KrastorioPorted__/graphics/entity/superior-belt/k-transport-belt.png",
       priority = "extra-high",
       width = 40,
       height = 40,
@@ -1931,7 +1931,7 @@ data:extend(
       direction_count = 12,
       hr_version =
       {
-        filename = "__Krastorio__/graphics/entity/superior-belt/hr-k-transport-belt.png",
+        filename = "__KrastorioPorted__/graphics/entity/superior-belt/hr-k-transport-belt.png",
         priority = "extra-high",
         width = 128,
         height = 128,
@@ -1979,7 +1979,7 @@ data:extend(
      {
       north =
       {
-        filename = "__Krastorio__/graphics/entity/superior-belt/k-splitter-north.png",
+        filename = "__KrastorioPorted__/graphics/entity/superior-belt/k-splitter-north.png",
         frame_count = 32,
         line_length = 8,
         priority = "extra-high",
@@ -1988,7 +1988,7 @@ data:extend(
         shift = util.by_pixel(6, 0),
         hr_version =
         {
-          filename = "__Krastorio__/graphics/entity/superior-belt/hr-k-splitter-north.png",
+          filename = "__KrastorioPorted__/graphics/entity/superior-belt/hr-k-splitter-north.png",
           frame_count = 32,
           line_length = 8,
           priority = "extra-high",
@@ -2000,7 +2000,7 @@ data:extend(
       },
       east =
       {
-        filename = "__Krastorio__/graphics/entity/superior-belt/k-splitter-east.png",
+        filename = "__KrastorioPorted__/graphics/entity/superior-belt/k-splitter-east.png",
 		frame_count = 32,
 		line_length = 8,
 		priority = "extra-high",
@@ -2009,7 +2009,7 @@ data:extend(
         shift = util.by_pixel(4, 12),
         hr_version =
         {
-          filename = "__Krastorio__/graphics/entity/superior-belt/hr-k-splitter-east.png",
+          filename = "__KrastorioPorted__/graphics/entity/superior-belt/hr-k-splitter-east.png",
 		frame_count = 32,
 		line_length = 8,
 		priority = "extra-high",
@@ -2021,7 +2021,7 @@ data:extend(
       },
       south =
       {
-        filename = "__Krastorio__/graphics/entity/superior-belt/k-splitter-south.png",
+        filename = "__KrastorioPorted__/graphics/entity/superior-belt/k-splitter-south.png",
         frame_count = 32,
         line_length = 8,
         priority = "extra-high",
@@ -2030,7 +2030,7 @@ data:extend(
         shift = util.by_pixel(4, 0),
         hr_version =
         {
-          filename = "__Krastorio__/graphics/entity/superior-belt/hr-k-splitter-south.png",
+          filename = "__KrastorioPorted__/graphics/entity/superior-belt/hr-k-splitter-south.png",
           frame_count = 32,
           line_length = 8,
           priority = "extra-high",
@@ -2042,7 +2042,7 @@ data:extend(
       },
       west =
       {
-        filename = "__Krastorio__/graphics/entity/superior-belt/k-splitter-west.png",
+        filename = "__KrastorioPorted__/graphics/entity/superior-belt/k-splitter-west.png",
 		frame_count = 32,
 		line_length = 8,
 		priority = "extra-high",
@@ -2051,7 +2051,7 @@ data:extend(
 		shift = util.by_pixel(6, 12),
         hr_version =
         {
-          filename = "__Krastorio__/graphics/entity/superior-belt/hr-k-splitter-west.png",
+          filename = "__KrastorioPorted__/graphics/entity/superior-belt/hr-k-splitter-west.png",
 		frame_count = 32,
 		line_length = 8,
 		priority = "extra-high",
@@ -2067,7 +2067,7 @@ data:extend(
 			north = util.empty_sprite(),
 			east =
 			{
-				filename = "__Krastorio__/graphics/entity/superior-belt/k-splitter-east-top_patch.png",
+				filename = "__KrastorioPorted__/graphics/entity/superior-belt/k-splitter-east-top_patch.png",
 				frame_count = 32,
 				line_length = 8,
 				priority = "extra-high",
@@ -2076,7 +2076,7 @@ data:extend(
 				shift = util.by_pixel(4, -20),
 				hr_version =
 				{
-					filename = "__Krastorio__/graphics/entity/superior-belt/hr-k-splitter-east-top_patch.png",
+					filename = "__KrastorioPorted__/graphics/entity/superior-belt/hr-k-splitter-east-top_patch.png",
 					frame_count = 32,
 					line_length = 8,
 					priority = "extra-high",
@@ -2089,7 +2089,7 @@ data:extend(
 			south = util.empty_sprite(),
 			west =
 			{
-				filename = "__Krastorio__/graphics/entity/superior-belt/k-splitter-west-top_patch.png",
+				filename = "__KrastorioPorted__/graphics/entity/superior-belt/k-splitter-west-top_patch.png",
 				frame_count = 32,
 				line_length = 8,
 				priority = "extra-high",
@@ -2098,7 +2098,7 @@ data:extend(
 				shift = util.by_pixel(6, -18),
 				hr_version =
 				{
-					filename = "__Krastorio__/graphics/entity/superior-belt/hr-k-splitter-west-top_patch.png",
+					filename = "__KrastorioPorted__/graphics/entity/superior-belt/hr-k-splitter-west-top_patch.png",
 					frame_count = 32,
 					line_length = 8,
 					priority = "extra-high",
@@ -2164,14 +2164,14 @@ data:extend(
       {
         sheet =
         {
-          filename = "__Krastorio__/graphics/entity/superior-belt/k-underground-belt-structure.png",
+          filename = "__KrastorioPorted__/graphics/entity/superior-belt/k-underground-belt-structure.png",
           priority = "extra-high",
           width = 96,
           height = 96,
           y = 96,
           hr_version =
           {
-            filename = "__Krastorio__/graphics/entity/superior-belt/hr-k-underground-belt-structure.png",
+            filename = "__KrastorioPorted__/graphics/entity/superior-belt/hr-k-underground-belt-structure.png",
             priority = "extra-high",
             width = 192,
             height = 192,
@@ -2184,13 +2184,13 @@ data:extend(
       {
         sheet =
         {
-          filename = "__Krastorio__/graphics/entity/superior-belt/k-underground-belt-structure.png",
+          filename = "__KrastorioPorted__/graphics/entity/superior-belt/k-underground-belt-structure.png",
           priority = "extra-high",
           width = 96,
           height = 96,
           hr_version =
           {
-            filename = "__Krastorio__/graphics/entity/superior-belt/hr-k-underground-belt-structure.png",
+            filename = "__KrastorioPorted__/graphics/entity/superior-belt/hr-k-underground-belt-structure.png",
             priority = "extra-high",
             width = 192,
             height =192,
@@ -2202,14 +2202,14 @@ data:extend(
       {
         sheet =
         {
-          filename = "__Krastorio__/graphics/entity/superior-belt/k-underground-belt-structure.png",
+          filename = "__KrastorioPorted__/graphics/entity/superior-belt/k-underground-belt-structure.png",
           priority = "extra-high",
           width = 96,
           height = 96,
           y = 96*3,
           hr_version =
           {
-            filename = "__Krastorio__/graphics/entity/superior-belt/hr-k-underground-belt-structure.png",
+            filename = "__KrastorioPorted__/graphics/entity/superior-belt/hr-k-underground-belt-structure.png",
             priority = "extra-high",
             width = 192,
             height = 192,
@@ -2222,14 +2222,14 @@ data:extend(
       {
         sheet =
         {
-          filename = "__Krastorio__/graphics/entity/superior-belt/k-underground-belt-structure.png",
+          filename = "__KrastorioPorted__/graphics/entity/superior-belt/k-underground-belt-structure.png",
           priority = "extra-high",
           width = 96,
           height = 96,
           y = 96*2,
           hr_version =
           {
-            filename = "__Krastorio__/graphics/entity/superior-belt/hr-k-underground-belt-structure.png",
+            filename = "__KrastorioPorted__/graphics/entity/superior-belt/hr-k-underground-belt-structure.png",
             priority = "extra-high",
             width = 192,
             height = 192,
@@ -2242,13 +2242,13 @@ data:extend(
       {
         sheet =
         {
-          filename = "__Krastorio__/graphics/entity/superior-belt/k-underground-belt-structure-back-patch.png",
+          filename = "__KrastorioPorted__/graphics/entity/superior-belt/k-underground-belt-structure-back-patch.png",
           priority = "extra-high",
           width = 96,
           height = 96,
           hr_version =
           {
-            filename = "__Krastorio__/graphics/entity/superior-belt/hr-k-underground-belt-structure-back-patch.png",
+            filename = "__KrastorioPorted__/graphics/entity/superior-belt/hr-k-underground-belt-structure-back-patch.png",
             priority = "extra-high",
             width = 192,
             height = 192,
@@ -2260,13 +2260,13 @@ data:extend(
       {
         sheet =
         {
-          filename =  "__Krastorio__/graphics/entity/superior-belt/k-underground-belt-structure-front-patch.png",
+          filename =  "__KrastorioPorted__/graphics/entity/superior-belt/k-underground-belt-structure-front-patch.png",
           priority = "extra-high",
           width = 96,
           height = 96,
           hr_version =
           {
-            filename = "__Krastorio__/graphics/entity/superior-belt/hr-k-underground-belt-structure-front-patch.png",
+            filename = "__KrastorioPorted__/graphics/entity/superior-belt/hr-k-underground-belt-structure-front-patch.png",
             priority = "extra-high",
             width = 192,
             height = 192,
@@ -2304,13 +2304,13 @@ data:extend(
     opened_duration = logistic_chest_opened_duration,
     picture =
     {
-		filename = "__Krastorio__/graphics/entity/chests/k-medium-g.png",
+		filename = "__KrastorioPorted__/graphics/entity/chests/k-medium-g.png",
         priority = "extra-high",
         width = 85,
         height = 85,
 		hr_version =
 			{
-			filename = "__Krastorio__/graphics/entity/chests/hr-k-medium-g.png",
+			filename = "__KrastorioPorted__/graphics/entity/chests/hr-k-medium-g.png",
 			priority = "extra-high",
 			width = 340,
 			height = 340,
@@ -2353,14 +2353,14 @@ data:extend(
     opened_duration = logistic_chest_opened_duration,
     animation =
     {
-		filename = "__Krastorio__/graphics/entity/chests/k-medium-s.png",
+		filename = "__KrastorioPorted__/graphics/entity/chests/k-medium-s.png",
         priority = "extra-high",
         width = 85,
         height = 85,
         frame_count = 6,
 		hr_version =
 			{
-			filename = "__Krastorio__/graphics/entity/chests/hr-k-medium-s.png",
+			filename = "__KrastorioPorted__/graphics/entity/chests/hr-k-medium-s.png",
 			priority = "extra-high",
 			width = 340,
 			height = 340,
@@ -2405,14 +2405,14 @@ data:extend(
     opened_duration = logistic_chest_opened_duration,
     animation =
     {
-		filename = "__Krastorio__/graphics/entity/chests/k-medium-b.png",
+		filename = "__KrastorioPorted__/graphics/entity/chests/k-medium-b.png",
         priority = "extra-high",
         width = 85,
         height = 85,
         frame_count = 6,
 		hr_version =
 			{
-			filename = "__Krastorio__/graphics/entity/chests/hr-k-medium-b.png",
+			filename = "__KrastorioPorted__/graphics/entity/chests/hr-k-medium-b.png",
 			priority = "extra-high",
 			width = 340,
 			height = 340,
@@ -2457,14 +2457,14 @@ data:extend(
     opened_duration = logistic_chest_opened_duration,
     animation =
     {
-		filename = "__Krastorio__/graphics/entity/chests/k-medium-r.png",
+		filename = "__KrastorioPorted__/graphics/entity/chests/k-medium-r.png",
         priority = "extra-high",
         width = 85,
         height = 85,
         frame_count = 6,
 		hr_version =
 			{
-			filename = "__Krastorio__/graphics/entity/chests/hr-k-medium-r.png",
+			filename = "__KrastorioPorted__/graphics/entity/chests/hr-k-medium-r.png",
 			priority = "extra-high",
 			width = 340,
 			height = 340,
@@ -2508,14 +2508,14 @@ data:extend(
     opened_duration = logistic_chest_opened_duration,
     animation =
     {
-		filename = "__Krastorio__/graphics/entity/chests/k-medium-pp.png",
+		filename = "__KrastorioPorted__/graphics/entity/chests/k-medium-pp.png",
         priority = "extra-high",
         width = 85,
         height = 85,
         frame_count = 6,
 		hr_version =
 			{
-			filename = "__Krastorio__/graphics/entity/chests/hr-k-medium-pp.png",
+			filename = "__KrastorioPorted__/graphics/entity/chests/hr-k-medium-pp.png",
 			priority = "extra-high",
 			width = 340,
 			height = 340,
@@ -2559,14 +2559,14 @@ data:extend(
     opened_duration = logistic_chest_opened_duration,
     animation =
     {
-		filename = "__Krastorio__/graphics/entity/chests/k-medium-ap.png",
+		filename = "__KrastorioPorted__/graphics/entity/chests/k-medium-ap.png",
         priority = "extra-high",
         width = 85,
         height = 85,
         frame_count = 6,
 		hr_version =
 			{
-			filename = "__Krastorio__/graphics/entity/chests/hr-k-medium-ap.png",
+			filename = "__KrastorioPorted__/graphics/entity/chests/hr-k-medium-ap.png",
 			priority = "extra-high",
 			width = 340,
 			height = 340,
@@ -2609,14 +2609,14 @@ data:extend(
     opened_duration = logistic_chest_opened_duration,
     picture =
     {
-		filename = "__Krastorio__/graphics/entity/chests/k-big-g.png",
+		filename = "__KrastorioPorted__/graphics/entity/chests/k-big-g.png",
         priority = "extra-high",
         width = 213,
         height = 213,
         scale = 1.2,
 		hr_version =
 			{
-			filename = "__Krastorio__/graphics/entity/chests/hr-k-big-g.png",
+			filename = "__KrastorioPorted__/graphics/entity/chests/hr-k-big-g.png",
 			priority = "extra-high",
 			width = 512,
 			height = 512,
@@ -2659,7 +2659,7 @@ data:extend(
     opened_duration = logistic_chest_opened_duration,
     animation =
     {
-		filename = "__Krastorio__/graphics/entity/chests/k-big-s.png",
+		filename = "__KrastorioPorted__/graphics/entity/chests/k-big-s.png",
         priority = "extra-high",
         width = 213,
         height = 213,
@@ -2668,7 +2668,7 @@ data:extend(
         scale = 1.2,
 		hr_version =
 			{
-			filename = "__Krastorio__/graphics/entity/chests/hr-k-big-s.png",
+			filename = "__KrastorioPorted__/graphics/entity/chests/hr-k-big-s.png",
 			priority = "extra-high",
 			width = 512,
 			height = 512,
@@ -2712,7 +2712,7 @@ data:extend(
     opened_duration = logistic_chest_opened_duration,
     animation =
     {
-		filename = "__Krastorio__/graphics/entity/chests/k-big-pp.png",
+		filename = "__KrastorioPorted__/graphics/entity/chests/k-big-pp.png",
         priority = "extra-high",
         width = 213,
         height = 213,
@@ -2721,7 +2721,7 @@ data:extend(
         scale = 1.2,
 		hr_version =
 			{
-			filename = "__Krastorio__/graphics/entity/chests/hr-k-big-pp.png",
+			filename = "__KrastorioPorted__/graphics/entity/chests/hr-k-big-pp.png",
 			priority = "extra-high",
 			width = 512,
 			height = 512,
@@ -2766,7 +2766,7 @@ data:extend(
     opened_duration = logistic_chest_opened_duration,
     animation =
     {
-		filename = "__Krastorio__/graphics/entity/chests/k-big-r.png",
+		filename = "__KrastorioPorted__/graphics/entity/chests/k-big-r.png",
         priority = "extra-high",
         width = 213,
         height = 213,
@@ -2775,7 +2775,7 @@ data:extend(
         scale = 1.2,
 		hr_version =
 			{
-			filename = "__Krastorio__/graphics/entity/chests/hr-k-big-r.png",
+			filename = "__KrastorioPorted__/graphics/entity/chests/hr-k-big-r.png",
 			priority = "extra-high",
 			width = 512,
 			height = 512,
@@ -2820,7 +2820,7 @@ data:extend(
     opened_duration = logistic_chest_opened_duration,
     animation =
     {
-		filename = "__Krastorio__/graphics/entity/chests/k-big-b.png",
+		filename = "__KrastorioPorted__/graphics/entity/chests/k-big-b.png",
         priority = "extra-high",
         width = 213,
         height = 213,
@@ -2829,7 +2829,7 @@ data:extend(
         scale = 1.2,
 		hr_version =
 			{
-			filename = "__Krastorio__/graphics/entity/chests/hr-k-big-b.png",
+			filename = "__KrastorioPorted__/graphics/entity/chests/hr-k-big-b.png",
 			priority = "extra-high",
 			width = 512,
 			height = 512,
@@ -2873,7 +2873,7 @@ data:extend(
     opened_duration = logistic_chest_opened_duration,
     animation =
     {
-		filename = "__Krastorio__/graphics/entity/chests/k-big-ap.png",
+		filename = "__KrastorioPorted__/graphics/entity/chests/k-big-ap.png",
         priority = "extra-high",
         width = 213,
         height = 213,
@@ -2882,7 +2882,7 @@ data:extend(
         scale = 1.2,
 		hr_version =
 			{
-			filename = "__Krastorio__/graphics/entity/chests/hr-k-big-ap.png",
+			filename = "__KrastorioPorted__/graphics/entity/chests/hr-k-big-ap.png",
 			priority = "extra-high",
 			width = 512,
 			height = 512,
@@ -2942,14 +2942,14 @@ data:extend(
     },
     base =
     {
-      filename = "__Krastorio__/graphics/entity/drone-charging-station/drone-charging-station.png",
+      filename = "__KrastorioPorted__/graphics/entity/drone-charging-station/drone-charging-station.png",
       width = 85,
       height = 85,
 	  shift = {0.15, -0.1},
 	  scale = scale,
 	  hr_version =
 		{
-		filename = "__Krastorio__/graphics/entity/drone-charging-station/hr-drone-charging-station.png",
+		filename = "__KrastorioPorted__/graphics/entity/drone-charging-station/hr-drone-charging-station.png",
 		width = 170,
 		height = 170,
 		shift = {0.15, -0.1},
@@ -2959,14 +2959,14 @@ data:extend(
     },
 	  base_patch =
     {
-      filename = "__Krastorio__/graphics/entity/empty.png",
+      filename = "__KrastorioPorted__/graphics/entity/empty.png",
       width = 1,
       height = 1,
       frame_count = 1,
     },
     base_animation =
     {
-      filename = "__Krastorio__/graphics/entity/drone-charging-station/drone-charging-station-animation.png",
+      filename = "__KrastorioPorted__/graphics/entity/drone-charging-station/drone-charging-station-animation.png",
       priority = "medium",
       width = 21,
       height = 15,
@@ -2977,7 +2977,7 @@ data:extend(
       animation_speed = 0.1,
 	  hr_version =
 		{
-		filename = "__Krastorio__/graphics/entity/drone-charging-station/hr-drone-charging-station-animation.png",
+		filename = "__KrastorioPorted__/graphics/entity/drone-charging-station/hr-drone-charging-station-animation.png",
 		priority = "medium",
 		width = 42,
 		height = 30,
@@ -2991,21 +2991,21 @@ data:extend(
     },
     door_animation_up =
     {
-      filename = "__Krastorio__/graphics/entity/empty.png",
+      filename = "__KrastorioPorted__/graphics/entity/empty.png",
       width = 1,
       height = 1,
       frame_count = 1,
     },
     door_animation_down =
     {
-      filename = "__Krastorio__/graphics/entity/empty.png",
+      filename = "__KrastorioPorted__/graphics/entity/empty.png",
       width = 1,
       height = 1,
       frame_count = 1,
     },
     recharging_animation =
     {
-      filename = "__Krastorio__/graphics/entity/drone-charging-station/roboport-recharging.png",
+      filename = "__KrastorioPorted__/graphics/entity/drone-charging-station/roboport-recharging.png",
       priority = "high",
       width = 37,
       height = 35,
@@ -3063,13 +3063,13 @@ data:extend(
     },
     base =
     {
-      filename = "__Krastorio__/graphics/entity/drone-hub/drone-hub.png",
+      filename = "__KrastorioPorted__/graphics/entity/drone-hub/drone-hub.png",
       width = 340,
       height = 340,
 	  shift = {0, 0.4},
 	  hr_version =
 		{
-		filename = "__Krastorio__/graphics/entity/drone-hub/hr-drone-hub.png",
+		filename = "__KrastorioPorted__/graphics/entity/drone-hub/hr-drone-hub.png",
 		width = 680,
 		height = 680,
 		shift = {0, 0.4},
@@ -3078,13 +3078,13 @@ data:extend(
     },
     base_patch =
     {
-      filename = "__Krastorio__/graphics/entity/drone-hub/drone-hub-patch.png",
+      filename = "__KrastorioPorted__/graphics/entity/drone-hub/drone-hub-patch.png",
       width = 65,
       height = 50,
 	  shift = {0, 0.01},
 	  hr_version =
 		{
-		filename = "__Krastorio__/graphics/entity/drone-hub/hr-drone-hub-patch.png",
+		filename = "__KrastorioPorted__/graphics/entity/drone-hub/hr-drone-hub-patch.png",
 		width = 130,
 		height = 100,
 		shift = {0, 0.01},
@@ -3093,7 +3093,7 @@ data:extend(
     },
     base_animation =
     {
-      filename = "__Krastorio__/graphics/entity/drone-hub/drone-hub-animation.png",
+      filename = "__KrastorioPorted__/graphics/entity/drone-hub/drone-hub-animation.png",
       priority = "medium",
       width = 187,
       height = 137,
@@ -3103,7 +3103,7 @@ data:extend(
       animation_speed = 0.1,
 	  hr_version =
 		{
-		filename = "__Krastorio__/graphics/entity/drone-hub/hr-drone-hub-animation.png",
+		filename = "__KrastorioPorted__/graphics/entity/drone-hub/hr-drone-hub-animation.png",
 		priority = "medium",
 		width = 374,
 		height = 274,
@@ -3116,7 +3116,7 @@ data:extend(
     },
     door_animation_up =
     {
-      filename = "__Krastorio__/graphics/entity/drone-hub/hub-door-up.png",
+      filename = "__KrastorioPorted__/graphics/entity/drone-hub/hub-door-up.png",
       priority = "medium",
       width = 52,
       height = 22,
@@ -3124,7 +3124,7 @@ data:extend(
       shift = {0, -1.06},
 	  hr_version =
 		{
-		filename = "__Krastorio__/graphics/entity/drone-hub/hr-hub-door-up.png",
+		filename = "__KrastorioPorted__/graphics/entity/drone-hub/hr-hub-door-up.png",
 		priority = "medium",
 		width = 102,
 		height = 43,
@@ -3135,7 +3135,7 @@ data:extend(
     },
     door_animation_down =
     {
-      filename = "__Krastorio__/graphics/entity/drone-hub/hub-door-down.png",
+      filename = "__KrastorioPorted__/graphics/entity/drone-hub/hub-door-down.png",
       priority = "medium",
       width = 51,
       height = 18,
@@ -3143,7 +3143,7 @@ data:extend(
       shift = {0, -0.45},
 	  hr_version =
 		{
-		filename = "__Krastorio__/graphics/entity/drone-hub/hr-hub-door-down.png",
+		filename = "__KrastorioPorted__/graphics/entity/drone-hub/hr-hub-door-down.png",
 		priority = "medium",
 		width = 102,
 		height = 36,
@@ -3155,7 +3155,7 @@ data:extend(
 	
     recharging_animation =
     {
-      filename = "__Krastorio__/graphics/entity/drone-hub/roboport-recharging.png",
+      filename = "__KrastorioPorted__/graphics/entity/drone-hub/roboport-recharging.png",
       priority = "high",
       width = 37,
       height = 35,
@@ -3247,14 +3247,14 @@ data:extend(
 		{
 		sheet =
 		  {
-			filename = "__Krastorio__/graphics/entity/fs-50/fs-50.png",
+			filename = "__KrastorioPorted__/graphics/entity/fs-50/fs-50.png",
 			priority = "extra-high",
 			frames = 1,
 			width = 128,
 			height = 128,
 			hr_version =
 				{
-				filename = "__Krastorio__/graphics/entity/fs-50/hr-fs-50.png",
+				filename = "__KrastorioPorted__/graphics/entity/fs-50/hr-fs-50.png",
 				priority = "extra-high",
 				frames = 1,
 				scale = 0.5,
@@ -3374,14 +3374,14 @@ data:extend(
 		{
 		sheet =
 		  {
-			filename = "__Krastorio__/graphics/entity/fs-200/fs-200.png",
+			filename = "__KrastorioPorted__/graphics/entity/fs-200/fs-200.png",
 			priority = "extra-high",
 			frames = 1,
 			width = 213,
 			height = 213,
 			hr_version =
 				{
-				filename = "__Krastorio__/graphics/entity/fs-200/hr-fs-200.png",
+				filename = "__KrastorioPorted__/graphics/entity/fs-200/hr-fs-200.png",
 				priority = "extra-high",
 				frames = 1,
 				scale = 0.5,
@@ -3508,7 +3508,7 @@ data:extend(
 	fast_replaceable_group = "assembling-machine",
 	animation =
 	{
-		filename = "__Krastorio__/graphics/entity/matter-assembler/matter-assembler.png",
+		filename = "__KrastorioPorted__/graphics/entity/matter-assembler/matter-assembler.png",
 		priority = "high",
 		scale = scale,
 		width = 213,
@@ -3518,7 +3518,7 @@ data:extend(
 		nimation_speed = 0.1,
 		hr_version =
 			{
-			filename = "__Krastorio__/graphics/entity/matter-assembler/hr-matter-assembler.png",
+			filename = "__KrastorioPorted__/graphics/entity/matter-assembler/hr-matter-assembler.png",
 			priority = "high",
 			scale = scale,
 			width = 426,
@@ -3550,7 +3550,7 @@ data:extend(
 		sound =
 	{
 	{
-		filename = "__Krastorio__/sound/matter-assembler.ogg",
+		filename = "__KrastorioPorted__/sound/matter-assembler.ogg",
 		volume = 1
 	}
 	},
@@ -3637,7 +3637,7 @@ data:extend(
 		layers =
 		{
 		{
-			filename = "__Krastorio__/graphics/entity/matter-converter/matter-converter.png",
+			filename = "__KrastorioPorted__/graphics/entity/matter-converter/matter-converter.png",
 			priority = "high",
 			scale = scale,
 			width = 268,
@@ -3645,7 +3645,7 @@ data:extend(
 			frame_count = 1,
 			hr_version =
 				{
-				filename = "__Krastorio__/graphics/entity/matter-converter/hr-matter-converter.png",
+				filename = "__KrastorioPorted__/graphics/entity/matter-converter/hr-matter-converter.png",
 				priority = "high",
 				scale = scale,
 				width = 536,
@@ -3655,7 +3655,7 @@ data:extend(
 				}
 		},
 		{
-			filename = "__Krastorio__/graphics/entity/matter-converter/matter-converter-sh.png",
+			filename = "__KrastorioPorted__/graphics/entity/matter-converter/matter-converter-sh.png",
 			priority = "high",
 			scale = scale,
 			width = 268,
@@ -3664,7 +3664,7 @@ data:extend(
 			draw_as_shadow = true,
 			hr_version =
 				{
-				filename = "__Krastorio__/graphics/entity/matter-converter/hr-matter-converter-sh.png",
+				filename = "__KrastorioPorted__/graphics/entity/matter-converter/hr-matter-converter-sh.png",
 				priority = "high",
 				scale = scale,
 				width = 536,
@@ -3681,7 +3681,7 @@ data:extend(
 		{
 		animation =
 		{
-		  filename = "__Krastorio__/graphics/entity/matter-converter/matter-converter-working.png",
+		  filename = "__KrastorioPorted__/graphics/entity/matter-converter/matter-converter-working.png",
 		  scale = scale,
 		  width = 268,
 		  height = 268,
@@ -3690,7 +3690,7 @@ data:extend(
 		  animation_speed=0.6,
 		  hr_version =
 			  {
-			  filename = "__Krastorio__/graphics/entity/matter-converter/hr-matter-converter-working.png",
+			  filename = "__KrastorioPorted__/graphics/entity/matter-converter/hr-matter-converter-working.png",
 			  scale = scale,
 			  width = 536,
 			  height = 536,
@@ -3716,7 +3716,7 @@ data:extend(
 			sound =
 		{
 		{
-			filename = "__Krastorio__/sound/matter-factory.ogg",
+			filename = "__KrastorioPorted__/sound/matter-factory.ogg",
 			volume = 1
 		}
 		},
@@ -3789,7 +3789,7 @@ data:extend(
 		layers =
 		{
 		{
-			filename = "__Krastorio__/graphics/entity/matter-factory/matter-factory.png",
+			filename = "__KrastorioPorted__/graphics/entity/matter-factory/matter-factory.png",
 			priority = "high",
 			scale = scale,
 			width = 268,
@@ -3797,7 +3797,7 @@ data:extend(
 			frame_count = 1,
 			hr_version =
 				{
-				filename = "__Krastorio__/graphics/entity/matter-factory/hr-matter-factory.png",
+				filename = "__KrastorioPorted__/graphics/entity/matter-factory/hr-matter-factory.png",
 				priority = "high",
 				scale = scale,
 				width = 536,
@@ -3807,7 +3807,7 @@ data:extend(
 				}
 		},
 		{
-			filename = "__Krastorio__/graphics/entity/matter-factory/matter-factory-sh.png",
+			filename = "__KrastorioPorted__/graphics/entity/matter-factory/matter-factory-sh.png",
 			priority = "high",
 			scale = scale,
 			width = 268,
@@ -3816,7 +3816,7 @@ data:extend(
 			draw_as_shadow = true,
 			hr_version =
 				{
-				filename = "__Krastorio__/graphics/entity/matter-factory/hr-matter-factory-sh.png",
+				filename = "__KrastorioPorted__/graphics/entity/matter-factory/hr-matter-factory-sh.png",
 				priority = "high",
 				scale = scale,
 				width = 536,
@@ -3833,7 +3833,7 @@ data:extend(
       {
         animation =
         {
-          filename = "__Krastorio__/graphics/entity/matter-factory/matter-factory-working.png",
+          filename = "__KrastorioPorted__/graphics/entity/matter-factory/matter-factory-working.png",
 		  scale = scale,
 		  width = 268,
 		  height = 268,
@@ -3842,7 +3842,7 @@ data:extend(
 		  animation_speed=0.6,
 		  hr_version =
 			{
-			filename = "__Krastorio__/graphics/entity/matter-factory/hr-matter-factory-working.png",
+			filename = "__KrastorioPorted__/graphics/entity/matter-factory/hr-matter-factory-working.png",
 			scale = scale,
 			width = 536,
 			height = 536,
@@ -3868,7 +3868,7 @@ data:extend(
             sound =
         {
         {
-            filename = "__Krastorio__/sound/matter-factory.ogg",
+            filename = "__KrastorioPorted__/sound/matter-factory.ogg",
             volume = 1
         }
         },
@@ -3941,7 +3941,7 @@ data:extend(
     },	
 	animation = 
 	{
-      filename = "__Krastorio__/graphics/entity/antimatter-reactor-prototype/antimatter-reactor-prototype.png",
+      filename = "__KrastorioPorted__/graphics/entity/antimatter-reactor-prototype/antimatter-reactor-prototype.png",
 	  scale = scale,
 	  width = 310,
 	  height = 310,
@@ -3951,7 +3951,7 @@ data:extend(
 	  scale = 0.96,
 	  hr_version =
 		  {
-		  filename = "__Krastorio__/graphics/entity/antimatter-reactor-prototype/hr-antimatter-reactor-prototype.png",
+		  filename = "__KrastorioPorted__/graphics/entity/antimatter-reactor-prototype/hr-antimatter-reactor-prototype.png",
 		  scale = scale,
 		  width = 620,
 		  height = 620,
@@ -3966,7 +3966,7 @@ data:extend(
 	{
 		sound = {
         {
-            filename = "__Krastorio__/sound/antimatter-reactor-prototype.ogg",
+            filename = "__KrastorioPorted__/sound/antimatter-reactor-prototype.ogg",
             volume = 1.5
           },
         },
@@ -4032,7 +4032,7 @@ data:extend(
      vehicle_impact_sound = {filename = "__base__/sound/car-metal-impact.ogg", volume = 0.65},
 	 animation = 
 	{
-      filename = "__Krastorio__/graphics/entity/antimatter-reactor/antimatter-reactor.png",
+      filename = "__KrastorioPorted__/graphics/entity/antimatter-reactor/antimatter-reactor.png",
       frame_count = 6,
 	  scale = scale,
 	  width = 400,
@@ -4043,7 +4043,7 @@ data:extend(
 	  scale = 0.96,
 	  hr_version =
 		  {
-		  filename = "__Krastorio__/graphics/entity/antimatter-reactor/hr-antimatter-reactor.png",
+		  filename = "__KrastorioPorted__/graphics/entity/antimatter-reactor/hr-antimatter-reactor.png",
 		  frame_count = 6,
 		  scale = scale,
 		  width = 800,
@@ -4057,7 +4057,7 @@ data:extend(
 		working_sound = {
         sound = {
         {
-            filename = "__Krastorio__/sound/antimatter-reactor.ogg",
+            filename = "__KrastorioPorted__/sound/antimatter-reactor.ogg",
             volume = 1.75
           },
         },
@@ -4090,7 +4090,7 @@ data:extend(
 	fast_replaceable_group = "assembling-machine",
 	animation =
 	{
-		filename = "__Krastorio__/graphics/entity/stabilizer-charging-station/stabilizer-charging-station.png",
+		filename = "__KrastorioPorted__/graphics/entity/stabilizer-charging-station/stabilizer-charging-station.png",
 		priority = "high",
 		width = 85,
 		height = 85,
@@ -4099,7 +4099,7 @@ data:extend(
 		animation_speed = 0.2,
 		hr_version =
           {
-				filename = "__Krastorio__/graphics/entity/stabilizer-charging-station/hr-stabilizer-charging-station.png",
+				filename = "__KrastorioPorted__/graphics/entity/stabilizer-charging-station/hr-stabilizer-charging-station.png",
 				priority = "high",
 				width = 170,
 				height = 170,
@@ -4130,7 +4130,7 @@ data:extend(
 		sound =
 	{
 	{
-		filename = "__Krastorio__/sound/stabilizer-charging-station.ogg",
+		filename = "__KrastorioPorted__/sound/stabilizer-charging-station.ogg",
 		volume = 0.75
 	}
 	},
@@ -4210,7 +4210,7 @@ data:extend(
 	fast_replaceable_group = "assembling-machine",
 	animation =
 	{
-			filename = "__Krastorio__/graphics/entity/advanced-assembler/advanced-assembler.png",
+			filename = "__KrastorioPorted__/graphics/entity/advanced-assembler/advanced-assembler.png",
 			priority = "high",
 			scale = scale,
 			width = 213,
@@ -4220,7 +4220,7 @@ data:extend(
 			animation_speed=0.1,
 			hr_version =
 			{
-			filename = "__Krastorio__/graphics/entity/advanced-assembler/hr-advanced-assembler.png",
+			filename = "__KrastorioPorted__/graphics/entity/advanced-assembler/hr-advanced-assembler.png",
 			priority = "high",
 			scale = scale,
 			width = 426,
@@ -4238,7 +4238,7 @@ data:extend(
 		sound =
 	{
 	{
-		filename = "__Krastorio__/sound/matter-assembler.ogg",
+		filename = "__KrastorioPorted__/sound/matter-assembler.ogg",
 		volume = 1
 	}
 	},
@@ -4282,7 +4282,7 @@ data:extend(
 	fast_replaceable_group = "assembling-machine",
 	animation =
 	{
-		filename = "__Krastorio__/graphics/entity/air-purifier/air-purifier.png",
+		filename = "__KrastorioPorted__/graphics/entity/air-purifier/air-purifier.png",
 		priority = "high",
 		scale = scale,
 		width = 85,
@@ -4292,7 +4292,7 @@ data:extend(
 		animation_speed=0.5,
 		hr_version =
 			{
-			filename = "__Krastorio__/graphics/entity/air-purifier/hr-air-purifier.png",
+			filename = "__KrastorioPorted__/graphics/entity/air-purifier/hr-air-purifier.png",
 			priority = "high",
 			scale = scale,
 			width = 170,
@@ -4310,7 +4310,7 @@ data:extend(
 		sound =
 	{
 	{
-		filename = "__Krastorio__/sound/air-purifier.ogg",
+		filename = "__KrastorioPorted__/sound/air-purifier.ogg",
 		volume = 1
 	}
 	},
@@ -4340,12 +4340,12 @@ data:extend(
     {
     type = "beacon",
     name = "singularity-beacon",
-	icon = "__Krastorio__/graphics/icons/entities/mip/singularity-beacon.png",
+	icon = "__KrastorioPorted__/graphics/icons/entities/mip/singularity-beacon.png",
     icon_size = 64,
 	icon_mipmaps = 1,
 	pictures =
     {
-      { size = 64, filename = "__Krastorio__/graphics/icons/entities/mip/singularity-beacon.png",   scale = 0.25, mipmap_count = 4 }
+      { size = 64, filename = "__KrastorioPorted__/graphics/icons/entities/mip/singularity-beacon.png",   scale = 0.25, mipmap_count = 4 }
     }, 
     flags = {"placeable-player", "player-creation"},
     minable = {mining_time = 0.5, result = "singularity-beacon"},
@@ -4357,13 +4357,13 @@ data:extend(
     allowed_effects = {"consumption", "speed", "pollution"},
     base_picture =
     {
-      filename = "__Krastorio__/graphics/entity/singularity-beacon/singularity-beacon.png",
+      filename = "__KrastorioPorted__/graphics/entity/singularity-beacon/singularity-beacon.png",
       width = 90,
       height = 90,
 	  shift = util.by_pixel(0, -5),
 	  hr_version =
           {
-		  filename = "__Krastorio__/graphics/entity/singularity-beacon/hr-singularity-beacon.png",
+		  filename = "__KrastorioPorted__/graphics/entity/singularity-beacon/hr-singularity-beacon.png",
 		  width = 360,
 		  height = 360,
 		  shift = util.by_pixel(0, -5),
@@ -4372,7 +4372,7 @@ data:extend(
     },
     animation =
     {
-      filename = "__Krastorio__/graphics/entity/singularity-beacon/singularity-beacon-w.png",
+      filename = "__KrastorioPorted__/graphics/entity/singularity-beacon/singularity-beacon-w.png",
       width = 48,
       height = 54,
 	  frame_count = 10,
@@ -4381,7 +4381,7 @@ data:extend(
       animation_speed = 0.5,
 	  hr_version =
           {
-			  filename = "__Krastorio__/graphics/entity/singularity-beacon/hr-singularity-beacon-w.png",
+			  filename = "__KrastorioPorted__/graphics/entity/singularity-beacon/hr-singularity-beacon-w.png",
 			  width = 190,
 			  height = 214,
 			  frame_count = 10,
@@ -4393,7 +4393,7 @@ data:extend(
     },
 	animation_shadow =
     {
-      filename = "__Krastorio__/graphics/entity/singularity-beacon/singularity-beacon-ws.png",
+      filename = "__KrastorioPorted__/graphics/entity/singularity-beacon/singularity-beacon-ws.png",
       width = 10,
       height = 10,
 	  frame_count = 10,
@@ -4503,14 +4503,14 @@ data:extend(
       layers =
       {
         {
-			filename = "__Krastorio__/graphics/entity/imersite-solar-panel/imersite-solar-panel.png",
+			filename = "__KrastorioPorted__/graphics/entity/imersite-solar-panel/imersite-solar-panel.png",
 			priority = "high",
 			width = 116,
 			height = 112,
 			shift = util.by_pixel(-3, 3),
 			hr_version =
 				{
-				filename = "__Krastorio__/graphics/entity/imersite-solar-panel/hr-imersite-solar-panel.png",
+				filename = "__KrastorioPorted__/graphics/entity/imersite-solar-panel/hr-imersite-solar-panel.png",
 				priority = "high",
 				width = 230,
 				height = 224,
@@ -4519,7 +4519,7 @@ data:extend(
 				}
         },
         {
-            filename = "__Krastorio__/graphics/entity/imersite-solar-panel/imersite-solar-panel-shadow.png",
+            filename = "__KrastorioPorted__/graphics/entity/imersite-solar-panel/imersite-solar-panel-shadow.png",
             priority = "high",
             width = 112,
             height = 90,
@@ -4527,7 +4527,7 @@ data:extend(
             draw_as_shadow = true,
             scale = 0.5,
 				{
-				filename = "__Krastorio__/graphics/entity/imersite-solar-panel/hr-imersite-solar-panel-shadow.png",
+				filename = "__KrastorioPorted__/graphics/entity/imersite-solar-panel/hr-imersite-solar-panel-shadow.png",
 				priority = "high",
 				width = 220,
 				height = 180,
@@ -4543,14 +4543,14 @@ data:extend(
       layers =
       {
         {
-            filename = "__Krastorio__/graphics/entity/imersite-solar-panel/imersite-solar-panel-shadow-overlay.png",
+            filename = "__KrastorioPorted__/graphics/entity/imersite-solar-panel/imersite-solar-panel-shadow-overlay.png",
             priority = "high",
             width = 108,
             height = 90,
             shift = util.by_pixel(11, 6),
 			hr_version =
 				{
-				filename = "__Krastorio__/graphics/entity/imersite-solar-panel/hr-imersite-solar-panel-shadow-overlay.png",
+				filename = "__KrastorioPorted__/graphics/entity/imersite-solar-panel/hr-imersite-solar-panel-shadow-overlay.png",
 				priority = "high",
 				width = 214,
 				height = 180,
@@ -4625,7 +4625,7 @@ data:extend(
     animations =
     {
 		priority = "high",
-		filename = "__Krastorio__/graphics/entity/big-drill/big-drill.png",
+		filename = "__KrastorioPorted__/graphics/entity/big-drill/big-drill.png",
 		line_length = 8,
 		width = 250,
 		height = 250,
@@ -4635,7 +4635,7 @@ data:extend(
 		hr_version =
 		  {
 			priority = "high",
-			filename = "__Krastorio__/graphics/entity/big-drill/hr-big-drill.png",
+			filename = "__KrastorioPorted__/graphics/entity/big-drill/hr-big-drill.png",
 			line_length = 8,
 			width = 500,
 			height = 500,
@@ -4715,7 +4715,7 @@ data:extend(
     animations =
     {
 		priority = "high",
-		filename = "__Krastorio__/graphics/entity/advanced-big-drill/advanced-big-drill.png",
+		filename = "__KrastorioPorted__/graphics/entity/advanced-big-drill/advanced-big-drill.png",
 		line_length = 8,
 		width = 250,
 		height = 250,
@@ -4725,7 +4725,7 @@ data:extend(
         hr_version =
 			{
 			priority = "high",
-			filename = "__Krastorio__/graphics/entity/advanced-big-drill/hr-advanced-big-drill.png",
+			filename = "__KrastorioPorted__/graphics/entity/advanced-big-drill/hr-advanced-big-drill.png",
 			line_length = 8,
 			width = 500,
 			height = 500,
@@ -4770,7 +4770,7 @@ data:extend(
 	animation =
     {
 		priority = "high",
-		filename = "__Krastorio__/graphics/entity/deep-mining-drill/deep-mining-drill.png",
+		filename = "__KrastorioPorted__/graphics/entity/deep-mining-drill/deep-mining-drill.png",
 		scale = scale,
 		line_length = 8,
 		width = 250,
@@ -4781,7 +4781,7 @@ data:extend(
 		hr_version =
 			{
 			priority = "high",
-			filename = "__Krastorio__/graphics/entity/deep-mining-drill/hr-deep-mining-drill.png",
+			filename = "__KrastorioPorted__/graphics/entity/deep-mining-drill/hr-deep-mining-drill.png",
 			scale = scale,
 			line_length = 8,
 			width = 500,
@@ -4838,7 +4838,7 @@ data:extend(
       layers =
       {
         {
-          filename = "__Krastorio__/graphics/entity/lab/lab.png",
+          filename = "__KrastorioPorted__/graphics/entity/lab/lab.png",
           width = 97,
           height = 87,
           frame_count = 33,
@@ -4847,7 +4847,7 @@ data:extend(
           shift = util.by_pixel(0, 1.5),
 		  hr_version =
 			  {
-			  filename = "__Krastorio__/graphics/entity/lab/hr-lab.png",
+			  filename = "__KrastorioPorted__/graphics/entity/lab/hr-lab.png",
 			  width = 194,
 			  height = 174,
 			  frame_count = 33,
@@ -4858,7 +4858,7 @@ data:extend(
 			  }
         },
         {
-          filename = "__Krastorio__/graphics/entity/lab/lab-integration.png",
+          filename = "__KrastorioPorted__/graphics/entity/lab/lab-integration.png",
           width = 121,
           height = 81,
           frame_count = 1,
@@ -4868,7 +4868,7 @@ data:extend(
           shift = util.by_pixel(0, 15.5),
 		  hr_version =
 			  {
-			  filename = "__Krastorio__/graphics/entity/lab/hr-lab-integration.png",
+			  filename = "__KrastorioPorted__/graphics/entity/lab/hr-lab-integration.png",
 			  width = 242,
 			  height = 162,
 			  frame_count = 1,
@@ -4880,7 +4880,7 @@ data:extend(
 			  }
         },
         {
-          filename = "__Krastorio__/graphics/entity/lab/lab-shadow.png",
+          filename = "__KrastorioPorted__/graphics/entity/lab/lab-shadow.png",
           width = 122,
           height = 68,
           frame_count = 1,
@@ -4891,7 +4891,7 @@ data:extend(
           draw_as_shadow = true,
 		  hr_version =
 			  {
-			  filename = "__Krastorio__/graphics/entity/lab/hr-lab-shadow.png",
+			  filename = "__KrastorioPorted__/graphics/entity/lab/hr-lab-shadow.png",
 			  width = 242,
 			  height = 136,
 			  frame_count = 1,
@@ -4910,14 +4910,14 @@ data:extend(
       layers =
       {
         {
-          filename = "__Krastorio__/graphics/entity/lab/lab.png",
+          filename = "__KrastorioPorted__/graphics/entity/lab/lab.png",
           width = 97,
           height = 87,
           frame_count = 1,
           shift = util.by_pixel(0, 1.5),
 		  hr_version =
 			  {
-			  filename = "__Krastorio__/graphics/entity/lab/hr-lab.png",
+			  filename = "__KrastorioPorted__/graphics/entity/lab/hr-lab.png",
 			  width = 194,
 			  height = 174,
 			  frame_count = 1,
@@ -4926,14 +4926,14 @@ data:extend(
 			  }
         },
         {
-          filename = "__Krastorio__/graphics/entity/lab/lab-integration.png",
+          filename = "__KrastorioPorted__/graphics/entity/lab/lab-integration.png",
           width = 121,
           height = 81,
           frame_count = 1,
           shift = util.by_pixel(0, 15.5),
 		  hr_version =
 			  {
-			  filename = "__Krastorio__/graphics/entity/lab/hr-lab-integration.png",
+			  filename = "__KrastorioPorted__/graphics/entity/lab/hr-lab-integration.png",
 			  width = 242,
 			  height = 162,
 			  frame_count = 1,
@@ -4942,7 +4942,7 @@ data:extend(
 			  }
         },
         {
-          filename = "__Krastorio__/graphics/entity/lab/lab-shadow.png",
+          filename = "__KrastorioPorted__/graphics/entity/lab/lab-shadow.png",
           width = 122,
           height = 68,
           frame_count = 1,
@@ -4950,7 +4950,7 @@ data:extend(
           draw_as_shadow = true,
 		  hr_version =
 			  {
-			  filename = "__Krastorio__/graphics/entity/lab/hr-lab-shadow.png",
+			  filename = "__KrastorioPorted__/graphics/entity/lab/hr-lab-shadow.png",
 			  width = 242,
 			  height = 136,
 			  frame_count = 1,
@@ -5021,7 +5021,7 @@ data:extend(
     ---alert_icon_shift = util.by_pixel(-3, -12),
     animation =
     {
-		filename = "__Krastorio__/graphics/entity/quantum-computer/quantum-computer.png",
+		filename = "__KrastorioPorted__/graphics/entity/quantum-computer/quantum-computer.png",
 		priority="high",
 		width = 250,
 		height = 250,
@@ -5031,7 +5031,7 @@ data:extend(
 		--shift = util.by_pixel(0, 2),
 		hr_version =
 			{
-			filename = "__Krastorio__/graphics/entity/quantum-computer/hr-quantum-computer.png",
+			filename = "__KrastorioPorted__/graphics/entity/quantum-computer/hr-quantum-computer.png",
 			priority="high",
 			width = 500,
 			height = 500,
@@ -5078,7 +5078,7 @@ data:extend(
     {
       sound =
       {
-        filename = "__Krastorio__/sound/quantum-computer.ogg",
+        filename = "__KrastorioPorted__/sound/quantum-computer.ogg",
         volume = 1
       },
       idle_sound = { filename = "__base__/sound/idle1.ogg", volume = 0.6 },
@@ -5108,7 +5108,7 @@ data:extend(
 	fast_replaceable_group = "assembling-machine",
 	animation =
 	{
-		filename = "__Krastorio__/graphics/entity/research-server-mk1/research-server-mk1.png",
+		filename = "__KrastorioPorted__/graphics/entity/research-server-mk1/research-server-mk1.png",
 		priority = "high",
 		scale = scale,
 		width = 85,
@@ -5119,7 +5119,7 @@ data:extend(
 		animation_speed = 0.75,
 		hr_version =
           {
-			filename = "__Krastorio__/graphics/entity/research-server-mk1/hr-research-server-mk1.png",
+			filename = "__KrastorioPorted__/graphics/entity/research-server-mk1/hr-research-server-mk1.png",
 			priority = "high",
 			scale = scale,
 			width = 170,
@@ -5152,7 +5152,7 @@ data:extend(
 		sound =
 	{
 	{
-		filename = "__Krastorio__/sound/small-research-server.ogg",
+		filename = "__KrastorioPorted__/sound/small-research-server.ogg",
 		volume = 0.5
 	}
 	},
@@ -5199,7 +5199,7 @@ data:extend(
 	fast_replaceable_group = "assembling-machine",
 	animation =
 	{
-		filename = "__Krastorio__/graphics/entity/research-server-mk2/research-server-mk2.png",
+		filename = "__KrastorioPorted__/graphics/entity/research-server-mk2/research-server-mk2.png",
 		priority = "high",
 		scale = scale,
 		width = 85,
@@ -5210,7 +5210,7 @@ data:extend(
 		animation_speed = 0.5,
 		hr_version =
           {
-			filename = "__Krastorio__/graphics/entity/research-server-mk2/hr-research-server-mk2.png",
+			filename = "__KrastorioPorted__/graphics/entity/research-server-mk2/hr-research-server-mk2.png",
 			priority = "high",
 			scale = scale,
 			width = 170,
@@ -5243,7 +5243,7 @@ data:extend(
 		sound =
 	{
 	{
-		filename = "__Krastorio__/sound/small-research-server.ogg",
+		filename = "__KrastorioPorted__/sound/small-research-server.ogg",
 		volume = 0.5
 	}
 	},
@@ -5325,7 +5325,7 @@ data:extend(
 	  sound =
 	  {
 		{
-			filename = "__Krastorio__/sound/railgun.ogg",
+			filename = "__KrastorioPorted__/sound/railgun.ogg",
 			volume = 1.5
 		}
 	  },
@@ -5392,7 +5392,7 @@ data:extend(
 	sound =
 		{
 		  {
-			filename = "__Krastorio__/sound/rocket-launch.ogg",
+			filename = "__KrastorioPorted__/sound/rocket-launch.ogg",
 			volume = 0.8
 		  }
 		},
@@ -5495,7 +5495,7 @@ data:extend(
         layers =
         {
           {
-            filename = "__Krastorio__/graphics/entity/wall/wall-single.png",
+            filename = "__KrastorioPorted__/graphics/entity/wall/wall-single.png",
             priority = "extra-high",
             width = 32,
             height = 46,
@@ -5504,7 +5504,7 @@ data:extend(
             shift = util.by_pixel(0, -6),
             hr_version =
 				{
-				filename = "__Krastorio__/graphics/entity/wall/hr-wall-single.png",
+				filename = "__KrastorioPorted__/graphics/entity/wall/hr-wall-single.png",
 				priority = "extra-high",
 				width = 64,
 				height = 86,
@@ -5541,7 +5541,7 @@ data:extend(
         layers =
         {
           {
-            filename = "__Krastorio__/graphics/entity/wall/wall-vertical.png",
+            filename = "__KrastorioPorted__/graphics/entity/wall/wall-vertical.png",
             priority = "extra-high",
             width = 32,
             height = 68,
@@ -5550,7 +5550,7 @@ data:extend(
             shift = util.by_pixel(0, 8),
             hr_version =
             {
-              filename = "__Krastorio__/graphics/entity/wall/hr-wall-vertical.png",
+              filename = "__KrastorioPorted__/graphics/entity/wall/hr-wall-vertical.png",
               priority = "extra-high",
               width = 64,
               height = 134,
@@ -5587,7 +5587,7 @@ data:extend(
         layers =
         {
           {
-            filename = "__Krastorio__/graphics/entity/wall/wall-horizontal.png",
+            filename = "__KrastorioPorted__/graphics/entity/wall/wall-horizontal.png",
             priority = "extra-high",
             width = 32,
             height = 50,
@@ -5596,7 +5596,7 @@ data:extend(
             shift = util.by_pixel(0, -4),
             hr_version =
             {
-              filename = "__Krastorio__/graphics/entity/wall/hr-wall-horizontal.png",
+              filename = "__KrastorioPorted__/graphics/entity/wall/hr-wall-horizontal.png",
               priority = "extra-high",
               width = 64,
               height = 92,
@@ -5633,7 +5633,7 @@ data:extend(
         layers =
         {
           {
-            filename = "__Krastorio__/graphics/entity/wall/wall-corner-right.png",
+            filename = "__KrastorioPorted__/graphics/entity/wall/wall-corner-right.png",
             priority = "extra-high",
             width = 32,
             height = 64,
@@ -5642,7 +5642,7 @@ data:extend(
             shift = util.by_pixel(0, 6),
             hr_version =
             {
-              filename = "__Krastorio__/graphics/entity/wall/hr-wall-corner-right.png",
+              filename = "__KrastorioPorted__/graphics/entity/wall/hr-wall-corner-right.png",
               priority = "extra-high",
               width = 64,
               height = 128,
@@ -5679,7 +5679,7 @@ data:extend(
         layers =
         {
           {
-            filename = "__Krastorio__/graphics/entity/wall/wall-corner-left.png",
+            filename = "__KrastorioPorted__/graphics/entity/wall/wall-corner-left.png",
             priority = "extra-high",
             width = 32,
             height = 68,
@@ -5688,7 +5688,7 @@ data:extend(
             shift = util.by_pixel(0, 6),
             hr_version =
             {
-              filename = "__Krastorio__/graphics/entity/wall/hr-wall-corner-left.png",
+              filename = "__KrastorioPorted__/graphics/entity/wall/hr-wall-corner-left.png",
               priority = "extra-high",
               width = 64,
               height = 134,
@@ -5725,7 +5725,7 @@ data:extend(
         layers =
         {
           {
-            filename = "__Krastorio__/graphics/entity/wall/wall-t.png",
+            filename = "__KrastorioPorted__/graphics/entity/wall/wall-t.png",
             priority = "extra-high",
             width = 32,
             height = 68,
@@ -5734,7 +5734,7 @@ data:extend(
             shift = util.by_pixel(0, 6),
             hr_version =
             {
-              filename = "__Krastorio__/graphics/entity/wall/hr-wall-t.png",
+              filename = "__KrastorioPorted__/graphics/entity/wall/hr-wall-t.png",
               priority = "extra-high",
               width = 64,
               height = 134,
@@ -5771,7 +5771,7 @@ data:extend(
         layers =
         {
           {
-            filename = "__Krastorio__/graphics/entity/wall/wall-ending-right.png",
+            filename = "__KrastorioPorted__/graphics/entity/wall/wall-ending-right.png",
             priority = "extra-high",
             width = 32,
             height = 48,
@@ -5780,7 +5780,7 @@ data:extend(
             shift = util.by_pixel(0, -4),
             hr_version =
             {
-              filename = "__Krastorio__/graphics/entity/wall/hr-wall-ending-right.png",
+              filename = "__KrastorioPorted__/graphics/entity/wall/hr-wall-ending-right.png",
               priority = "extra-high",
               width = 64,
               height = 92,
@@ -5817,7 +5817,7 @@ data:extend(
         layers =
         {
           {
-            filename = "__Krastorio__/graphics/entity/wall/wall-ending-left.png",
+            filename = "__KrastorioPorted__/graphics/entity/wall/wall-ending-left.png",
             priority = "extra-high",
             width = 32,
             height = 48,
@@ -5826,7 +5826,7 @@ data:extend(
             shift = util.by_pixel(0, -4),
             hr_version =
             {
-              filename = "__Krastorio__/graphics/entity/wall/hr-wall-ending-left.png",
+              filename = "__KrastorioPorted__/graphics/entity/wall/hr-wall-ending-left.png",
               priority = "extra-high",
               width = 64,
               height = 92,
@@ -5860,7 +5860,7 @@ data:extend(
       },
       filling =
       {
-        filename = "__Krastorio__/graphics/entity/wall/wall-filling.png",
+        filename = "__KrastorioPorted__/graphics/entity/wall/wall-filling.png",
           priority = "extra-high",
           width = 24,
           height = 30,
@@ -5869,7 +5869,7 @@ data:extend(
           shift = util.by_pixel(0, -2),
           hr_version =
           {
-            filename = "__Krastorio__/graphics/entity/wall/hr-wall-filling.png",
+            filename = "__KrastorioPorted__/graphics/entity/wall/hr-wall-filling.png",
             priority = "extra-high",
             width = 48,
             height = 56,
@@ -5884,14 +5884,14 @@ data:extend(
         sheets =
         {
           {
-            filename = "__Krastorio__/graphics/entity/wall/wall-patch.png",
+            filename = "__KrastorioPorted__/graphics/entity/wall/wall-patch.png",
             priority = "extra-high",
             width = 58,
             height = 64,
             shift = util.by_pixel(0, -2),
             hr_version =
             {
-              filename = "__Krastorio__/graphics/entity/wall/hr-wall-patch.png",
+              filename = "__KrastorioPorted__/graphics/entity/wall/hr-wall-patch.png",
               priority = "extra-high",
               width = 116,
               height = 128,
@@ -5924,14 +5924,14 @@ data:extend(
         sheets =
         {
           {
-            filename = "__Krastorio__/graphics/entity/wall/wall-gate.png",
+            filename = "__KrastorioPorted__/graphics/entity/wall/wall-gate.png",
             priority = "extra-high",
             width = 42,
             height = 56,
             shift = util.by_pixel(0, -8),
             hr_version =
             {
-              filename = "__Krastorio__/graphics/entity/wall/hr-wall-gate.png",
+              filename = "__KrastorioPorted__/graphics/entity/wall/hr-wall-gate.png",
               priority = "extra-high",
               width = 82,
               height = 108,
@@ -6130,7 +6130,7 @@ data:extend(
       layers =
       {
         {
-          filename = "__Krastorio__/graphics/entity/gate/gate-vertical.png",
+          filename = "__KrastorioPorted__/graphics/entity/gate/gate-vertical.png",
           line_length = 8,
           width = 38,
           height = 62,
@@ -6138,7 +6138,7 @@ data:extend(
           shift = util.by_pixel(0, -14),
           hr_version =
           {
-            filename = "__Krastorio__/graphics/entity/gate/hr-gate-vertical.png",
+            filename = "__KrastorioPorted__/graphics/entity/gate/hr-gate-vertical.png",
             line_length = 8,
             width = 78,
             height = 120,
@@ -6174,7 +6174,7 @@ data:extend(
       layers =
       {
         {
-          filename = "__Krastorio__/graphics/entity/gate/gate-horizontal.png",
+          filename = "__KrastorioPorted__/graphics/entity/gate/gate-horizontal.png",
           line_length = 8,
           width = 34,
           height = 48,
@@ -6182,7 +6182,7 @@ data:extend(
           shift = util.by_pixel(0, -4),
           hr_version =
           {
-            filename = "__Krastorio__/graphics/entity/gate/hr-gate-horizontal.png",
+            filename = "__KrastorioPorted__/graphics/entity/gate/hr-gate-horizontal.png",
             line_length = 8,
             width = 66,
             height = 90,
@@ -6218,7 +6218,7 @@ data:extend(
       layers =
       {
         {
-          filename = "__Krastorio__/graphics/entity/gate/gate-rail-horizontal-left.png",
+          filename = "__KrastorioPorted__/graphics/entity/gate/gate-rail-horizontal-left.png",
           line_length = 8,
           width = 34,
           height = 40,
@@ -6226,7 +6226,7 @@ data:extend(
           shift = util.by_pixel(0, -8),
           hr_version =
           {
-            filename = "__Krastorio__/graphics/entity/gate/hr-gate-rail-horizontal-left.png",
+            filename = "__KrastorioPorted__/graphics/entity/gate/hr-gate-rail-horizontal-left.png",
             line_length = 8,
             width = 66,
             height = 74,
@@ -6262,7 +6262,7 @@ data:extend(
       layers =
       {
         {
-          filename = "__Krastorio__/graphics/entity/gate/gate-rail-horizontal-right.png",
+          filename = "__KrastorioPorted__/graphics/entity/gate/gate-rail-horizontal-right.png",
           line_length = 8,
           width = 34,
           height = 40,
@@ -6270,7 +6270,7 @@ data:extend(
           shift = util.by_pixel(0, -8),
           hr_version =
           {
-            filename = "__Krastorio__/graphics/entity/gate/hr-gate-rail-horizontal-right.png",
+            filename = "__KrastorioPorted__/graphics/entity/gate/hr-gate-rail-horizontal-right.png",
             line_length = 8,
             width = 66,
             height = 74,
@@ -6306,7 +6306,7 @@ data:extend(
       layers =
       {
         {
-          filename = "__Krastorio__/graphics/entity/gate/gate-rail-vertical-left.png",
+          filename = "__KrastorioPorted__/graphics/entity/gate/gate-rail-vertical-left.png",
           line_length = 8,
           width = 22,
           height = 62,
@@ -6314,7 +6314,7 @@ data:extend(
           shift = util.by_pixel(0, -14),
           hr_version =
           {
-            filename = "__Krastorio__/graphics/entity/gate/hr-gate-rail-vertical-left.png",
+            filename = "__KrastorioPorted__/graphics/entity/gate/hr-gate-rail-vertical-left.png",
             line_length = 8,
             width = 42,
             height = 118,
@@ -6350,7 +6350,7 @@ data:extend(
       layers =
       {
         {
-          filename = "__Krastorio__/graphics/entity/gate/gate-rail-vertical-right.png",
+          filename = "__KrastorioPorted__/graphics/entity/gate/gate-rail-vertical-right.png",
           line_length = 8,
           width = 22,
           height = 62,
@@ -6358,7 +6358,7 @@ data:extend(
           shift = util.by_pixel(0, -14),
           hr_version =
           {
-            filename = "__Krastorio__/graphics/entity/gate/hr-gate-rail-vertical-right.png",
+            filename = "__KrastorioPorted__/graphics/entity/gate/hr-gate-rail-vertical-right.png",
             line_length = 8,
             width = 42,
             height = 118,
@@ -6391,7 +6391,7 @@ data:extend(
     },
     vertical_rail_base =
     {
-      filename = "__Krastorio__/graphics/entity/gate/gate-rail-base-vertical.png",
+      filename = "__KrastorioPorted__/graphics/entity/gate/gate-rail-base-vertical.png",
       line_length = 8,
       width = 68,
       height = 66,
@@ -6399,7 +6399,7 @@ data:extend(
       shift = util.by_pixel(0, 0),
       hr_version =
       {
-        filename = "__Krastorio__/graphics/entity/gate/hr-gate-rail-base-vertical.png",
+        filename = "__KrastorioPorted__/graphics/entity/gate/hr-gate-rail-base-vertical.png",
         line_length = 8,
         width = 138,
         height = 130,
@@ -6410,7 +6410,7 @@ data:extend(
     },
     horizontal_rail_base =
     {
-      filename = "__Krastorio__/graphics/entity/gate/gate-rail-base-horizontal.png",
+      filename = "__KrastorioPorted__/graphics/entity/gate/gate-rail-base-horizontal.png",
       line_length = 8,
       width = 66,
       height = 54,
@@ -6418,7 +6418,7 @@ data:extend(
       shift = util.by_pixel(0, 2),
       hr_version =
       {
-        filename = "__Krastorio__/graphics/entity/gate/hr-gate-rail-base-horizontal.png",
+        filename = "__KrastorioPorted__/graphics/entity/gate/hr-gate-rail-base-horizontal.png",
         line_length = 8,
         width = 130,
         height = 104,
@@ -6432,7 +6432,7 @@ data:extend(
       layers =
       {
         {
-          filename = "__Krastorio__/graphics/entity/gate/gate-wall-patch.png",
+          filename = "__KrastorioPorted__/graphics/entity/gate/gate-wall-patch.png",
           line_length = 8,
           width = 34,
           height = 48,
@@ -6440,7 +6440,7 @@ data:extend(
           shift = util.by_pixel(0, 12),
           hr_version =
           {
-            filename = "__Krastorio__/graphics/entity/gate/hr-gate-wall-patch.png",
+            filename = "__KrastorioPorted__/graphics/entity/gate/hr-gate-wall-patch.png",
             line_length = 8,
             width = 70,
             height = 94,
@@ -6543,7 +6543,7 @@ data:extend(
       north =
       {
         priority = "high",
-        filename = "__Krastorio__/graphics/entity/electric-mining-drill-mk2/electric-mining-drill-N.png",
+        filename = "__KrastorioPorted__/graphics/entity/electric-mining-drill-mk2/electric-mining-drill-N.png",
         line_length = 8,
         width = 98,
         height = 113,
@@ -6555,7 +6555,7 @@ data:extend(
         hr_version =
         {
           priority = "high",
-          filename = "__Krastorio__/graphics/entity/electric-mining-drill-mk2/hr-electric-mining-drill-N.png",
+          filename = "__KrastorioPorted__/graphics/entity/electric-mining-drill-mk2/hr-electric-mining-drill-N.png",
           line_length = 8,
           width = 196,
           height = 226,
@@ -6570,7 +6570,7 @@ data:extend(
       east =
       {
         priority = "high",
-        filename = "__Krastorio__/graphics/entity/electric-mining-drill-mk2/electric-mining-drill-E.png",
+        filename = "__KrastorioPorted__/graphics/entity/electric-mining-drill-mk2/electric-mining-drill-E.png",
         line_length = 8,
         width = 105,
         height = 98,
@@ -6582,7 +6582,7 @@ data:extend(
         hr_version =
         {
           priority = "high",
-          filename = "__Krastorio__/graphics/entity/electric-mining-drill-mk2/hr-electric-mining-drill-E.png",
+          filename = "__KrastorioPorted__/graphics/entity/electric-mining-drill-mk2/hr-electric-mining-drill-E.png",
           line_length = 8,
           width = 211,
           height = 197,
@@ -6597,7 +6597,7 @@ data:extend(
       south =
       {
         priority = "high",
-        filename = "__Krastorio__/graphics/entity/electric-mining-drill-mk2/electric-mining-drill-S.png",
+        filename = "__KrastorioPorted__/graphics/entity/electric-mining-drill-mk2/electric-mining-drill-S.png",
         line_length = 8,
         width = 98,
         height = 109,
@@ -6609,7 +6609,7 @@ data:extend(
         hr_version =
         {
           priority = "high",
-          filename = "__Krastorio__/graphics/entity/electric-mining-drill-mk2/hr-electric-mining-drill-S.png",
+          filename = "__KrastorioPorted__/graphics/entity/electric-mining-drill-mk2/hr-electric-mining-drill-S.png",
           line_length = 8,
           width = 196,
           height = 219,
@@ -6624,7 +6624,7 @@ data:extend(
       west =
       {
         priority = "high",
-        filename = "__Krastorio__/graphics/entity/electric-mining-drill-mk2/electric-mining-drill-W.png",
+        filename = "__KrastorioPorted__/graphics/entity/electric-mining-drill-mk2/electric-mining-drill-W.png",
         line_length = 8,
         width = 105,
         height = 98,
@@ -6636,7 +6636,7 @@ data:extend(
         hr_version =
         {
           priority = "high",
-          filename = "__Krastorio__/graphics/entity/electric-mining-drill-mk2/hr-electric-mining-drill-W.png",
+          filename = "__KrastorioPorted__/graphics/entity/electric-mining-drill-mk2/hr-electric-mining-drill-W.png",
           line_length = 8,
           width = 211,
           height = 197,
@@ -6781,7 +6781,7 @@ data:extend(
       north =
       {
         priority = "extra-high",
-        filename = "__Krastorio__/graphics/entity/electric-mining-drill-mk2/electric-mining-drill-N-patch.png",
+        filename = "__KrastorioPorted__/graphics/entity/electric-mining-drill-mk2/electric-mining-drill-N-patch.png",
         width = 100,
         height = 111,
         frame_count = 1,
@@ -6790,7 +6790,7 @@ data:extend(
         hr_version =
         {
           priority = "extra-high",
-          filename = "__Krastorio__/graphics/entity/electric-mining-drill-mk2/hr-electric-mining-drill-N-patch.png",
+          filename = "__KrastorioPorted__/graphics/entity/electric-mining-drill-mk2/hr-electric-mining-drill-N-patch.png",
           width = 200,
           height = 222,
           frame_count = 1,
@@ -6802,7 +6802,7 @@ data:extend(
       east =
       {
         priority = "extra-high",
-        filename = "__Krastorio__/graphics/entity/electric-mining-drill-mk2/electric-mining-drill-E-patch.png",
+        filename = "__KrastorioPorted__/graphics/entity/electric-mining-drill-mk2/electric-mining-drill-E-patch.png",
         width = 100,
         height = 110,
         frame_count = 1,
@@ -6811,7 +6811,7 @@ data:extend(
         hr_version =
         {
           priority = "extra-high",
-          filename = "__Krastorio__/graphics/entity/electric-mining-drill-mk2/hr-electric-mining-drill-E-patch.png",
+          filename = "__KrastorioPorted__/graphics/entity/electric-mining-drill-mk2/hr-electric-mining-drill-E-patch.png",
           width = 200,
           height = 219,
           frame_count = 1,
@@ -6823,7 +6823,7 @@ data:extend(
       south =
       {
         priority = "extra-high",
-        filename = "__Krastorio__/graphics/entity/electric-mining-drill-mk2/electric-mining-drill-S-patch.png",
+        filename = "__KrastorioPorted__/graphics/entity/electric-mining-drill-mk2/electric-mining-drill-S-patch.png",
         width = 100,
         height = 113,
         frame_count = 1,
@@ -6832,7 +6832,7 @@ data:extend(
         hr_version =
         {
           priority = "extra-high",
-          filename = "__Krastorio__/graphics/entity/electric-mining-drill-mk2/hr-electric-mining-drill-S-patch.png",
+          filename = "__KrastorioPorted__/graphics/entity/electric-mining-drill-mk2/hr-electric-mining-drill-S-patch.png",
           width = 200,
           height = 226,
           frame_count = 1,
@@ -6844,7 +6844,7 @@ data:extend(
       west =
       {
         priority = "extra-high",
-        filename = "__Krastorio__/graphics/entity/electric-mining-drill-mk2/electric-mining-drill-W-patch.png",
+        filename = "__KrastorioPorted__/graphics/entity/electric-mining-drill-mk2/electric-mining-drill-W-patch.png",
         width = 100,
         height = 108,
         frame_count = 1,
@@ -6853,7 +6853,7 @@ data:extend(
         hr_version =
         {
           priority = "extra-high",
-          filename = "__Krastorio__/graphics/entity/electric-mining-drill-mk2/hr-electric-mining-drill-W-patch.png",
+          filename = "__KrastorioPorted__/graphics/entity/electric-mining-drill-mk2/hr-electric-mining-drill-W-patch.png",
           width = 200,
           height = 220,
           frame_count = 1,
@@ -7423,7 +7423,7 @@ data:extend(
       north =
       {
         priority = "high",
-        filename = "__Krastorio__/graphics/entity/electric-mining-drill-mk3/electric-mining-drill-N.png",
+        filename = "__KrastorioPorted__/graphics/entity/electric-mining-drill-mk3/electric-mining-drill-N.png",
         line_length = 8,
         width = 98,
         height = 113,
@@ -7435,7 +7435,7 @@ data:extend(
         hr_version =
         {
           priority = "high",
-          filename = "__Krastorio__/graphics/entity/electric-mining-drill-mk3/hr-electric-mining-drill-N.png",
+          filename = "__KrastorioPorted__/graphics/entity/electric-mining-drill-mk3/hr-electric-mining-drill-N.png",
           line_length = 8,
           width = 196,
           height = 226,
@@ -7450,7 +7450,7 @@ data:extend(
       east =
       {
         priority = "high",
-        filename = "__Krastorio__/graphics/entity/electric-mining-drill-mk3/electric-mining-drill-E.png",
+        filename = "__KrastorioPorted__/graphics/entity/electric-mining-drill-mk3/electric-mining-drill-E.png",
         line_length = 8,
         width = 105,
         height = 98,
@@ -7462,7 +7462,7 @@ data:extend(
         hr_version =
         {
           priority = "high",
-          filename = "__Krastorio__/graphics/entity/electric-mining-drill-mk3/hr-electric-mining-drill-E.png",
+          filename = "__KrastorioPorted__/graphics/entity/electric-mining-drill-mk3/hr-electric-mining-drill-E.png",
           line_length = 8,
           width = 211,
           height = 197,
@@ -7477,7 +7477,7 @@ data:extend(
       south =
       {
         priority = "high",
-        filename = "__Krastorio__/graphics/entity/electric-mining-drill-mk3/electric-mining-drill-S.png",
+        filename = "__KrastorioPorted__/graphics/entity/electric-mining-drill-mk3/electric-mining-drill-S.png",
         line_length = 8,
         width = 98,
         height = 109,
@@ -7489,7 +7489,7 @@ data:extend(
         hr_version =
         {
           priority = "high",
-          filename = "__Krastorio__/graphics/entity/electric-mining-drill-mk3/hr-electric-mining-drill-S.png",
+          filename = "__KrastorioPorted__/graphics/entity/electric-mining-drill-mk3/hr-electric-mining-drill-S.png",
           line_length = 8,
           width = 196,
           height = 219,
@@ -7504,7 +7504,7 @@ data:extend(
       west =
       {
         priority = "high",
-        filename = "__Krastorio__/graphics/entity/electric-mining-drill-mk3/electric-mining-drill-W.png",
+        filename = "__KrastorioPorted__/graphics/entity/electric-mining-drill-mk3/electric-mining-drill-W.png",
         line_length = 8,
         width = 105,
         height = 98,
@@ -7516,7 +7516,7 @@ data:extend(
         hr_version =
         {
           priority = "high",
-          filename = "__Krastorio__/graphics/entity/electric-mining-drill-mk3/hr-electric-mining-drill-W.png",
+          filename = "__KrastorioPorted__/graphics/entity/electric-mining-drill-mk3/hr-electric-mining-drill-W.png",
           line_length = 8,
           width = 211,
           height = 197,
@@ -7661,7 +7661,7 @@ data:extend(
       north =
       {
         priority = "extra-high",
-        filename = "__Krastorio__/graphics/entity/electric-mining-drill-mk3/electric-mining-drill-N-patch.png",
+        filename = "__KrastorioPorted__/graphics/entity/electric-mining-drill-mk3/electric-mining-drill-N-patch.png",
         width = 100,
         height = 111,
         frame_count = 1,
@@ -7670,7 +7670,7 @@ data:extend(
         hr_version =
         {
           priority = "extra-high",
-          filename = "__Krastorio__/graphics/entity/electric-mining-drill-mk3/hr-electric-mining-drill-N-patch.png",
+          filename = "__KrastorioPorted__/graphics/entity/electric-mining-drill-mk3/hr-electric-mining-drill-N-patch.png",
           width = 200,
           height = 222,
           frame_count = 1,
@@ -7682,7 +7682,7 @@ data:extend(
       east =
       {
         priority = "extra-high",
-        filename = "__Krastorio__/graphics/entity/electric-mining-drill-mk3/electric-mining-drill-E-patch.png",
+        filename = "__KrastorioPorted__/graphics/entity/electric-mining-drill-mk3/electric-mining-drill-E-patch.png",
         width = 100,
         height = 110,
         frame_count = 1,
@@ -7691,7 +7691,7 @@ data:extend(
         hr_version =
         {
           priority = "extra-high",
-          filename = "__Krastorio__/graphics/entity/electric-mining-drill-mk3/hr-electric-mining-drill-E-patch.png",
+          filename = "__KrastorioPorted__/graphics/entity/electric-mining-drill-mk3/hr-electric-mining-drill-E-patch.png",
           width = 200,
           height = 219,
           frame_count = 1,
@@ -7703,7 +7703,7 @@ data:extend(
       south =
       {
         priority = "extra-high",
-        filename = "__Krastorio__/graphics/entity/electric-mining-drill-mk3/electric-mining-drill-S-patch.png",
+        filename = "__KrastorioPorted__/graphics/entity/electric-mining-drill-mk3/electric-mining-drill-S-patch.png",
         width = 100,
         height = 113,
         frame_count = 1,
@@ -7712,7 +7712,7 @@ data:extend(
         hr_version =
         {
           priority = "extra-high",
-          filename = "__Krastorio__/graphics/entity/electric-mining-drill-mk3/hr-electric-mining-drill-S-patch.png",
+          filename = "__KrastorioPorted__/graphics/entity/electric-mining-drill-mk3/hr-electric-mining-drill-S-patch.png",
           width = 200,
           height = 226,
           frame_count = 1,
@@ -7724,7 +7724,7 @@ data:extend(
       west =
       {
         priority = "extra-high",
-        filename = "__Krastorio__/graphics/entity/electric-mining-drill-mk3/electric-mining-drill-W-patch.png",
+        filename = "__KrastorioPorted__/graphics/entity/electric-mining-drill-mk3/electric-mining-drill-W-patch.png",
         width = 100,
         height = 108,
         frame_count = 1,
@@ -7733,7 +7733,7 @@ data:extend(
         hr_version =
         {
           priority = "extra-high",
-          filename = "__Krastorio__/graphics/entity/electric-mining-drill-mk3/hr-electric-mining-drill-W-patch.png",
+          filename = "__KrastorioPorted__/graphics/entity/electric-mining-drill-mk3/hr-electric-mining-drill-W-patch.png",
           width = 200,
           height = 220,
           frame_count = 1,
@@ -8257,7 +8257,7 @@ data:extend(
 	{
 	type = "furnace",
 	name = "k-fusion-reactor",
-	icon = "__Krastorio__/graphics/icons/entities/mip/fusion-reactor.png",
+	icon = "__KrastorioPorted__/graphics/icons/entities/mip/fusion-reactor.png",
     icon_size = 64,
 	flags = {"placeable-neutral","placeable-player", "player-creation"},
 	minable = {hardness = 1, mining_time = 3, result = "k-fusion-reactor"},
@@ -8302,7 +8302,7 @@ data:extend(
 		layers =
 			{
 			{
-			filename = "__Krastorio__/graphics/entity/fusion-reactor/fusion-reactor.png",
+			filename = "__KrastorioPorted__/graphics/entity/fusion-reactor/fusion-reactor.png",
 			width = 550,
 			height = 550,
 			frame_count = 1,
@@ -8311,7 +8311,7 @@ data:extend(
 			--animation_speed = 0.5
 			hr_version =
 				{
-				filename = "__Krastorio__/graphics/entity/fusion-reactor/hr-fusion-reactor.png",
+				filename = "__KrastorioPorted__/graphics/entity/fusion-reactor/hr-fusion-reactor.png",
 				width = 1100,
 				height = 1100,
 				scale = 0.5,
@@ -8322,7 +8322,7 @@ data:extend(
 				}
 			},
 			{
-			filename = "__Krastorio__/graphics/entity/fusion-reactor/fusion-reactor-shd.png",
+			filename = "__KrastorioPorted__/graphics/entity/fusion-reactor/fusion-reactor-shd.png",
 			priority = "high",
 			scale = scale,
 			width = 550,
@@ -8332,7 +8332,7 @@ data:extend(
 			draw_as_shadow = true,
 			hr_version =
 				{
-				filename = "__Krastorio__/graphics/entity/fusion-reactor/hr-fusion-reactor-shd.png",
+				filename = "__KrastorioPorted__/graphics/entity/fusion-reactor/hr-fusion-reactor-shd.png",
 				priority = "high",
 				scale = scale,
 				width = 1100,
@@ -8350,7 +8350,7 @@ data:extend(
 			{
 			animation =
 			{
-			filename = "__Krastorio__/graphics/entity/fusion-reactor/fusion-reactor-an.png",
+			filename = "__KrastorioPorted__/graphics/entity/fusion-reactor/fusion-reactor-an.png",
             line_length = 6,
             width = 313,
             height = 344,
@@ -8359,7 +8359,7 @@ data:extend(
 			shift = {2.18, -2.358},
 			hr_version =
 				{
-				filename = "__Krastorio__/graphics/entity/fusion-reactor/hr-fusion-reactor-an.png",
+				filename = "__KrastorioPorted__/graphics/entity/fusion-reactor/hr-fusion-reactor-an.png",
 				line_length = 6,
 				width = 626,
 				height = 688,
@@ -8374,7 +8374,7 @@ data:extend(
 			{
 			animation =
 			{
-			filename = "__Krastorio__/graphics/entity/liquid-evaporator/liquid-evaporator-steam.png",
+			filename = "__KrastorioPorted__/graphics/entity/liquid-evaporator/liquid-evaporator-steam.png",
             line_length = 10,
             width = 40,
             height = 81,
@@ -8388,7 +8388,7 @@ data:extend(
 			{
 			animation =
 			{
-			filename = "__Krastorio__/graphics/entity/liquid-evaporator/liquid-evaporator-steam.png",
+			filename = "__KrastorioPorted__/graphics/entity/liquid-evaporator/liquid-evaporator-steam.png",
             line_length = 10,
             width = 40,
             height = 81,
@@ -8417,7 +8417,7 @@ data:extend(
            sound =
        {
        {
-			filename = "__Krastorio__/sound/antimatter-reactor.ogg",
+			filename = "__KrastorioPorted__/sound/antimatter-reactor.ogg",
 			volume = 1,
 			audible_distance_modifier = 10,
        }
@@ -8489,7 +8489,7 @@ data:extend(
 	{
     type = "generator",
     name = "big-turbine",
-	icon = "__Krastorio__/graphics/icons/entities/mip/big-turbine.png",
+	icon = "__KrastorioPorted__/graphics/icons/entities/mip/big-turbine.png",
     icon_size = 64,
     flags = {"placeable-neutral","player-creation"},
     minable = {mining_time = 1, result = "big-turbine"},
@@ -8535,7 +8535,7 @@ data:extend(
       layers =
       {
         {
-			filename = "__Krastorio__/graphics/entity/big-turbine/big-turbine-H.png",
+			filename = "__KrastorioPorted__/graphics/entity/big-turbine/big-turbine-H.png",
 			width = 235,
 			height = 134,
 			frame_count = 6,
@@ -8543,7 +8543,7 @@ data:extend(
 			line_length = 2,
 			hr_version =
 			  {
-				filename = "__Krastorio__/graphics/entity/big-turbine/hr-big-turbine-H.png",
+				filename = "__KrastorioPorted__/graphics/entity/big-turbine/hr-big-turbine-H.png",
 				width = 469,
 				height = 270,
 				frame_count = 6,
@@ -8553,7 +8553,7 @@ data:extend(
 			  }
         },
         {
-			filename = "__Krastorio__/graphics/entity/big-turbine/big-turbine-sh-H.png",
+			filename = "__KrastorioPorted__/graphics/entity/big-turbine/big-turbine-sh-H.png",
 			width = 258,
 			height = 113,
 			frame_count = 6,
@@ -8562,7 +8562,7 @@ data:extend(
             draw_as_shadow = true,
 			hr_version =
 			  {
-				filename = "__Krastorio__/graphics/entity/big-turbine/hr-big-turbine-sh-H.png",
+				filename = "__KrastorioPorted__/graphics/entity/big-turbine/hr-big-turbine-sh-H.png",
 				width = 514,
 				height = 225,
 				frame_count = 6,
@@ -8579,7 +8579,7 @@ data:extend(
      layers =
      {
         {
-			filename = "__Krastorio__/graphics/entity/big-turbine/big-turbine-V.png",
+			filename = "__KrastorioPorted__/graphics/entity/big-turbine/big-turbine-V.png",
 			width = 165,
 			height = 250,
 			frame_count = 6,
@@ -8587,7 +8587,7 @@ data:extend(
 			shift = {0.26, 0},
 			hr_version =
 			  {
-				filename = "__Krastorio__/graphics/entity/big-turbine/hr-big-turbine-V.png",
+				filename = "__KrastorioPorted__/graphics/entity/big-turbine/hr-big-turbine-V.png",
 				width = 330,
 				height = 500,
 				frame_count = 6,
@@ -8597,7 +8597,7 @@ data:extend(
 			  }
         },
         {
-			filename = "__Krastorio__/graphics/entity/big-turbine/big-turbine-sh-V.png",
+			filename = "__KrastorioPorted__/graphics/entity/big-turbine/big-turbine-sh-V.png",
 			width = 175,
 			height = 213,
 			frame_count = 6,
@@ -8606,7 +8606,7 @@ data:extend(
             draw_as_shadow = true,
 			hr_version =
 			  {
-				filename = "__Krastorio__/graphics/entity/big-turbine/hr-big-turbine-sh-V.png",
+				filename = "__KrastorioPorted__/graphics/entity/big-turbine/hr-big-turbine-sh-V.png",
 				width = 350,
 				height = 425,
 				frame_count = 6,

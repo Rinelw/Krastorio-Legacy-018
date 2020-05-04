@@ -16,7 +16,7 @@ data:extend(
 		base_color = {r=0.05, g=0.05, b=0.05},
 		flow_color = {r=0.05, g=0.05, b=0.5},
 		max_temperature = 100,
-		icon = "__Krastorio__/graphics/icons/void.png",
+		icon = "__KrastorioPorted__/graphics/icons/void.png",
 		icon_size = 32,
 		order = "y2[kr-void]"
     },
@@ -29,7 +29,7 @@ data:extend(
 		auto_barrel = true,
 		base_color = {r=0.1, g=0.8, b=0.95},
 		flow_color = {r=0.1, g=0.8, b=0.95},
-		icon = "__Krastorio__/graphics/icons/pure-water.png",
+		icon = "__KrastorioPorted__/graphics/icons/pure-water.png",
 		icon_size = 32,
 		order = "y1[k-pure-water]"
     },
@@ -42,7 +42,7 @@ data:extend(
 		auto_barrel = true,
 		base_color = {r=0.4, g=0.75, b=0.80},
 		flow_color = {r=0.5, g=0.85, b=0.85},
-		icon = "__Krastorio__/graphics/icons/salt-water.png",
+		icon = "__KrastorioPorted__/graphics/icons/salt-water.png",
 		icon_size = 32,
 		order = "y1[k-salt-water]"
     },
@@ -55,7 +55,7 @@ data:extend(
 		auto_barrel = true,
 		base_color = {r=0.65, g=0.50, b=0.20},
 		flow_color = {r=0.65, g=0.50, b=0.20},
-		icon = "__Krastorio__/graphics/icons/dirty-water.png",
+		icon = "__KrastorioPorted__/graphics/icons/dirty-water.png",
 		icon_size = 32,
 		order = "y2[k-dirty-water]"
     },
@@ -68,7 +68,7 @@ data:extend(
 		auto_barrel = true,
 		base_color = {r=0.25, g=0.25, b=0.45},
 		flow_color = {r=0.25, g=0.25, b=0.45},
-		icon = "__Krastorio__/graphics/icons/ammonia.png",
+		icon = "__KrastorioPorted__/graphics/icons/ammonia.png",
 		icon_size = 32,
 		order = "y2[k-ammonia]"
     },
@@ -82,7 +82,7 @@ data:extend(
 		base_color = {r=0.30, g=0.60, b=0.1},
 		flow_color = {r=0.30, g=0.60, b=0.1},
 		gas_temperature = 15,
-		icon = "__Krastorio__/graphics/icons/chlorine.png",
+		icon = "__KrastorioPorted__/graphics/icons/chlorine.png",
 		icon_size = 32,
 		order = "y2[k-chlorine]"
     },
@@ -96,7 +96,7 @@ data:extend(
 		base_color = {r=0.50, g=0.50, b=0.50},
 		flow_color = {r=0.50, g=0.50, b=0.50},
 		gas_temperature = 15,
-		icon = "__Krastorio__/graphics/icons/hydrogen.png",
+		icon = "__KrastorioPorted__/graphics/icons/hydrogen.png",
 		icon_size = 32,
 		order = "y2[k-hydrogen]"
     },
@@ -110,7 +110,7 @@ data:extend(
 		base_color = {r=0.05, g=0.10, b=0.50},
 		flow_color = {r=0.05, g=0.10, b=0.50},
 		gas_temperature = 15,
-		icon = "__Krastorio__/graphics/icons/nitrogen.png",
+		icon = "__KrastorioPorted__/graphics/icons/nitrogen.png",
 		icon_size = 32,
 		order = "y2[k-nitrogen]"
     },
@@ -124,7 +124,7 @@ data:extend(
 		base_color = {r=0.75, g=0.40, b=0.40},
 		flow_color = {r=0.80, g=0.60, b=0.60},
 		gas_temperature = 15,
-		icon = "__Krastorio__/graphics/icons/oxygen.png",
+		icon = "__KrastorioPorted__/graphics/icons/oxygen.png",
 		icon_size = 32,
 		order = "y2[k-oxygen]"
     },
@@ -138,7 +138,7 @@ data:extend(
 		base_color = {r=0.50, g=0.35, b=0.20},
 		flow_color = {r=0.50, g=0.35, b=0.20},
 		gas_temperature = 15,
-		icon = "__Krastorio__/graphics/icons/nitric-acid.png",
+		icon = "__KrastorioPorted__/graphics/icons/nitric-acid.png",
 		icon_size = 32,
 		order = "y2[k-nitric-acid]"
     },
@@ -152,12 +152,12 @@ data:extend(
 		base_color = {r=0.50, g=0.75, b=0.30},
 		flow_color = {r=0.50, g=0.75, b=0.30},
 		gas_temperature = 15,
-		icon = "__Krastorio__/graphics/icons/mip/hydrogen-chloride.png",
+		icon = "__KrastorioPorted__/graphics/icons/mip/hydrogen-chloride.png",
 		icon_size = 64,
 		icon_mipmaps = 1,
 		pictures =
 		{
-			{ size = 64, filename = "__Krastorio__/graphics/icons/mip/hydrogen-chloride.png", scale = 0.25, mipmap_count = 4 }
+			{ size = 64, filename = "__KrastorioPorted__/graphics/icons/mip/hydrogen-chloride.png", scale = 0.25, mipmap_count = 4 }
 		}, 
 		order = "y2[k-hydrogen-chloride]"
     },
@@ -170,12 +170,12 @@ data:extend(
 		base_color = {r=0.10, g=1, b=0.90},
 		flow_color = {r=0.15, g=1, b=1},
 		max_temperature = 1000,
-		icon = "__Krastorio__/graphics/icons/mip/matter.png",
+		icon = "__KrastorioPorted__/graphics/icons/mip/matter.png",
 		icon_size = 64,
 		icon_mipmaps = 1,
 		pictures =
 		{
-			{ size = 64, filename = "__Krastorio__/graphics/icons/mip/matter.png",   scale = 0.25, mipmap_count = 4 }
+			{ size = 64, filename = "__KrastorioPorted__/graphics/icons/mip/matter.png",   scale = 0.25, mipmap_count = 4 }
 		}, 
 		order = "z[k-matter]"
     }

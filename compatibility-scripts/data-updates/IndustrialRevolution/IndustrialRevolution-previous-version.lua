@@ -27,6 +27,6 @@ if aswil.general.isVersionLesserThan(version, "0.99.4")  then
 		}
 	})
 	
-	require("__Krastorio__/compatibility-scripts/data-updates/IndustrialRevolution/IndustrialRevolution-recycle-recipes")
+	require("__KrastorioPorted__/compatibility-scripts/data-updates/IndustrialRevolution/IndustrialRevolution-recycle-recipes")
 	
 end

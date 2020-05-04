@@ -13,7 +13,7 @@ if settings.startup["princessorio"] and settings.startup["princessorio"].value t
 		{
 		type = "gun",
 		name = "dolphin-gun",
-		icon = "__Krastorio__/graphics/icons/dolphin-gun.png",
+		icon = "__KrastorioPorted__/graphics/icons/dolphin-gun.png",
 		icon_size = 32,
 		subgroup = "gun",
 		order = "z[dolphin-gun]",
@@ -29,7 +29,7 @@ if settings.startup["princessorio"] and settings.startup["princessorio"].value t
 		  sound =
 		  {
 			{
-			  filename = "__Krastorio__/sound/dolphin-gun.ogg",
+			  filename = "__KrastorioPorted__/sound/dolphin-gun.ogg",
 			  volume = 1
 			}
 		  }
@@ -112,7 +112,7 @@ if settings.startup["princessorio"] and settings.startup["princessorio"].value t
 		},
 		animation =
 		{
-		  filename = "__Krastorio__/graphics/entity/princessorio/rocketfish.png",
+		  filename = "__KrastorioPorted__/graphics/entity/princessorio/rocketfish.png",
 		  frame_count = 4,
 		  line_length = 4,
 		  width = 18,
@@ -122,7 +122,7 @@ if settings.startup["princessorio"] and settings.startup["princessorio"].value t
 		},
 		shadow =
 		{
-		  filename = "__Krastorio__/graphics/entity/princessorio/fish-shadow.png",
+		  filename = "__KrastorioPorted__/graphics/entity/princessorio/fish-shadow.png",
 		  frame_count = 1,
 		  width = 20,
 		  height = 32,
@@ -148,7 +148,7 @@ if settings.startup["princessorio"] and settings.startup["princessorio"].value t
 		{
 		type = "ammo",
 		name = "rocketfish",
-		icon = "__Krastorio__/graphics/icons/rocketfish.png",
+		icon = "__KrastorioPorted__/graphics/icons/rocketfish.png",
 		icon_size = 32,
 		ammo_type =
 		{

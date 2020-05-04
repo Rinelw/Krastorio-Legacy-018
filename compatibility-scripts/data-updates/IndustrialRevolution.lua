@@ -2,34 +2,34 @@ if mods["IndustrialRevolution"] then
 
 	---------------------------------------------------------------
 	-- -- -- Entities Fixes
-	require("__Krastorio__/compatibility-scripts/data-updates/IndustrialRevolution/IndustrialRevolution-entities")
+	require("__KrastorioPorted__/compatibility-scripts/data-updates/IndustrialRevolution/IndustrialRevolution-entities")
 	---------------------------------------------------------------
 	-- -- -- Recipes fixes
-	require("__Krastorio__/compatibility-scripts/data-updates/IndustrialRevolution/IndustrialRevolution-recipes")
+	require("__KrastorioPorted__/compatibility-scripts/data-updates/IndustrialRevolution/IndustrialRevolution-recipes")
 	---------------------------------------------------------------
 	-- -- --Technologies fixes
-	require("__Krastorio__/compatibility-scripts/data-updates/IndustrialRevolution/IndustrialRevolution-technologies")
+	require("__KrastorioPorted__/compatibility-scripts/data-updates/IndustrialRevolution/IndustrialRevolution-technologies")
 	---------------------------------------------------------------
 	-- -- -- Icons	
-	require("__Krastorio__/compatibility-scripts/data-updates/IndustrialRevolution/IndustrialRevolution-icons")
+	require("__KrastorioPorted__/compatibility-scripts/data-updates/IndustrialRevolution/IndustrialRevolution-icons")
 	---------------------------------------------------------------
 	-- -- -- Name changing
-	require("__Krastorio__/compatibility-scripts/data-updates/IndustrialRevolution/IndustrialRevolution-renaming")
+	require("__KrastorioPorted__/compatibility-scripts/data-updates/IndustrialRevolution/IndustrialRevolution-renaming")
 	---------------------------------------------------------------
 	-- -- -- Item orders
-	require("__Krastorio__/compatibility-scripts/data-updates/IndustrialRevolution/IndustrialRevolution-order")
+	require("__KrastorioPorted__/compatibility-scripts/data-updates/IndustrialRevolution/IndustrialRevolution-order")
 	---------------------------------------------------------------
 	-- -- -- Equips
-	require("__Krastorio__/compatibility-scripts/data-updates/IndustrialRevolution/IndustrialRevolution-equipments")
+	require("__KrastorioPorted__/compatibility-scripts/data-updates/IndustrialRevolution/IndustrialRevolution-equipments")
 	---------------------------------------------------------------
 	-- -- -- Fixes for difficulty gold option
-	require("__Krastorio__/compatibility-scripts/data-updates/IndustrialRevolution/IndustrialRevolution-difficulty-gold-option")
+	require("__KrastorioPorted__/compatibility-scripts/data-updates/IndustrialRevolution/IndustrialRevolution-difficulty-gold-option")
 	---------------------------------------------------------------
 	-- -- -- Fixes for difficulty damage option
-	require("__Krastorio__/compatibility-scripts/data-updates/IndustrialRevolution/IndustrialRevolution-damage-option")	
+	require("__KrastorioPorted__/compatibility-scripts/data-updates/IndustrialRevolution/IndustrialRevolution-damage-option")	
 	---------------------------------------------------------------
 	-- -- -- Compatibility with olter version
-	require("__Krastorio__/compatibility-scripts/data-updates/IndustrialRevolution/IndustrialRevolution-previous-version")	
+	require("__KrastorioPorted__/compatibility-scripts/data-updates/IndustrialRevolution/IndustrialRevolution-previous-version")	
 	---------------------------------------------------------------
 	-- -- -- Inter/Cross compatibility with DeadlockCrating
 	if mods["DeadlockCrating"] then			
@@ -45,7 +45,7 @@ if mods["IndustrialRevolution"] then
 		deadlock.add_stack
 		(	
 			"k-tantalum-plate",
-			"__Krastorio__/graphics/compatibility/IndustrialRevolution/stacked-tantalum-plate.png",
+			"__KrastorioPorted__/graphics/compatibility/IndustrialRevolution/stacked-tantalum-plate.png",
 			"deadlock-stacking-2",
 			64
 		)
@@ -53,7 +53,7 @@ if mods["IndustrialRevolution"] then
 		deadlock.add_stack
 		(	
 			"tantalum-ingot",
-			"__Krastorio__/graphics/compatibility/IndustrialRevolution/stacked-tantalum-ingot.png",
+			"__KrastorioPorted__/graphics/compatibility/IndustrialRevolution/stacked-tantalum-ingot.png",
 			"deadlock-stacking-2",
 			64
 		)

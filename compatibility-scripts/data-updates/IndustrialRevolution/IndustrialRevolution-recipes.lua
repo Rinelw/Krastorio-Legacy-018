@@ -144,7 +144,7 @@ data:extend(
 	{
 		type = "item",
 		name = "tantalum-ingot",
-		icon = "__Krastorio__/graphics/compatibility/IndustrialRevolution/tantalum-ingot.png",
+		icon = "__KrastorioPorted__/graphics/compatibility/IndustrialRevolution/tantalum-ingot.png",
 		icon_size = 64,    
 		subgroup = "ingot",
 		order = "aardvark-e3-o-e[tantalum-ingot]",
@@ -155,7 +155,7 @@ data:extend(
 		type = "recipe",
 		name = "dir-tantalum-plate",
 		localised_description={"recipe-description.duranium-plate"},
-		icon = "__Krastorio__/graphics/compatibility/IndustrialRevolution/tantalum-plate.png",
+		icon = "__KrastorioPorted__/graphics/compatibility/IndustrialRevolution/tantalum-plate.png",
 		icon_size = 64,  
 		energy_required = 1,
 		enabled = false,
@@ -174,29 +174,29 @@ data:extend(
 	{
 		type = "item",
 		name = "tantalum-scrap",
-		icon = "__Krastorio__/graphics/compatibility/IndustrialRevolution/tantalum-scrap.png",
+		icon = "__KrastorioPorted__/graphics/compatibility/IndustrialRevolution/tantalum-scrap.png",
 		icon_size = 64,
 		subgroup = "scrap",
 		order = "aardvark-db-z",
 		pictures = 
 		{
 			{
-				filename = "__Krastorio__/graphics/compatibility/IndustrialRevolution/tantalum-scrap.png",
+				filename = "__KrastorioPorted__/graphics/compatibility/IndustrialRevolution/tantalum-scrap.png",
 				scale = 0.25,
 				size = 64
 			},
 			{
-				filename = "__Krastorio__/graphics/compatibility/IndustrialRevolution/tantalum-scrap-2.png",
+				filename = "__KrastorioPorted__/graphics/compatibility/IndustrialRevolution/tantalum-scrap-2.png",
 				scale = 0.25,
 				size = 64
 			},
 			{
-				filename = "__Krastorio__/graphics/compatibility/IndustrialRevolution/tantalum-scrap-3.png",
+				filename = "__KrastorioPorted__/graphics/compatibility/IndustrialRevolution/tantalum-scrap-3.png",
 				scale = 0.25,
 				size = 64
 			},
 			{
-				filename = "__Krastorio__/graphics/compatibility/IndustrialRevolution/tantalum-scrap-4.png",
+				filename = "__KrastorioPorted__/graphics/compatibility/IndustrialRevolution/tantalum-scrap-4.png",
 				scale = 0.25,
 				size = 64
 			}
@@ -407,7 +407,7 @@ imersite_cartridge = aswil_utils.tables.fullCopy(data.raw.ammo["titanium-cartrid
 imersite_cartridge.name = "imersite-cartridge"
 imersite_cartridge.localised_name={"item-name.imersite-cartridge"}
 imersite_cartridge.localised_description=""
-imersite_cartridge.icon = "__Krastorio__/graphics/compatibility/IndustrialRevolution/imersite-cartridge.png"
+imersite_cartridge.icon = "__KrastorioPorted__/graphics/compatibility/IndustrialRevolution/imersite-cartridge.png"
 imersite_cartridge.order = imersite_cartridge.order .. "[imersite-cartridge]"
 
 --imersite_cartridge.ammo_type.action[2].action_delivery.projectile = "bullet-750-100-27"
@@ -420,7 +420,7 @@ imersite_cartridge_recipe = aswil_utils.tables.fullCopy(data.raw.recipe["titaniu
 imersite_cartridge_recipe.name = "imersite-cartridge"
 imersite_cartridge_recipe.localised_name={"recipe-name.imersite-cartridge"}
 imersite_cartridge_recipe.localised_description=""
-imersite_cartridge_recipe.icon = "__Krastorio__/graphics/compatibility/IndustrialRevolution/imersite-cartridge.png"
+imersite_cartridge_recipe.icon = "__KrastorioPorted__/graphics/compatibility/IndustrialRevolution/imersite-cartridge.png"
 imersite_cartridge_recipe.order = imersite_cartridge_recipe.order .. "[imersite-cartridge]" 
 
 data:extend({imersite_cartridge_recipe})
@@ -556,7 +556,7 @@ aswil.icons.createOverlappedIcon
 	1, 
 	"__IndustrialRevolution__/graphics/icons/64/computer-mk1.png", 
 	64, 
-	"__Krastorio__/graphics/k.png", 
+	"__KrastorioPorted__/graphics/k.png", 
 	64
 )
 
@@ -567,7 +567,7 @@ aswil.icons.createOverlappedIcon
 	1, 
 	"__IndustrialRevolution__/graphics/icons/64/computer-mk2.png", 
 	64, 
-	"__Krastorio__/graphics/k.png", 
+	"__KrastorioPorted__/graphics/k.png", 
 	64
 )
 
@@ -578,7 +578,7 @@ aswil.icons.createOverlappedIcon
 	1, 
 	"__IndustrialRevolution__/graphics/icons/64/computer-mk3.png", 
 	64, 
-	"__Krastorio__/graphics/k.png", 
+	"__KrastorioPorted__/graphics/k.png", 
 	64
 )
 
@@ -999,7 +999,7 @@ data:extend
 			1
 		},
 		fuel_value = "80MJ",
-		icon = "__Krastorio__/graphics/compatibility/IndustrialRevolution/charged-imersite-battery.png",
+		icon = "__KrastorioPorted__/graphics/compatibility/IndustrialRevolution/charged-imersite-battery.png",
 		icon_size = 64,		
 		order = "h[e]",
 		stack_size = 50		

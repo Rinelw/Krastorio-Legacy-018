@@ -49,7 +49,7 @@ data:extend(
 	{
     type = "gun",
     name = "k-laser-cannon",
-    icon = "__Krastorio__/graphics/icons/impulse-rifle.png",
+    icon = "__KrastorioPorted__/graphics/icons/impulse-rifle.png",
     icon_size = 32,
     flags = {"hidden"},
     subgroup = "gun",
@@ -67,7 +67,7 @@ data:extend(
       sound =
       {
         {
-          filename = "__Krastorio__/sound/impulse-rifle.ogg",
+          filename = "__KrastorioPorted__/sound/impulse-rifle.ogg",
           volume = 1.0
         }
       },
@@ -80,7 +80,7 @@ data:extend(
 	{
     type = "gun",
     name = "k-tank-cannon-a",
-    icon = "__Krastorio__/graphics/icons/k-tank-cannon-a.png",
+    icon = "__KrastorioPorted__/graphics/icons/k-tank-cannon-a.png",
     icon_size = 32,
     flags = {"hidden"},
     subgroup = "gun",
@@ -99,7 +99,7 @@ data:extend(
       sound =
       {
         {
-            filename = "__Krastorio__/sound/railgun.ogg",
+            filename = "__KrastorioPorted__/sound/railgun.ogg",
           volume = 1.0
         }
       }
@@ -112,7 +112,7 @@ data:extend(
 	{
     type = "gun",
     name = "k-tank-cannon-b",
-    icon = "__Krastorio__/graphics/icons/k-tank-cannon-b.png",
+    icon = "__KrastorioPorted__/graphics/icons/k-tank-cannon-b.png",
     icon_size = 32,
     flags = {"hidden"},
     subgroup = "gun",
@@ -132,7 +132,7 @@ data:extend(
       sound =
       {
         {
-            filename = "__Krastorio__/sound/railgun.ogg",
+            filename = "__KrastorioPorted__/sound/railgun.ogg",
           volume = 1.0
         }
       }
@@ -145,7 +145,7 @@ data:extend(
 	{
     type = "gun",
     name = "k-tank-cannon-c",
-    icon = "__Krastorio__/graphics/icons/k-tank-cannon-c.png",
+    icon = "__KrastorioPorted__/graphics/icons/k-tank-cannon-c.png",
     icon_size = 32,
     flags = {"hidden"},
     subgroup = "gun",
@@ -164,7 +164,7 @@ data:extend(
       sound =
       {
         {
-            filename = "__Krastorio__/sound/railgun.ogg",
+            filename = "__KrastorioPorted__/sound/railgun.ogg",
           volume = 1.5
         }
       }

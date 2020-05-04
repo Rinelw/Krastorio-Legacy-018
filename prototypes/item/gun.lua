@@ -7,7 +7,7 @@ data:extend(
 	{
     type = "gun",
     name = "impulse-rifle",
-    icon = "__Krastorio__/graphics/icons/impulse-rifle.png",
+    icon = "__KrastorioPorted__/graphics/icons/impulse-rifle.png",
     icon_size = 32,
     subgroup = "gun",
     order = "c[impulse-rifle]",
@@ -22,7 +22,7 @@ data:extend(
       sound =
       {
         {
-          filename = "__Krastorio__/sound/impulse-rifle.ogg",
+          filename = "__KrastorioPorted__/sound/impulse-rifle.ogg",
           volume = 0.75
         }
       }
@@ -41,7 +41,7 @@ data:extend(
     animations =
     {
       {
-        filename = "__Krastorio__/graphics/entity/impulse-rifle-beam/impulse-rifle-beam.png",
+        filename = "__KrastorioPorted__/graphics/entity/impulse-rifle-beam/impulse-rifle-beam.png",
         priority = "extra-high",
         width = 62,
         height = 1,
@@ -59,7 +59,7 @@ data:extend(
   {
     type = "gun",
     name = "heavy-rocket-launcher",
-    icon = "__Krastorio__/graphics/icons/heavy-rocket-launcher.png",
+    icon = "__KrastorioPorted__/graphics/icons/heavy-rocket-launcher.png",
     icon_size = 32,
     subgroup = "gun",
     order = "d[heavy-rocket-launcher]",
@@ -75,7 +75,7 @@ data:extend(
       sound =
       {
         {
-          filename = "__Krastorio__/sound/rocket-launch.ogg",
+          filename = "__KrastorioPorted__/sound/rocket-launch.ogg",
           volume = 1
         }
       }

@@ -23,25 +23,25 @@ data.raw.recipe["k-titanium-plate"].icon_size = 64
 data.raw.recipe["k-titanium-plate-2"].icon = "__IndustrialRevolution__/graphics/icons/64/titanium-ingot.png"
 data.raw.recipe["k-titanium-plate-2"].icon_size = 64
 
-data.raw.item["k-tantalum-plate"].icon = "__Krastorio__/graphics/compatibility/IndustrialRevolution/tantalum-plate.png"
+data.raw.item["k-tantalum-plate"].icon = "__KrastorioPorted__/graphics/compatibility/IndustrialRevolution/tantalum-plate.png"
 data.raw.item["k-tantalum-plate"].icon_size = 64
 data.raw.item["k-tantalum-plate"].pictures =
 {
-  { size = 64, filename = "__Krastorio__/graphics/compatibility/IndustrialRevolution/tantalum-plate.png", scale = 0.25, mipmap_count = 4 }
+  { size = 64, filename = "__KrastorioPorted__/graphics/compatibility/IndustrialRevolution/tantalum-plate.png", scale = 0.25, mipmap_count = 4 }
 }
-data.raw.recipe["k-tantalum-plate"].icon = "__Krastorio__/graphics/compatibility/IndustrialRevolution/tantalum-ingot.png"
+data.raw.recipe["k-tantalum-plate"].icon = "__KrastorioPorted__/graphics/compatibility/IndustrialRevolution/tantalum-ingot.png"
 data.raw.recipe["k-tantalum-plate"].icon_size = 64
-data.raw.recipe["k-tantalum-plate-2"].icon = "__Krastorio__/graphics/compatibility/IndustrialRevolution/tantalum-ingot.png"
+data.raw.recipe["k-tantalum-plate-2"].icon = "__KrastorioPorted__/graphics/compatibility/IndustrialRevolution/tantalum-ingot.png"
 data.raw.recipe["k-tantalum-plate-2"].icon_size = 64
 
-data.raw.ammo["imersite-rounds-magazine"].icon = "__Krastorio__/graphics/compatibility/IndustrialRevolution/imersite-magazine.png"
+data.raw.ammo["imersite-rounds-magazine"].icon = "__KrastorioPorted__/graphics/compatibility/IndustrialRevolution/imersite-magazine.png"
 data.raw.ammo["imersite-rounds-magazine"].icon_size = 64
-data.raw.recipe["imersite-rounds-magazine"].icon = "__Krastorio__/graphics/compatibility/IndustrialRevolution/imersite-magazine.png"
+data.raw.recipe["imersite-rounds-magazine"].icon = "__KrastorioPorted__/graphics/compatibility/IndustrialRevolution/imersite-magazine.png"
 data.raw.recipe["imersite-rounds-magazine"].icon_size = 64
 
-data.raw.item["imersite-battery"].icon = "__Krastorio__/graphics/compatibility/IndustrialRevolution/imersite-battery.png"
+data.raw.item["imersite-battery"].icon = "__KrastorioPorted__/graphics/compatibility/IndustrialRevolution/imersite-battery.png"
 data.raw.item["imersite-battery"].icon_size = 64
-data.raw.recipe["imersite-battery"].icon = "__Krastorio__/graphics/compatibility/IndustrialRevolution/imersite-battery.png"
+data.raw.recipe["imersite-battery"].icon = "__KrastorioPorted__/graphics/compatibility/IndustrialRevolution/imersite-battery.png"
 data.raw.recipe["imersite-battery"].icon_size = 64
 
 
@@ -53,7 +53,7 @@ aswil.icons.createOverlappedIcon
 	1, 
 	"__IndustrialRevolution__/graphics/icons/64/copper-ingot.png", 
 	64, 
-	"__Krastorio__/graphics/k.png", 
+	"__KrastorioPorted__/graphics/k.png", 
 	64
 )
 data.raw.recipe["copper-plate-2"].icon = nil
@@ -68,7 +68,7 @@ aswil.icons.createOverlappedIcon
 	1, 
 	"__IndustrialRevolution__/graphics/icons/64/iron-ingot.png", 
 	64, 
-	"__Krastorio__/graphics/k.png", 
+	"__KrastorioPorted__/graphics/k.png", 
 	64
 )
 data.raw.recipe["iron-plate-2"].icon = nil
@@ -83,7 +83,7 @@ aswil.icons.createOverlappedIcon
 	1, 
 	"__IndustrialRevolution__/graphics/icons/64/titanium-ingot.png", 
 	64, 
-	"__Krastorio__/graphics/k.png", 
+	"__KrastorioPorted__/graphics/k.png", 
 	64
 )
 data.raw.recipe["k-titanium-plate"].icon = nil
@@ -98,7 +98,7 @@ aswil.icons.createOverlappedIcon
 	1, 
 	"__IndustrialRevolution__/graphics/icons/64/titanium-ingot.png", 
 	64, 
-	"__Krastorio__/graphics/k.png", 
+	"__KrastorioPorted__/graphics/k.png", 
 	64
 )
 data.raw.recipe["k-titanium-plate-2"].icon = nil

@@ -93,7 +93,7 @@ if settings.startup["loaders"] and settings.startup["loaders"].value then
 				{
 					sheet =
 					{
-						filename = "__Krastorio__/graphics/entity/loaders/"..name..".png",
+						filename = "__KrastorioPorted__/graphics/entity/loaders/"..name..".png",
 						priority = "extra-high",
 						shift = {0.15625, 0.0703125},
 						width = 53,
@@ -101,7 +101,7 @@ if settings.startup["loaders"] and settings.startup["loaders"].value then
 						y = 43,
 						hr_version =
 							{
-							filename = "__Krastorio__/graphics/entity/loaders/hr-"..name..".png",
+							filename = "__KrastorioPorted__/graphics/entity/loaders/hr-"..name..".png",
 							priority = "extra-high",
 							shift = {0.15625, 0.0703125},
 							width = 106,
@@ -115,14 +115,14 @@ if settings.startup["loaders"] and settings.startup["loaders"].value then
 				{
 					sheet =
 					{
-						filename = "__Krastorio__/graphics/entity/loaders/"..name..".png",
+						filename = "__KrastorioPorted__/graphics/entity/loaders/"..name..".png",
 						priority = "extra-high",
 						shift = {0.15625, 0.0703125},
 						width = 53,
 						height = 43,
 						hr_version =
 							{
-							filename = "__Krastorio__/graphics/entity/loaders/hr-"..name..".png",
+							filename = "__KrastorioPorted__/graphics/entity/loaders/hr-"..name..".png",
 							priority = "extra-high",
 							shift = {0.15625, 0.0703125},
 							width = 106,

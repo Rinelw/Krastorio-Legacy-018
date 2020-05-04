@@ -1,6 +1,6 @@
 if mods["deadlock-beltboxes-loaders"] then	
 
-	local kr_stacked_icon_path = "__Krastorio__/graphics/compatibility/deadlock-beltboxes-loaders/stacked-"
+	local kr_stacked_icon_path = "__KrastorioPorted__/graphics/compatibility/deadlock-beltboxes-loaders/stacked-"
 
 	--Adding new tier
 	deadlock.add_tier(

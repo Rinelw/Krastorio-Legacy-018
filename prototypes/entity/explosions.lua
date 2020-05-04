@@ -14,7 +14,7 @@ data:extend(
     animations =
     {
       {
-        filename = "__Krastorio__/graphics/entity/explosions/matter-explosion.png",
+        filename = "__KrastorioPorted__/graphics/entity/explosions/matter-explosion.png",
         flags = { "compressed" },
         width = 197,
         height = 245,
@@ -75,7 +75,7 @@ data:extend(
     animations =
     {
       {
-        filename = "__Krastorio__/graphics/entity/explosions/big-matter-explosion.png",
+        filename = "__KrastorioPorted__/graphics/entity/explosions/big-matter-explosion.png",
         flags = { "compressed" },
         width = 394,
         height = 490,
@@ -136,7 +136,7 @@ data:extend(
     animations =
     {
       {
-        filename = "__Krastorio__/graphics/entity/explosions/rail-matter-explosion.png",
+        filename = "__KrastorioPorted__/graphics/entity/explosions/rail-matter-explosion.png",
         flags = { "compressed" },
         animation_speed = 0.5,
         width = 324,
@@ -146,12 +146,12 @@ data:extend(
         stripes =
         {
           {
-            filename = "__Krastorio__/graphics/entity/explosions/rail-matter-explosion-1.png",
+            filename = "__KrastorioPorted__/graphics/entity/explosions/rail-matter-explosion-1.png",
             width_in_frames = 6,
             height_in_frames = 3,
           },
           {
-            filename = "__Krastorio__/graphics/entity/explosions/rail-matter-explosion-2.png",
+            filename = "__KrastorioPorted__/graphics/entity/explosions/rail-matter-explosion-2.png",
             width_in_frames = 6,
             height_in_frames = 3,
           }
@@ -216,7 +216,7 @@ data:extend(
     animations =
     {
       {
-        filename = "__Krastorio__/graphics/entity/explosions/matter-explosion.png",
+        filename = "__KrastorioPorted__/graphics/entity/explosions/matter-explosion.png",
         flags = { "compressed" },
         width = 197,
         height = 245,
@@ -277,7 +277,7 @@ data:extend(
     animations =
     {
       {
-        filename = "__Krastorio__/graphics/entity/explosions/big-matter-explosion.png",
+        filename = "__KrastorioPorted__/graphics/entity/explosions/big-matter-explosion.png",
         flags = { "compressed" },
         width = 394,
         height = 490,
@@ -338,7 +338,7 @@ data:extend(
     animations =
     {
       {
-        filename = "__Krastorio__/graphics/entity/explosions/rail-matter-explosion.png",
+        filename = "__KrastorioPorted__/graphics/entity/explosions/rail-matter-explosion.png",
         flags = { "compressed" },
         animation_speed = 0.5,
         width = 324,
@@ -348,12 +348,12 @@ data:extend(
         stripes =
         {
           {
-            filename = "__Krastorio__/graphics/entity/explosions/rail-matter-explosion-1.png",
+            filename = "__KrastorioPorted__/graphics/entity/explosions/rail-matter-explosion-1.png",
             width_in_frames = 6,
             height_in_frames = 3,
           },
           {
-            filename = "__Krastorio__/graphics/entity/explosions/rail-matter-explosion-2.png",
+            filename = "__KrastorioPorted__/graphics/entity/explosions/rail-matter-explosion-2.png",
             width_in_frames = 6,
             height_in_frames = 3,
           }

@@ -196,7 +196,7 @@ data.raw["logistic-container"]["k-big-r"].inventory_size = chest_tier_4_inventor
 
 -- Storage technology merge
 
-data.raw.technology["deadlock-storage-2"].icon = "__Krastorio__/graphics/compatibility/IndustrialRevolution/dir-as.png"
+data.raw.technology["deadlock-storage-2"].icon = "__KrastorioPorted__/graphics/compatibility/IndustrialRevolution/dir-as.png"
 aswil.technologies.addEffects
 ( 
 	"deadlock-storage-2",
@@ -215,7 +215,7 @@ aswil.technologies.addEffects
 data.raw.technology["advanced-storage"] = nil
 
 data.raw.technology["deadlock-storage-3"].icons = nil
-data.raw.technology["deadlock-storage-3"].icon  = "__Krastorio__/graphics/compatibility/IndustrialRevolution/dir-als.png"
+data.raw.technology["deadlock-storage-3"].icon  = "__KrastorioPorted__/graphics/compatibility/IndustrialRevolution/dir-als.png"
 data.raw.technology["deadlock-storage-3"].icon_size = 128
 aswil.technologies.addEffects
 (	
@@ -241,7 +241,7 @@ aswil.technologies.addEffects
 )
 
 data.raw.technology["deadlock-storage-4"].icons = nil
-data.raw.technology["deadlock-storage-4"].icon  = "__Krastorio__/graphics/compatibility/IndustrialRevolution/dir-als.png"
+data.raw.technology["deadlock-storage-4"].icon  = "__KrastorioPorted__/graphics/compatibility/IndustrialRevolution/dir-als.png"
 data.raw.technology["deadlock-storage-4"].icon_size = 128
 aswil.technologies.addEffects
 (	
