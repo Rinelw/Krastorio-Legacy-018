@@ -1,0 +1,31 @@
+{
+	"resource":
+	[
+		["kr-sand", "sand"],
+		["kr-gold", "gold"]
+	],
+	"item":
+	[
+		["k-gold", "gold"]
+	],
+	"recipe":
+	[
+		["deadlock-packrecipe-k-gold", "deadlock-packrecipe-gold"],
+		["deadlock-unpackrecipe-k-gold", "deadlock-unpackrecipe-gold"]
+	],
+	"entity":
+	[
+		["kr-sand", "sand"],
+		["kr-gold", "gold"]
+	],
+	"autoplace-control":
+	[
+		["kr-sand", "sand"],
+		["kr-gold", "gold"]
+	],
+	"noise-layer":
+	[
+		["kr-sand", "sand"],
+		["kr-gold", "gold"]
+	]
+}

@@ -1,0 +1,94 @@
+{
+	"item":
+	[
+		["bpp", "singularity-beacon"],
+		["k-v-battery-mk1", "battery-equipment"],
+		["k-v-battery-mk2", "battery-mk2-equipment"],
+		["k-v-battery-mk3", "battery-mk3-equipment"],
+		["k-v-generator", "portable-generator"],
+		["k-v-nuclear-core", "portable-nuclear-core"],	
+		["k-v-fusion-reactor", "fusion-reactor-equipment"],		
+		["k-v-fusion-reactor", "fusion-reactor-equipment"],	
+		["k-v-antimatter-reactor", "portable-antimaterial-core"],	
+		["k-v-i-solar-panel", "imersite-solar-panel-equipment"],
+		["shield-generator-mk1", "energy-shield-equipment"],
+		["shield-generator-mk2", "energy-shield-mk2-equipment"],
+		["shield-generator-mk3", "energy-shield-mk3-equipment"],
+		["shield-generator-mk4", "energy-shield-mk4-equipment"],
+		["additional-electric-motor", "additional-engine"],
+		["k-v-advanced-engine", "advanced-additional-engine"],
+		["k-v-solar-panel", "solar-panel-equipment"],
+		["k-v-i-solar-panel", "imersite-solar-panel-equipment"],
+		["k-v-roboport", "vehicle-roboport"],
+		["k-v-laser-defense-mk1", "personal-laser-defense-equipment"],
+		["k-v-laser-defense-mk1", "personal-submachine-laser-defense-mk1-equipment"],
+		["k-v-laser-defense-mk2", "personal-submachine-laser-defense-mk2-equipment"],
+		["k-v-laser-defense-mk3", "personal-submachine-laser-defense-mk3-equipment"],
+		["k-v-laser-defense-mk4", "personal-submachine-laser-defense-mk4-equipment"]
+	],
+	
+	"entity":
+	[
+		["bpp", "singularity-beacon"]
+	],
+	
+	"equipment":
+	[
+		["k-v-battery-mk1", "battery-equipment"],
+		["k-v-battery-mk2", "battery-mk2-equipment"],
+		["k-v-battery-mk3", "battery-mk3-equipment"],
+		["k-v-generator", "portable-generator"],
+		["k-v-nuclear-core", "portable-nuclear-core"],	
+		["k-v-fusion-reactor", "fusion-reactor-equipment"],		
+		["k-v-fusion-reactor", "fusion-reactor-equipment"],	
+		["k-v-antimatter-reactor", "portable-antimaterial-core"],	
+		["k-v-i-solar-panel", "imersite-solar-panel-equipment"],
+		["shield-generator-mk1", "energy-shield-equipment"],
+		["shield-generator-mk2", "energy-shield-mk2-equipment"],
+		["shield-generator-mk3", "energy-shield-mk3-equipment"],
+		["shield-generator-mk4", "energy-shield-mk4-equipment"],
+		["additional-electric-motor", "additional-engine"],
+		["k-v-advanced-engine", "advanced-additional-engine"],
+		["k-v-solar-panel", "solar-panel-equipment"],
+		["k-v-i-solar-panel", "imersite-solar-panel-equipment"],
+		["k-v-roboport", "vehicle-roboport"],
+		["k-v-laser-defense-mk1", "personal-laser-defense-equipment"],
+		["k-v-laser-defense-mk1", "personal-submachine-laser-defense-mk1-equipment"],
+		["k-v-laser-defense-mk2", "personal-submachine-laser-defense-mk2-equipment"],
+		["k-v-laser-defense-mk3", "personal-submachine-laser-defense-mk3-equipment"],
+		["k-v-laser-defense-mk4", "personal-submachine-laser-defense-mk4-equipment"]
+	],
+	
+	"recipe":
+	[
+		["bpp", "singularity-beacon"],
+		["k-v-battery-mk1", "battery-equipment"],
+		["k-v-battery-mk2", "battery-mk2-equipment"],
+		["k-v-battery-mk3", "battery-mk3-equipment"],
+		["k-v-generator", "portable-generator"],
+		["k-v-nuclear-core", "portable-nuclear-core"],	
+		["k-v-fusion-reactor", "fusion-reactor-equipment"],		
+		["k-v-fusion-reactor", "fusion-reactor-equipment"],	
+		["k-v-antimatter-reactor", "portable-antimaterial-core"],	
+		["k-v-i-solar-panel", "imersite-solar-panel-equipment"],
+		["shield-generator-mk1", "energy-shield-equipment"],
+		["shield-generator-mk2", "energy-shield-mk2-equipment"],
+		["shield-generator-mk3", "energy-shield-mk3-equipment"],
+		["shield-generator-mk4", "energy-shield-mk4-equipment"],
+		["additional-electric-motor", "additional-engine"],
+		["k-v-advanced-engine", "advanced-additional-engine"],
+		["k-v-solar-panel", "solar-panel-equipment"],
+		["k-v-i-solar-panel", "imersite-solar-panel-equipment"],
+		["k-v-roboport", "vehicle-roboport"],
+		["k-v-laser-defense-mk1", "personal-laser-defense-equipment"],		
+		["k-v-laser-defense-mk1", "personal-submachine-laser-defense-mk1-equipment"],
+		["k-v-laser-defense-mk2", "personal-submachine-laser-defense-mk2-equipment"],
+		["k-v-laser-defense-mk3", "personal-submachine-laser-defense-mk3-equipment"],
+		["k-v-laser-defense-mk4", "personal-submachine-laser-defense-mk4-equipment"]
+	],
+	
+	"technology":
+	[
+		["bpp", "singularity-beacon"]
+	]
+}

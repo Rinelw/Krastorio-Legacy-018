@@ -1,0 +1,18 @@
+aswil.modules.hasLimitationRecipe(limitations, recipe_name)
+
+aswil.modules.hasPositiveProductivity(module)
+aswil.modules.hasPositiveSpeed(module)
+aswil.modules.hasPositiveEfficiency(module)
+aswil.modules.hasPositiveLessPollution(module)
+
+aswil.modules.addProductivityLimitation(recipe_name)
+aswil.modules.removeProductivityLimitation(recipe_name)
+
+aswil.modules.addSpeedLimitation(recipe_name)
+aswil.modules.removeSpeedLimitation(recipe_name)
+
+aswil.modules.addEfficiencyLimitation(recipe_name)
+aswil.modules.removeEfficiencyLimitation(recipe_name)
+
+aswil.modules.addLessPollutionLimitation(recipe_name)
+aswil.modules.removeLessPollutionLimitation(recipe_name)

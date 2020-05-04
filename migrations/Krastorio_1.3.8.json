@@ -1,0 +1,11 @@
+{
+	"item":
+	[
+		["deadlock-crate-k-gold-plate", "deadlock-crate-gold-plate"]
+	],
+	"recipe":
+	[
+		["deadlock-crate-k-gold-plate", "deadlock-crate-gold-plate"],
+		["deadlock-unpackrecipe-k-gold-plate", "deadlock-unpackrecipe-gold-plate"]
+	]
+}

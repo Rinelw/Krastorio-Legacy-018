@@ -1,0 +1,35 @@
+{
+	"resource":
+	[
+		["kr-gold", "gold-ore"],
+		["gold", "gold-ore"]
+	],
+	"item":
+	[
+		["k-gold", "gold-ore"],
+		["kr-gold", "gold-ore"],
+		["gold", "gold-ore"]
+	],
+	"recipe":
+	[
+		["deadlock-packrecipe-k-gold", "deadlock-packrecipe-gold"],
+		["deadlock-unpackrecipe-k-gold", "deadlock-unpackrecipe-gold"],
+		["deadlock-packrecipe-gold", "deadlock-packrecipe-gold-ore"],
+		["deadlock-unpackrecipe-gold", "deadlock-unpackrecipe-gold-ore"]
+	],
+	"entity":
+	[
+		["kr-gold", "gold-ore"],
+		["gold", "gold-ore"]
+	],
+	"autoplace-control":
+	[
+		["kr-gold", "gold-ore"],
+		["gold", "gold-ore"]
+	],
+	"noise-layer":
+	[
+		["kr-gold", "gold-ore"],
+		["gold", "gold-ore"]
+	]
+}

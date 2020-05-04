@@ -1,0 +1,48 @@
+{
+  "item":
+	[
+		["k-air-filter", "k-air-purifier"],
+		["filtration-plant", "k-filtration-plant"],
+		["small-research-server", "k-research-server-mk1"],
+		["matter-power-cell", "k-antimatter-capsule"],
+		["quantum-processor", "k-advanced-processor"],
+		["belt-kr", "k-transport-belt"],
+		["splitter-kr", "k-splitter"],
+		["underground-belt-kr", "k-underground-belt"],
+		["research-data", "k-empty-memory-card"],
+		["filter", "k-filter"],
+		["used-filter", "k-used-filter"],
+		["memory-card", "k-memory-card"]
+	],
+  "entity":
+	[
+		["k-air-filter", "k-air-purifier"],
+		["filtration-plant", "k-filtration-plant"],
+		["small-research-server", "k-research-server-mk1"],
+		["belt-kr", "k-transport-belt"],
+		["splitter-kr", "k-splitter"],
+		["underground-belt-kr", "k-underground-belt"]
+	],
+  "recipe":
+	[
+		["k-air-filter", "k-air-purifier"],
+		["air-filtration", "air-cleaning"],
+		["filtration-plant", "k-filtration-plant"],
+		["small-research-server", "k-research-server-mk1"],
+		["belt-kr", "k-transport-belt"],
+		["splitter-kr", "k-splitter"],
+		["underground-belt-kr", "k-underground-belt"]
+	],
+  "technology":
+	[
+		["k-air-filter", "k-air-purifier"],
+		["filtration-plant", "k-filtration-plant"],
+		["k-quantum-processor", "k-advanced-processor"],
+		["m-crystallization", "menarite-processing-1"],
+		["i-crystallization", "imersite-processing-1"],
+		["matter-power-cell", "matter-converter"],
+		["matter", "k-matter"],
+		["advanced-matter-assembler", "matter-assembler-plus"]
+		
+	]
+}

@@ -1,0 +1,11 @@
+{
+	"recipe":
+	[
+		["k-burn-oxygen", "k-burn-k-oxygen"],
+		["k-burn-nitrogen", "k-burn-k-nitrogen"],
+		["k-burn-chlorine", "k-burn-k-chlorine"],
+		["k-burn-hydrogen-chlorine", "k-burn-k-hydrogen-chloride"],
+		["k-burn-hydrogen", "k-burn-k-hydrogen"],
+		["k-burn-ammonia", "k-burn-k-ammonia"]
+	]
+}

@@ -1,0 +1,28 @@
+{
+	"item":
+	[
+		["k-advanced-processor", "menarite-processor"],
+		["k-transistor", "integrated-circuit"],		
+		["deadlock-crate-k-advanced-processor", "deadlock-crate-menarite-processor"],
+		["deadlock-crate-k-transistor", "deadlock-crate-integrated-circuit"],
+		["deadlock-stack-k-advanced-processor", "deadlock-stack-menarite-processor"],
+		["deadlock-stack-k-transistor", "deadlock-stack-integrated-circuit"]			
+	],
+	"recipe":
+	[
+		["k-advanced-processor", "menarite-processor"],
+		["k-transistor", "integrated-circuit"],		
+		["deadlock-packrecipe-k-advanced-processor", "deadlock-packrecipe-menarite-processor"],
+		["deadlock-unpackrecipe-k-advanced-processor", "deadlock-unpackrecipe-menarite-processor"],		
+		["deadlock-packrecipe-k-transistor", "deadlock-packrecipe-integrated-circuit"],
+		["deadlock-unpackrecipe-k-transistor", "deadlock-unpackrecipe-integrated-circuit"],			
+		["deadlock-stacks-stack-k-advanced-processor", "deadlock-stacks-stack-menarite-processor"],
+		["deadlock-stacks-unstack-k-advanced-processor", "deadlock-stacks-unstack-menarite-processor"],		
+		["deadlock-stacks-stack-k-transistor", "deadlock-stacks-stack-integrated-circuit"],
+		["deadlock-stacks-unstack-k-transistor", "deadlock-stacks-unstack-integrated-circuit"]
+	],
+	"technology":
+	[
+		["k-advanced-processor", "menarite-processor"]
+	]
+}

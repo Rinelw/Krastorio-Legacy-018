@@ -1,0 +1,6 @@
+
+aswil.entities.exist(category_name, entity_name)
+aswil.entities.getEntity(category_name, entity_name)
+
+aswil.entities.removeCollisionMaskOnEntity(category_name, entity_name, to_remove_mask_name)
+aswil.entities.addCollisionMaskOnEntity(category_name, entity_name, mask_name)

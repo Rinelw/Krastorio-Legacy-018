@@ -1,0 +1,418 @@
+GENERAL BEHAVIOURS
+
+- All "Add" procedure in an inventory mean that if the item not exist will create a new
+  entry of that item, if already exist, the quantity of two will be added to the old.
+
+- All "AddorReplace" procedure in an inventory mean that given an item, if exist,
+  the quantity will be replaced, if not exist will be created a new entry.
+
+- All "Convert" procedure in an inventory will change the name of an item leaving the 
+  quantity unchanged unlike "Replace" procedure.
+
+---------------------------------------------------------------------------------------------
+aswil.recipes.exist(recipe_name)
+
+Wrapper function of aswil.recipes.getRecipeFromName(recipe_name), return a boolean instead,
+true if the value isn't empty false otherwise
+
+---------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------
+aswil.recipes.getRecipeFromName(recipe_name)
+
+Return the the recipe (the whole table) called with the name given in the argument, 
+if the recipe doesn't exist, return nil
+
+---------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------
+aswil.recipes.isRecipeVanilla(recipe_name)
+
+Return true(boolean) if the recipes exist in vanilla game, false(boolean) otherwise.
+---------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------
+aswil.recipes.getCategory(recipe_name)
+
+Return the category name of given recipe indicated by name. If the recipe don't exist
+return false(boolean)
+---------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------
+aswil.recipes.findNotUnlockableRecipes()
+
+Return a list(table of strings) and print it in factorio log file,
+all recipes that are unlockable,
+that isn't enabled and there isn't a technology that unlockable them.
+---------------------------------------------------------------------------------------------
+
+
+
+---------------------------------------------------------------------------------------------
+aswil.recipes.getIngredients(recipe_name)
+
+Return the table of ingredients of one given recipe by name.
+If the recipe not exist return an empty table.
+---------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------
+aswil.recipes.hasIngredient(recipe_name, ingredient_name)
+
+Return true(boolean) if the ingredient is in the ingredients table of recipe,
+false(boolean) otherwise.
+---------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------
+aswil.recipes.hasIngredients(recipe_name, ingredient_names)
+
+Return true(boolean) if all given ingredients name is in the ingredients table of recipe,
+false(boolean) otherwise.
+ingredient_names must be a table of strings of ingredient names
+---------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------
+aswil.recipes.hasNoIngredients(recipe_name)
+
+Return true(boolean) if ingredients table of recipe is empty, false(boolean) otherwise.
+---------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------
+aswil.recipes.getExpensiveIngredients(recipe_name)
+
+Same behaviour of function aswil.recipes.getIngredients(recipe_name)
+but for expensive ingredients table of a recipe.
+---------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------
+aswil.recipes.hasExpensiveIngredient(recipe_name, ingredient_name)
+
+Same behaviour of function aswil.recipes.hasIngredient(recipe_name, ingredient_name)
+but for expensive ingredients table of a recipe.
+---------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------
+aswil.recipes.hasExpensiveIngredients(recipe_name, ingredient_names)
+
+Same behaviour of function aswil.recipes.hasIngredients(recipe_name, ingredient_names)
+but for expensive ingredients table of a recipe.
+---------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------
+aswil.recipes.hasNoExpensiveIngredients(recipe_name)
+
+Same behaviour of function aswil.recipes.hasNoIngredients(recipe_name)
+but for expensive ingredients table of a recipe.
+---------------------------------------------------------------------------------------------
+
+
+
+---------------------------------------------------------------------------------------------
+aswil.recipes.resultToResults(recipe_name)
+
+Convert the result of given recipe, in the results format, this is for standardize access
+to recipe result/results. If the recipe format is already results, don't do nothing
+NOTE: All recipe that have results format must have an icon setted
+---------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------
+aswil.recipes.getProducts(recipe_name)
+
+Return the results table if the given recipes exist.
+Convert automatically the result format to result
+---------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------
+aswil.recipes.hasProduct(recipe_name, product_name)
+
+Return true if the recipe produce the product given by name, false otherwise.
+---------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------
+aswil.recipes.hasProducts(recipe_name, product_names)
+
+Given a list(table) of item name, return true if the recipe
+produce the all products, false otherwise.
+---------------------------------------------------------------------------------------------
+
+
+
+---------------------------------------------------------------------------------------------
+aswil.recipes.getParsedItem(item)
+
+Parse a given item table with the name that identify each attribute of the item,
+and return a new parsed table. Example:
+input  {"iron-ore", 1}
+output {name="iron-ore", amount=1}
+---------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------
+aswil.recipes.mergeParsedItems(item_a, item_b)
+
+Given two items that is parsed(see getParsedItem(item)) will return one item that have
+the quantity(amount) sum of two and the catalist and the probability of item_b.
+If item_b don't have catalist and the probability but is attribute of item_a, will copy
+the attribute of item_a.
+---------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------
+aswil.recipes.uniteDuplicateItems(items)
+
+Given an inventory, will merge with the function mergeParsedItems(item_a, item_b)
+all items that have the same name
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+aswil.recipes.remove(items, item_name)	
+
+If exist, will remove from the given inventory the first item that have the given name.
+
+Return if the removal was done.
+---------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------
+aswil.recipes.add(items, item)
+
+Will add in the given inventory the item given in the argument. If in the inventory the item
+already exist, the quantity will be added.
+---------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------
+aswil.recipes.replace(items, old_item_name, new_item)
+
+Replace the item in the given inventory that have the name equals to "old_item_name",
+with the new_item given. All item attribute will be overrided.
+
+If the item don't exist in the inventory, the item will be not added.
+
+Return if the replacing was done.
+---------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------
+aswil.recipes.addOrReplace(items, old_item_name, new_item)
+
+Will call replace(items, old_item_name, new_item), and if the result is negative,
+will do add(items, item)
+
+---------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------
+aswil.recipes.convert(items, old_item_name, new_item_name)
+
+If an item with the name "old_item_name" exist in the inventory, will change that name with
+the "new_item_name", so all other item attributes will remain unchanged
+
+---------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------
+aswil.recipes.overrideIngredients(recipe_name, new_ingredients)
+
+Remove all item from the inventory and will insert the new given in the list(table)
+new_ingredients
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+aswil.recipes.removeIngredient(recipe_name, ingredient_name)
+
+Will remove the given ingredient from the inventory,
+
+see remove(items, item_name) for more details
+---------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------
+aswil.recipes.removeIngredients(recipe_name, ingredient_names)
+
+Will remove all given ingredient from the inventory,
+
+see remove(items, item_name) for more details
+---------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------
+aswil.recipes.removeIngredientFromAllRecipes(ingredient_name)
+
+Will remove that ingredient from all recipes loaded in the phase when this function is called
+
+see remove(items, item_name) for more details
+---------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------
+aswil.recipes.removeIngredientsFromAllRecipes(ingredient_names)
+
+Will remove all given ingredients that is in all recipes loaded in the phase
+when this function is called
+
+see remove(items, item_name) for more details
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+aswil.recipes.removeIngredientWithPrerequisite(recipe_name, ingredient_name)
+
+Remove the ingredient from the recipe and in the technology that
+unlock this recipe will remove that ingredient associated technology if exist.
+---------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------
+aswil.recipes.removeIngredientsWithPrerequisite(recipe_name, ingredient_names)
+
+Remove the ingredients from the recipe and in the technology that
+unlock this recipe will remove all ingredients associated technologies.
+---------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------
+aswil.recipes.removeIngredientWithPrerequisiteFromAllRecipes(ingredient_name)
+
+Remove an ingredient from all recipes loaded in the phase when this function is called,
+and will remove from all technologies
+that require the ingredient associated technology from their prerequisites
+---------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------
+aswil.recipes.removeIngredientsWithPrerequisiteFromAllRecipes(ingredient_names)
+
+Remove the given ingredients from all recipes loaded in the phase when this function is called
+and will remove from all technologies
+that require the ingredient associated technology from their prerequisites
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+aswil.recipes.addIngredient(recipe_name, ingredient)
+
+Will add an ingredient to the recipe with some exception:
+ - if the ingredient is only the name the amount will be 1
+ - if the ingredient already exist in the recipes the amount will be added
+ - if the recipe don't exist this function don't do nothing
+---------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------
+aswil.recipes.addIngredients(recipe_name, ingredients)
+
+Will add all given ingredients to the recipe with some exception:
+ - if the ingredient is only the name the amount will be 1
+ - if the ingredient already exist in the recipes the amount will be added
+ - if the recipe don't exist this function don't do nothing
+---------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------
+aswil.recipes.addIngredientToAllRecipes(ingredient)
+
+Will add an ingredient to all recipes loaded in the phase when this function is called,
+with some exception:
+ - if the ingredient is only the name the amount will be 1
+ - if the ingredient already exist in the recipes the amount will be added
+ - if the recipe don't exist this function don't do nothing
+---------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------
+aswil.recipes.addIngredientsToAllRecipes(ingredients)
+
+Will add all given ingredients to all recipes loaded in the phase when this function is called,
+with some exception:
+ - if the ingredient is only the name the amount will be 1
+ - if the ingredient already exist in the recipes the amount will be added
+ - if the recipe don't exist this function don't do nothing
+---------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------
+
+aswil.recipes.multiplyIngredient(recipe_name, ingredient_name, multiplier)
+aswil.recipes.multiplyIngredients(recipe_name, ingredient_names, multiplier)
+aswil.recipes.multiplyIngredientToAllRecipes(ingredient_name, multiplier)
+aswil.recipes.multiplyIngredientsToAllRecipes(ingredient_names, multiplier)
+
+---------------------------------------------------------------------------------------------
+aswil.recipes.replaceIngredient(recipe_name, old_ingredient_name, new_ingredient)
+
+
+
+---------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------
+aswil.recipes.replaceIngredients(recipe_name, old_ingredient_names, new_ingredients)
+
+---------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------
+aswil.recipes.replaceIngredientToAllRecipes(old_ingredient_name, new_ingredient)
+
+---------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------
+aswil.recipes.replaceIngredientsToAllRecipes(old_ingredient_names, new_ingredients)
+
+---------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+aswil.recipes.addOrReplaceIngredient(recipe_name, old_ingredient_name, new_ingredient)
+
+---------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------
+aswil.recipes.addOrReplaceIngredients(recipe_name, old_ingredient_names, new_ingredients)
+
+---------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------
+aswil.recipes.addOrReplaceIngredientToAllRecipes(old_ingredient_name, new_ingredient)
+
+---------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------
+aswil.recipes.addOrReplaceIngredientsToAllRecipes(old_ingredient_names, new_ingredients)
+
+---------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+aswil.recipes.convertIngredient(recipe_name, old_ingredient_name, new_ingredient_name)
+
+---------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------
+aswil.recipes.convertIngredients(recipe_name, old_ingredient_names, new_ingredient_names)
+
+---------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------
+aswil.recipes.convertIngredientFromAllRecipes(old_ingredient_name, new_ingredient_name)
+
+---------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------
+aswil.recipes.convertIngredientsFromAllRecipes(old_ingredient_names, new_ingredient_names)
+
+---------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------
+aswil.recipes.removeIngredientFromGroup(group_name, ingredient_name)
+
+---------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------
+aswil.recipes.addIngredientToGroup(group_name, ingredient)
+
+Will add an ingredient to all recipes in the group with some exception:
+ - if the ingredient is only the name the amount will be 1
+ - if the ingredient already exist in the recipes the amount will be added
+ - if the recipe don't exist this function don't do nothing
+---------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------
+aswil.recipes.replaceIngredientToGroup(group_name, old_ingredient_name, new_ingredient)
+
+---------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------
+aswil.recipes.addOrReplaceIngredientToGroup(group_name, old_ingredient_name, new_ingredient)
+
+---------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------
+aswil.recipes.convertIngredientToGroup(group_name, old_ingredient_name, new_ingredient_name)
+
+---------------------------------------------------------------------------------------------
+
+aswil.recipes.removeProduct(recipe_name, product_name)
+aswil.recipes.removeProducts(recipe_name, product_names)
+aswil.recipes.removeProductFromAllRecipes(product_name)
+aswil.recipes.removeProductsFromAllRecipes(product_names)
+
+aswil.recipes.addProduct(recipe_name, product)
+aswil.recipes.addProducts(recipe_name, products)
+aswil.recipes.addProductToAllRecipes(product)
+aswil.recipes.addProductsToAllRecipes(products)
+
+aswil.recipes.multiplyProduct(recipe_name, product_name, multiplier)
+aswil.recipes.multiplyProducts(recipe_name, product_names, multiplier)
+aswil.recipes.multiplyProductToAllRecipes(product_name, multiplier)
+aswil.recipes.multiplyProductsToAllRecipes(product_names, multiplier)
+
+aswil.recipes.replaceProduct(recipe_name, old_product_name, new_product)
+aswil.recipes.replaceProducts(recipe_name, old_product_names, new_products)
+aswil.recipes.replaceProductToAllRecipes(old_product_name, new_product)
+aswil.recipes.replaceProductsToAllRecipes(old_product_names, new_products)
+
+aswil.recipes.addOrReplaceProduct(recipe_name, old_product_name, new_product)
+aswil.recipes.addOrReplaceProducts(recipe_name, old_product_names, new_products)
+aswil.recipes.addOrReplaceProductToAllRecipes(old_product_name, new_product)
+aswil.recipes.addOrReplacProductsToAllRecipes(old_product_names, new_products)
+
+aswil.recipes.convertProduct(recipe_name, old_product_name, new_product_name)
+aswil.recipes.convertProducts(recipe_name, old_product_names, new_product_names)
+aswil.recipes.convertProductFromAllRecipes(old_product_name, new_product_name)
+aswil.recipes.convertProductsFromAllRecipes(old_product_names, new_product_names)
+
+aswil.recipes.removeProductFromGroup(group_name, product_name)
+aswil.recipes.addProductToGroup(group_name, product)
+aswil.recipes.replaceProductToGroup(group_name, old_product_name, new_product)
+aswil.recipes.addOrReplaceProductToGroup(group_name, old_product_name, new_product)
+aswil.recipes.convertProductToGroup(group_name, old_product_name, new_product_name)
+
+aswil.recipes.multiplyRecipeStat(recipe_name, multiplier)
+aswil.recipes.existRecipesCategory(category_name)
+aswil.recipes.setCategoryIfExist(recipe_name, category_name)
+aswil.recipes.migrateCategory(old_category_name, new_category_name)
+aswil.recipes.addRecipeToGroup(recipe_name, group_name)
+aswil.recipes.removeRecipeFromGroup(recipe_name, group_name)
+aswil.recipes.setRecipeEnergyCost(recipe_name, energy_cost, expensive_cost)
+aswil.recipes.setRecipeResultCount(recipe_name, result_count)
+aswil.recipes.restoreRecipeToVanilla(recipe_name)
+aswil.recipes.uniteDuplicateItemsOfRecipe(recipe_name)	
+aswil.recipes.enable(recipe_name)
+aswil.recipes.disable(recipe_name)

@@ -1,0 +1,9 @@
+{
+	"recipe":
+	[
+		["k-evaporate-water", "k-evaporate-water"],
+		["k-evaporate-pure-water", "k-evaporate-k-pure-water"],
+		["k-evaporate-salt-water", "k-evaporate-k-salt-water"],
+		["k-evaporate-dirty-water", "k-evaporate-k-dirty-water"]
+	]
+}

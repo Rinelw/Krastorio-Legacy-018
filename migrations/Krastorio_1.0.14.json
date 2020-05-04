@@ -1,0 +1,12 @@
+{
+  "item":
+	[
+		["k-glass", "glass"],
+		["k-sand", "sand"]
+	],
+  "recipe":
+	[
+		["k-glass", "glass-from-sand"],
+		["k-sand-from-stone", "sand-from-stone"]
+	]
+}

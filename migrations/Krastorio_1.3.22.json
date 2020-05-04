@@ -1,0 +1,33 @@
+{
+	"entity":
+	[
+		["fusion-reactor", "k-fusion-reactor"]
+	],
+	"item":
+	[
+		["fusion-reactor", "k-fusion-reactor"]
+	],
+	"recipe":
+	[
+		["fusion-reactor", "k-fusion-reactor"],
+		["copper-to-matter", "copper-ore-to-matter"],
+		["matter-to-copper", "matter-to-copper-ore"],
+		["iron-to-matter", "iron-ore-to-matter"],
+		["matter-to-iron", "matter-to-iron-ore"],
+		["gold-to-matter", "gold-ore-to-matter"],
+		["matter-to-gold", "matter-to-gold-ore"],
+		["uranium-to-matter", "uranium-ore-to-matter"],
+		["matter-to-uranium", "matter-to-uranium-ore"],
+		["oil-to-matter", "crude-oil-to-matter"],
+		["matter-to-oil", "matter-to-crude-oil"],
+		["water-to-matter", "k-pure-water-to-matter"],
+		["matter-to-water", "matter-to-k-pure-water"],
+		["matter-to-red", "matter-to-automation-science-pack"],
+		["matter-to-green", "matter-to-logistic-science-pack"],
+		["matter-to-gray", "matter-to-military-science-pack"],
+		["matter-to-blue", "matter-to-chemical-science-pack"],
+		["matter-to-purple", "matter-to-production-science-pack"],
+		["matter-to-yellow", "matter-to-utility-science-pack"],
+		["k-experimental-data", "matter-to-k-experimental-data"]
+	]
+}

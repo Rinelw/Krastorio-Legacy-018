@@ -1,0 +1,2 @@
+In the function_descriptions folder you can find a documentation of what the functions of the library do.
+In the cheatsheets is listed all functions for be copy and paste rapidly in the code.

@@ -1,0 +1,1339 @@
+---------------------------------------------------------------------------------------------------
+Version: 1.4.56
+Date: 19. 02. 2020
+  Bugfixes:
+    - Almost fixed loaders snapping problem in 0.18. They will be fully fixed in K2 with a new more smart algorithm.
+---------------------------------------------------------------------------------------------------
+Version: 1.4.55
+Date: 04. 02. 2020
+  Bugfixes:
+    - Fixed compatibility with AAI Vehicles: Hauler.
+---------------------------------------------------------------------------------------------------
+Version: 1.4.54
+Date: 04. 02. 2020
+  Bugfixes:
+    - Fixed 0.18 splitter sprites.
+---------------------------------------------------------------------------------------------------
+Version: 1.4.53
+Date: 28. 01. 2020
+  Bugfixes:
+    - Fixed incompatibility with Space Exploration introduced in Factorio 0.18.0 version.
+---------------------------------------------------------------------------------------------------
+Version: 1.4.52
+Date: 28. 01. 2020
+  Bugfixes:
+    - ( ╯°□°)╯ ┻━━┻ 
+---------------------------------------------------------------------------------------------------
+Version: 1.4.51
+Date: 28. 01. 2020
+  Bugfixes:
+    - Fixed bug introduced in Factorio 0.18.0 version about generators that use fuel need to migrate to new prototype (antimatter reactor/prototype antimatter reactor).
+---------------------------------------------------------------------------------------------------
+Version: 1.4.50
+Date: 25. 01. 2020
+  Bugfixes:
+    - Fixed bug loaders introduced in Factorio 0.18.0 version.
+---------------------------------------------------------------------------------------------------
+Version: 1.4.49
+Date: 25. 01. 2020
+  Bugfixes:
+    - Updated to Factorio 0.18.0 version.
+---------------------------------------------------------------------------------------------------
+Version: 1.4.48
+Date: 05. 01. 2020
+  Bugfixes:
+    - Fixed incompatibility with adding custom units in vanilla nests/spawners.
+---------------------------------------------------------------------------------------------------
+Version: 1.4.47
+Date: 29. 12. 2019
+  Bugfixes:
+    - Fixed prerequisites for Advanced electronics 2.
+---------------------------------------------------------------------------------------------------
+Version: 1.4.46
+Date: 20. 12. 2019
+  Features:
+    - Added compatibility to MadClown01's Nuclear Extension, thanks to Vadatajs for provide the code. 
+---------------------------------------------------------------------------------------------------
+Version: 1.4.45
+Date: 08. 12. 2019
+  Bugfixes:
+    - Fixed compatibility with Deadlock's Industrial Revolution about filter insert group.
+---------------------------------------------------------------------------------------------------
+Version: 1.4.44
+Date: 24. 11. 2019
+  Changes:
+    - Change mod name in the "Krastorio Legacy" for the new incoming version.
+  Bugfixes:
+    - Fixed compatibility with Deadlock's Industrial Revolution about tech changing.
+    - Fixed AAI sand duplicated recipes.
+---------------------------------------------------------------------------------------------------
+Version: 1.4.43
+Date: 04. 11. 2019
+  Bugfixes:
+    - Fixed bug in ukraine locale.
+---------------------------------------------------------------------------------------------------
+Version: 1.4.42
+Date: 04. 11. 2019
+  Bugfixes:
+    - Fixed compatibility with Deadlock's Industrial Revolution about Krastorio icon paths change.
+---------------------------------------------------------------------------------------------------
+Version: 1.4.41
+Date: 04. 11. 2019
+  Bugfixes:
+    - Fixed litte missing renaming errors.
+---------------------------------------------------------------------------------------------------
+Version: 1.4.40
+Date: 03. 11. 2019
+  Features:
+    - Implemented anti recipes override checking on Krastorio recipes adding to main game data.
+  Changes:
+    - Adjusted compatibility with Deadlock's Industrial Revolution about flare stacks (modifying recipes with iron instead steel) push down in tech tree.
+    - Update French locale, thanks to Redstylt again.
+    - Code reorganization (recipes section, locale section).
+    - Small tooltip QoL.
+    - Internally renamed menarite processor (internal name was k-advanced-processor, now is menarite-processor).
+    - Internally renamed integrated circuit (internal name was k-transistor, now is integrated-circuit).
+  Bugfixes:
+    - Changed some condition on require files for avoid problems with Factorio Lua interpreter.
+    - Fixed incompatibility with Deadlock's Beltboxes steel plate -> iron beams renaming again.
+---------------------------------------------------------------------------------------------------
+Version: 1.4.39
+Date: 27. 10. 2019
+  Bugfixes:
+    - Fixed require files with linux file system.
+---------------------------------------------------------------------------------------------------
+Version: 1.4.38
+Date: 27. 10. 2019
+  Bugfixes:
+    - Fixed compatibility with Deadlock's Industrial Revolution computer recipe chaning.
+    - Generic compatibility optimizations. 
+---------------------------------------------------------------------------------------------------
+Version: 1.4.37
+Date: 17. 10. 2019
+  Changes:
+    - Marked Annotorio as incompatible with Krastorio.
+    - Adjusted reinforced gate unlocking in the technology tree, separated reinforced gate wall in two technologies with new icons, and adjusted the prerequisites.
+    - Updated english locale.
+    - Updated italian locale.
+    - Updated polish locale, thanks to lorddaniel123.
+  Bugfixes:
+    - Adjusted compatibility with Deadlock's Industrial Revolution about science pack changing.
+    - Maybe fix some compatibility error with Aircraft Realism (we didn't think there had ever been a bug).
+    - Improved Krastorio flare stack library.
+---------------------------------------------------------------------------------------------------
+Version: 1.4.36
+Date: 11. 10. 2019
+  Bugfixes:
+    - Fixed compatibility with Deadlock's Industrial Revolution category changes in 1.0.0.
+    - Fixed incompatibility with Deadlock's Industrial Revolution of rebalance damage option about gun turret shot range.
+    - Fixed incompatibility with Advanced furnace of one recipe that broke matter balance.
+---------------------------------------------------------------------------------------------------
+Version: 1.4.35
+Date: 06. 10. 2019
+  Changes:
+    - Re-balanced dirty water filtration, don't require anymore coal to filter dirty water.
+  Bugfixes:
+    - Fixed cross-incompatibility with Deadlock's Industrial Revolution and Beltboxes and Crates.
+    - Fixed incompatibility with Deadlock's Beltboxes and Crates steel plate -> iron beams renaming.
+---------------------------------------------------------------------------------------------------
+Version: 1.4.34
+Date: 19. 09. 2019
+  Features:
+    - Added with Deadlock's Industrial Revolution more compatibility with scrapping for tantalum items.
+  Changes:
+    - Re-balanced fuel rebalance option.
+---------------------------------------------------------------------------------------------------
+Version: 1.4.33
+Date: 14. 09. 2019
+  Features:
+    - Added with Deadlock's Industrial Revolution more compatibility with matter conversion of ores subproducts.
+  Changes:
+    - Changed the recipe for dirty water filtration. Now these are two simple recipes, one make copper and one iron with 20% of probability, both give also stone with 60% of probability (and dirty water could also be evaporated in the evaporator returning only stone).
+    - Changed with Deadlock's Industrial Revolution alternative computer recipes.
+  Bugfixes:
+    - Fixed incompatibility with Deadlock's Industrial Revolution about combat robots with uncraftable ingredients.
+    - Fixed incompatibility with Deadlock's Industrial Revolution about furnace recipe categories.
+---------------------------------------------------------------------------------------------------
+Version: 1.4.32
+Date: 11. 09. 2019
+  Features:
+    - Added Aircraft Realism compatibility, thanks to Chmielu for code and suggesions.
+    - Added with Deadlock's Industrial Revolution chargeable imersite batteries.
+  Changes:
+    - Reduced fuel stacks.
+    - Added pollution from vehicles and fuel.
+    - Changed artillery ammo icons.
+    - Changed science pack icons to HD.
+  Bugfixes:
+    - Fixed incompatibility with Deadlock's Industrial Revolution about wrong ingredient using Krastorio science pack recipe.
+---------------------------------------------------------------------------------------------------
+Version: 1.4.31
+Date: 11. 09. 2019
+  Bugfixes:
+    - Fixed some minor incompatibility with Deadlock's Industrial Revolution about locomotive prerequisite.
+---------------------------------------------------------------------------------------------------
+Version: 1.4.30
+Date: 10. 09. 2019
+  Changes:
+    - Improved flare stack color fade smoke(Completed flare stack color update).
+    - Air purifier recipe now use normal engine instead electric one.
+  Bugfixes:
+    - Fixed wrong air purifier technology prerequisites.
+    - Fixed some minor incompatibility with Deadlock's Industrial Revolution about satellite recipe.
+---------------------------------------------------------------------------------------------------
+Version: 1.4.29
+Date: 09. 09. 2019
+  Bugfixes:
+    - Fixed deadlocks caused by Deadlock's mod ;).
+---------------------------------------------------------------------------------------------------
+Version: 1.4.28
+Date: 08. 09. 2019
+  Bugfixes:
+    - Fixed some minor incompatibility with Deadlock's Industrial Revolution from the last new option.
+---------------------------------------------------------------------------------------------------
+Version: 1.4.27
+Date: 08. 09. 2019
+  Bugfixes:
+    - Fixed some minor incompatibility with Deadlock's Industrial Revolution from the last new option.
+---------------------------------------------------------------------------------------------------
+Version: 1.4.26
+Date: 08. 09. 2019
+  Bugfixes:
+    - Don't ask...
+---------------------------------------------------------------------------------------------------
+Version: 1.4.25
+Date: 08. 09. 2019
+  Bugfixes:
+    - Fixed some minor incompatibility with Deadlock's Industrial Revolution from the last new option.
+---------------------------------------------------------------------------------------------------
+Version: 1.4.24
+Date: 08. 09. 2019
+  Changes:
+    - Modified option for rebalance the science packs. Now each science pack recipe can be chosen in the option, with each variation depending on the mods loaded.
+---------------------------------------------------------------------------------------------------
+Version: 1.4.23
+Date: 07. 09. 2019
+  Changes:
+    - Moved steam destruction from flare stack to liquid evaporator.
+    - Improved flare stack color fade.
+---------------------------------------------------------------------------------------------------
+Version: 1.4.22
+Date: 07. 09. 2019
+  Changes:
+    - Experimental flare stack color fade on over smoke(not final version).
+  Bugfixes:
+    - Fixed some minor incompatibility with Deadlock's Industrial Revolution.
+---------------------------------------------------------------------------------------------------
+Version: 1.4.21
+Date: 07. 09. 2019
+  Bugfixes:
+    - Fixed some minor incompatibility with Deadlock's Industrial Revolution.
+---------------------------------------------------------------------------------------------------
+Version: 1.4.20
+Date: 07. 09. 2019
+  Bugfixes:
+    - Fixed some minor incompatibility with Deadlock's Industrial Revolution.
+---------------------------------------------------------------------------------------------------
+Version: 1.4.19
+Date: 05. 09. 2019
+  Features:
+    - Added option to disable "Matter is science" technology.
+  Changes:
+    - Some parameters of the "night vision equipment" are slightly changed. Now there is no strange glow of buildings.
+  Bugfixes:
+    - Fixed some incompatibility of new flare stack system.
+---------------------------------------------------------------------------------------------------
+Version: 1.4.18
+Date: 05. 09. 2019
+  Features:
+    - Now Krastorio have a lib file that other modders could use for make evaporate fluid recipes with an autogeneration function, whitelisting, and subproduct addition.
+    - Improved flare stack descriptions
+  Changes:
+    - Some changes in Deadlock's Industrial Revolution compability files. Doen't affect the game without this mod.(ALMOST ready for the release).
+---------------------------------------------------------------------------------------------------
+Version: 1.4.17
+Date: 04. 09. 2019
+  Features:
+    - Added glow for ores.
+    - Removed Deep Mining Drills by default. But you can enable this in the settings.
+    - Added new ore. This ore replaces Deep Mining Drills. Now mining is more logical and less cheating. This ore is generated in huge quantities and from it you can get a huge profit. For example, from 10 units rich rock you can produce ~ 700 units of Мatter. But you will need a processing complex for this.
+    - Now you can produce ordinary water from Matter.
+    - Added quaternary color to chemical recipes and completed the missing colors in others.
+---------------------------------------------------------------------------------------------------
+Version: 1.4.16
+Date: 04. 09. 2019
+  Features:
+    - Now Krastorio have a lib file that other modders could use for make burn fluid recipes with an autogeneration function, blacklisting, and subproduct addition.
+    - Improved flare stack icon with autogeneration system with tint mask.
+    - Improved flare stack compability for automatic burn fluids added by other mods.
+    - Added sulfur to(->) matter recipe.
+  Changes:
+    - Some changes in Deadlock's Industrial Revolution compability files. Doen't affect the game without this mod.
+---------------------------------------------------------------------------------------------------
+Version: 1.4.15
+Date: 03. 09. 2019
+  Bugfixes:
+    - Fixed Steel pump bounding box broken in the 0.17.67.
+    - Fixed that with the option for rebalance technologies, Krastorio ammo don't have technologies bonuses.
+---------------------------------------------------------------------------------------------------
+Version: 1.4.14
+Date: 01. 09. 2019
+  Changes:
+    - Minor Nuclear rebalance. The most important change is that now Nuclear steam turbines consume 60 units of steam per sec (was 120). This will reduce water intake to vanilla values. Dont worry, all basic ratios remain the same.
+    - Increased steam heat capacity to 0.25 from 0.2.
+    - Increased steam engine energy production to 1MW from 0.9.
+    - Minor fuel rebalance. The main change: antimatter capsule now has less fuel value, but has increased top speed and acceleration. Also solid fuel value was decreased to 15.
+---------------------------------------------------------------------------------------------------
+Version: 1.4.13
+Date: 31. 08. 2019
+  Changes:
+    - Now "Antimatter reactors" and "Big turbines" is a "primary-output" energy source.
+    - Some changes in Deadlock's Industrial Revolution compability files. Doen't affect the game without this mod.
+---------------------------------------------------------------------------------------------------
+Version: 1.4.12
+Date: 31. 08. 2019
+  Bugfixes:
+    - Fixed incorrect values in some recipes.
+---------------------------------------------------------------------------------------------------
+Version: 1.4.11
+Date: 31. 08. 2019
+  Features:
+    - Added a description to the raw materials, which shows the amount of matter that you can get. At the moment, only for English and Russian languages.
+  Changes:
+    - The final balancing of matter (I hope).
+---------------------------------------------------------------------------------------------------
+Version: 1.4.10
+Date: 30. 08. 2019
+  Changes:
+    - Now producitvity modules can be insert in items and tool conversion from matter, but not in raw items matter extraction recipes.
+  Bugfixes:
+    - Fixed chests and warehouses deconstruction bug.
+---------------------------------------------------------------------------------------------------
+Version: 1.4.9
+Date: 30. 08. 2019
+  Bugfixes:
+    - Matter buildings accepted producitvity modules.
+    - Other little fixes.
+---------------------------------------------------------------------------------------------------
+Version: 1.4.8
+Date: 28. 08. 2019
+  Changes:
+    - Improved and balancing matter+pure water recipes. It may seem cheating to you, but in the production of Matter from water you get a profit of only 0.17 Matter per cycle. If to take into account the energy expended, the benefit is even less.
+    - Experimental data recipe fix.
+    - Small minor changes.
+---------------------------------------------------------------------------------------------------
+Version: 1.4.7
+Date: 28. 08. 2019
+  Bugfixes:
+    - Assembler can't charge the stabilizers.
+---------------------------------------------------------------------------------------------------
+Version: 1.4.6
+Date: 28. 08. 2019
+  Changes:
+    - Changed "scientific-research-data" recipe. Now it is the same as it was before version 1.4.0.
+    - Matter tab completely removed.
+    - Logo setting removed.
+    - Added productivity modules for steel gear production.
+    - Small minor changes.
+  Bugfixes:
+    - Fixed fast_replaceable_group for "Steel pipe", "Steel pipe to ground" and "Steel pump".
+---------------------------------------------------------------------------------------------------
+Version: 1.4.5
+Date: 27. 08. 2019
+  Bugfixes:
+    - Fixed immersite head that have iron gear wheel instead steel corrispetive.
+---------------------------------------------------------------------------------------------------
+Version: 1.4.4
+Date: 25. 08. 2019
+  Changes:
+    - With SE installed will be possible convert matter into space science pack too.
+    - Adjusted some recipe order.
+---------------------------------------------------------------------------------------------------
+Version: 1.4.3
+Date: 24. 08. 2019
+  Bugfixes:
+    - Fixed new option for multiply ingredients don't work property.
+---------------------------------------------------------------------------------------------------
+Version: 1.4.2
+Date: 24. 08. 2019
+  Changes:
+    - Updated polish locale, thanks again to Virthalas.
+  Bugfixes:
+    - Fixed compatibility problem with wrong checking.
+---------------------------------------------------------------------------------------------------
+Version: 1.4.1
+Date: 24. 08. 2019
+  Bugfixes:
+    - Wrong steel pipe sprites path.
+---------------------------------------------------------------------------------------------------
+Version: 1.4.0
+Date: 23. 08. 2019
+  Features:
+    - Now Krastorio have a lib file that other modders could use for make matter recipes with an autogeneration function.
+    - Added new signals.
+    - Added active provider big chest and active provider warehouse.
+    - Added new items: Steel pipes, steel pump (with a flow of 125% compared to the normal pipes and pumps), and steel gear.
+    - Added an option(enabled by default) that multiply the ingredients products and time of almost all smelting recipes, for reduce the effect of know overmodules bug.
+    - Completed tests of compatibility Deadlock's Industrial Revolution, confirmed full compatibility on beta version 0.2.7
+  Changes:
+    - Converted the mandatory ore smelting 1 -> 3 into option with the advise that this break the Krastorio balacing.
+    - Improved module limitation compatibility with modded modules.
+    - Changed matter icon and matter recipes icon (now autogenerated).
+    - Changed matter recipes name (now autogenerated), some old recipe maybe must replaced by hand (not all migrated).
+    - Rework some sprites(warehouse in particular) and icons.
+    - Added matter building descriptions and tips.
+    - Many recipes have been changed (steel pipes and steel gear added): drill heads, impulse rifle, heavy rocket launcher, railgun turret, rocket turret, electric mining drill mk2, big turbine, fs 50 , fs 200, matter assembler, matter factory, advanced assembler.
+    - Now any item is processed into Matter at a speed of 10 items per second.
+    - Changed order of some recipes to remove from main recipe menu the matter group.	
+  Bugfixes:
+    - Renamed Fusion Reactor internally to be compatible with SpaceX.
+---------------------------------------------------------------------------------------------------
+Version: 1.3.21
+Date: 16. 08. 2019
+  Bugfixes:
+    - Small code fixes.
+---------------------------------------------------------------------------------------------------
+Version: 1.3.20
+Date: 15. 08. 2019
+  Changes:
+    - Removed laser turrets prerequisite from military 3, and added in military 3 relative technologies that use lasers.
+    - Added missing dewar product in antimatter capsule recipe.
+    - With space exploration installed portable antim core have different recipe.
+  Bugfixes:
+    - **** equip and order p********g ******s of Deadlock's Industrial Revolution installed.
+    - Added Krastorio overlay icon on alternative recipe of Deadlock's Industrial Revolution installed.
+---------------------------------------------------------------------------------------------------
+Version: 1.3.19
+Date: 15. 08. 2019
+  Features:
+    - Added free(gratis, without ingredients) circuit network wires option.
+  Balancing:
+    - Changed recipe for superior belt (2 titanium -> 1).
+    - Changed recipe for superior underground belt (20 titanium -> 30).
+    - Changed recipe for module-case (5 plastic-bar -> 3).
+    - Changed recipe for basic modules (10 Integrated circuit -> 6).
+    - Changed recipe for solar-panel (15 primitive circuit (electric circuit) -> 5).
+    - Changed recipe time for satellite (60s -> 120s).
+    - Changed recipe for satellite (100 accumulator -> 25).
+    - Changed recipe for satellite (100 processing-unit -> 25).
+    - Changed recipe for satellite (100 solar-panel -> 75).
+    - Changed recipe for accumulator (10 battery -> 8).
+    - Changed recipe for radar (40 iron-plate -> 30).
+    - Changed recipe time for rocket-part (3s -> 10s).
+    - Changed recipe time for experimental-data (30 matter -> 90). Also, plastic is no longer required.
+    - Increased chance to save stabilizer for matter cubes production  (50 -> 75).
+    - Changed recipe for scientific-research-data. Now you will receive two items instead of one.
+  Bugfixes:
+    - Propertly adapted water filatration plant with Deadlock's Industrial Revolution installed
+---------------------------------------------------------------------------------------------------
+Version: 1.3.18
+Date: 14. 08. 2019
+  Changes:
+    - Balancing drills and assembler with Deadlock's Industrial Revolution.
+---------------------------------------------------------------------------------------------------
+Version: 1.3.17
+Date: 13. 08. 2019
+  Bugfixes:
+    - Solved entity override bug caused with Expanded Rocket Payloads.
+---------------------------------------------------------------------------------------------------
+Version: 1.3.16
+Date: 13. 08. 2019
+  Changes:
+    - Final(I hope) details about compatibility with Deadlock's Industrial Revolution (equipment, recipe times and ammo balacing).
+  Bugfixes:
+    - Increased advanced assembler max ingredient to match SE recipes
+---------------------------------------------------------------------------------------------------
+Version: 1.3.15
+Date: 13. 08. 2019
+  Features:
+    - Added other particular features about compatibility with Deadlock's Industrial Revolution (recipes, order, section, icons).
+---------------------------------------------------------------------------------------------------
+Version: 1.3.14
+Date: 11. 08. 2019
+  Features:
+    - Added complete compatibility with Deadlock's Industrial Revolution.
+    - Added minimal compability to bob mods.
+  Bugfixes:
+    - Changed fusion reactor fluidbox to be more stable.
+---------------------------------------------------------------------------------------------------
+Version: 1.3.13
+Date: 10. 08. 2019
+  Bugfixes:
+    - Last optimized compatibility fails some inventory existance checking.
+---------------------------------------------------------------------------------------------------
+Version: 1.3.12
+Date: 09. 08. 2019
+  Changes:
+    - Added 5 glass in chemical plant recipes.
+    - Enabled stabilizer charging station in space with SE.
+    - Now steam turbine recipe use 2 steam engine, the rest of ingredients has been balanced consequently.
+    - Optimized compatibility.
+  Bugfixes:
+    - Fixed water filtering tec prerequisites.
+---------------------------------------------------------------------------------------------------
+Version: 1.3.11
+Date: 07. 08. 2019
+  Changes:
+    - Assembler Pipe Passthrough is now compatible with Krastorio from version 0.1.2.
+    - Now big turbine recipe use 2 steam turbine, the rest of ingredients has been balanced consequently.
+---------------------------------------------------------------------------------------------------
+Version: 1.3.10
+Date: 06. 08. 2019
+  Changes:
+    - Now one filter for the air purifier works 10 minutes (instead of 5).
+    - A filter refill costs 3 coal instead of 5.
+    - Decreased Air purifier health to 200.
+    - Increased Singularity beacon health to 350.
+    - Increased Advanced assembler health to 750.
+    - Increased Matter assembler health to 750.
+    - Enabled some Krastorio buildings in space (Krastorio storages, antimatter reactors, matter buildings, Krastorio tanks).
+    - Now fusion reactor is a prerequisite of antimatter reactor.
+  Bugfixes:
+    - Fixed SE rocket silo tec prerequisites.
+---------------------------------------------------------------------------------------------------
+Version: 1.3.9
+Date: 06. 08. 2019
+  Changes:
+    - Increased sulfur stack size to 200.
+    - Increased Advanced chemical plant speed from 15 to 16.
+    - Decreased Advanced furnace speed from 18 to 16.
+    - Decreased Advanced furnace energy usage from 3.5MW to 3MW.
+    - Changed Advanced furnace sound to vanilla sound.
+    - Decreased Advanced furnace sound volume from 1 to 0.75.
+  Bugfixes:
+    - Fixed loaders low resolution sprites bug. Now the direction is displayed correctly.
+---------------------------------------------------------------------------------------------------
+Version: 1.3.8
+Date: 05. 08. 2019
+  Changes:
+    - Increased circuit wire max distance for all warehouses.
+    - Increased circuit wire max distance for FS-200.
+    - Increased circuit wire max distance for Drone hub.
+  Bugfixes:
+    - Fixed deadlock gold crate migration missing.
+---------------------------------------------------------------------------------------------------
+Version: 1.3.7
+Date: 04. 08. 2019
+  Bugfixes:
+    - Fixed steam animation in Fusion Reactor.
+---------------------------------------------------------------------------------------------------
+Version: 1.3.6
+Date: 04. 08. 2019
+  Bugfixes:
+    - Fixed localization files.
+---------------------------------------------------------------------------------------------------
+Version: 1.3.5
+Date: 04. 08. 2019
+  Features:
+    - Now you can evaporate dirty water. But it gives stone.
+  Changes:
+    - Changed starting items ("Bonus items" in the settings).
+    - Reduced "mining time" for some buildings.
+    - Now Matter cube is not fuel.
+    - Item and recipe names "k-gold-plate" --> "gold-plate".
+  Bugfixes:
+    - Fixed some tags.
+  Locale:
+    - Added missed strings.
+---------------------------------------------------------------------------------------------------
+Version: 1.3.4
+Date: 02. 08. 2019
+  Changes:
+    - The compression time of Matter has been reduced.
+---------------------------------------------------------------------------------------------------
+Version: 1.3.3
+Date: 02. 08. 2019
+  Features:
+    - Added support for low-resolution graphics. Now Krastorio is even better optimized and will run on any system!
+    - All graphics and sounds are transferred to a separate mod.
+    - Added Matter Cube and Matter Cube technology.
+  Changes:
+    - The filtration plant requires regular engines instead of electric engines.
+    - Productivity modules return to recipes with stabilizers. But now the stabilizers will not be duplicated. Thanks to Schmorp for helping solve this problem!
+    - Increased battery capacity for drones.
+    - Increased Drone hub construction area.
+    - Increased Drone hub charging speed.
+    - No more stone in air purifiers.
+---------------------------------------------------------------------------------------------------
+Version: 1.3.2
+Date: 28. 07. 2019
+  Changes:
+    - Updated Ukrainian localization. Thanks to Andriy Soroka!
+    - Increased probability to save stabilizer. 98 -> 99%
+    - Changed recipe for Fast loader. advanced-circuit --> electronic-circuit.
+    - Changed recipe for Express loader. processing-unit --> advanced-circuit.
+    - Changed recipe for Superior loader. Added processing-unit into recipe.
+    - Added productivity modules into new recipes for steel and iron beam.
+  Bugfixes:
+    - Removed productivity modules from recipes for the production of items from matter. This is necessary to prevent dulling of stabilizers.
+    - Added missing names for recipes in localization.
+    - Fixed damage bonus and rate of fire bonus for turrets.
+---------------------------------------------------------------------------------------------------
+Version: 1.3.1
+Date: 27. 07. 2019
+  Changes:
+    - Increased fuel inventory size of portable nuclear, fusion, antimatter reactor from 1 or 2 to 3
+  Bugfixes:
+    - Fix that new big turbine will provide maximum 53MW, now is 100MW
+---------------------------------------------------------------------------------------------------
+Version: 1.3.0
+Date: 27. 07. 2019
+  Features:
+    - Added Fusion reactor. It's really big thing, that can produce 4GW! But it's expensive...
+    - Added new Big stwam turbine. To get maximum power, you need Fusion reactor.
+    - Added new items and recipes for new production chains.
+  Changes:
+    - Antimaterial reactors have become twice as powerful, but recipes have changed and become more expensive.
+    - Fusion reactor equipment technology now requires Fusion Power technology.
+    - Large battery production now requires large batteries of the previous tier.
+    - Now portable fusion reactor requires D-T fuel, but now it more powerful.
+---------------------------------------------------------------------------------------------------
+Version: 1.2.30
+Date: 26. 07. 2019
+  Features:
+    - Added ability to burn oil
+    - Added an option to able beacon and singularity beacon to transmit producitvity effect(default: disabled)
+  Changes:
+    - Added an option to choise if have double beacon slot(default: enabled)
+  Bugfixes:
+    - If rebalance of technologies is enabled military four now have right prerequisites
+---------------------------------------------------------------------------------------------------
+Version: 1.2.29
+Date: 25. 07. 2019
+  Changes:
+    - Moved Krastorio processor in second tier of deadlock recipes
+---------------------------------------------------------------------------------------------------
+Version: 1.2.28
+Date: 24. 07. 2019
+  Features:
+    - Added an utility recipe for make steel directly from iron plate
+  Changes:
+    - Removed portable solar panel, night vision, shield mk1 prerequisite from personal battery because isn't mandatory for make energy
+  Bugfixes:
+    - Added compatibility for AAI Hauler vehicle equipents
+    - Adjust number on shield mk2 icon
+---------------------------------------------------------------------------------------------------
+Version: 1.2.27
+Date: 22. 07. 2019
+  Changes:
+    - Added an options to enalbe/disable Krastorio damage modification to vanilla game
+  Bugfixes:
+    - Added compatibility for Realistic electric trains equipents
+    - Removed dependency that seems unnecessary (it's more a test that a real bugfix, but could be).
+---------------------------------------------------------------------------------------------------
+Version: 1.2.26
+Date: 21. 07. 2019
+  Bugfixes:
+    - Fixed antimatter reactors burner bonus(efficency was 100% instead 500%).
+    - Rebalanced Krastorio antimatter fuel with real efficency.
+---------------------------------------------------------------------------------------------------
+Version: 1.2.25
+Date: 21. 07. 2019
+  Bugfixes:
+    - Updated dependency that may could cause bugs
+---------------------------------------------------------------------------------------------------
+Version: 1.2.24
+Date: 20. 07. 2019
+  Bugfixes:
+    - Fixed incompatibility with Assembler Pipe Passthrough
+---------------------------------------------------------------------------------------------------
+Version: 1.2.23
+Date: 19. 07. 2019
+  Bugfixes:
+    - Fixed Tritium will be not obtainable with some mod setting combinations
+---------------------------------------------------------------------------------------------------
+Version: 1.2.22
+Date: 19. 07. 2019
+  Changes:
+    - Added option "More train cargo space with more consume" for let choise to the user if apply train cargo rebalance
+    - Now if "More train cargo space with more consume" option is active, will be changed too the max capacity of fluid wagons 
+---------------------------------------------------------------------------------------------------
+Version: 1.2.21
+Date: 19. 07. 2019
+  Changes:
+    - Now you can pick up vehicles from the ground... yeah, we made it!
+    - Renamed gold -> gold-ore.
+  Bugfixes:
+    - Fixed changelog.
+    - Fixed DE locale bug.
+---------------------------------------------------------------------------------------------------
+Version: 1.2.20
+Date: 18. 07. 2019
+  Changes:
+    - Now advanced assembler could be placed stick together for share one liquid resource for a recipe.
+---------------------------------------------------------------------------------------------------
+Version: 1.2.19
+Date: 18. 07. 2019
+  Features:
+    - Added an option for choise to keep enabled infinite technologies with technology rebalance.
+  Changes:
+    - Set equals cable stat for AAI poles with Krastorio vanilla modification(maximum wire distance -> 8.5, supply area distance -> 3.5).
+    - Renamed kr-sand -> sand, kr-gold -> gold, to be more compatible with other mods that add that ore resources.
+    - Reorder all technologies.
+  Bugfixes:
+    - Fixed (now for all) Krastorio resources autoplace setting could overlaps on other resources.
+---------------------------------------------------------------------------------------------------
+Version: 1.2.18
+Date: 15. 07. 2019
+  Bugfixes:
+    - Maybe fixed loaders snap error.
+---------------------------------------------------------------------------------------------------
+Version: 1.2.17
+Date: 15. 07. 2019
+  Bugfixes:
+    - Fixed minor redundant error.
+---------------------------------------------------------------------------------------------------
+Version: 1.2.16
+Date: 15. 07. 2019
+  Features:
+    - Added Polish translation(thanks to Virthalas).
+    - Completed compatibility with Deadlock's Stacking Beltboxes & Compact Loaders mod (thanks to Daydev for the icons).
+  Changes:
+    - If Rampant mod is installed laser turret will be buffed a bit instead be nerfed.
+  Bugfixes:
+    - Fixed English locale.
+    - Fixed Krastorio sand autoplace setting in the starting area could overlaps on other resources.
+---------------------------------------------------------------------------------------------------
+Version: 1.2.15
+Date: 13. 07. 2019
+  Changes:
+    - Boosted Reinforced wall max health from 500 to 600.
+    - Boosted Reinforced wall max health from 600 to 1200 if AAI is installed.
+  Bugfixes:
+    - Fixed Krastorio solar panel collision mask with SE installed.
+---------------------------------------------------------------------------------------------------
+Version: 1.2.14
+Date: 13. 07. 2019
+  Bugfixes:
+    - Fixed SE override new universal shields icons.
+---------------------------------------------------------------------------------------------------
+Version: 1.2.13
+Date: 12. 07. 2019
+  Features:
+    - Commented mod part that isn't ready(ops...).
+---------------------------------------------------------------------------------------------------
+Version: 1.2.12
+Date: 12. 07. 2019
+  Features:
+    - Added new personalized icon for shields that fit characters and vehicles grids.
+---------------------------------------------------------------------------------------------------
+Version: 1.2.11
+Date: 10. 07. 2019
+  Features:
+    - Unfortunately "Singularity beacon" was too powerful and broke the game. Here is a page with bug reports and the answer of the dev: https://forums.factorio.com/viewtopic.php?f=7&t=73052 This bug cannot be fixed, so the power of the beacon was reduced by half as well as revised some recipes. Singularity beacon is still very powerful and useful thing (and still can break the game, but now you need hard to try), but now it makes sense to use a vanilla beacon in some scenarios. Sorry for the inconvenience! but if you are not afraid of possible bugs, you can restore the previous power of the beacon by enabling the "Powerful beacon" option.
+  Changes:
+    - Now productivity modules can be used with both steel recipes.
+    - Increased chance to save "Matter Stabilizer"(80%-->95%).
+    - Increased chance to save "Filter"(80%-->90%).
+    - Filter refilling more cheap.
+    - "Singularity beacon" distribution effectivity has been halved.
+    - Changed recipes (only time) for research data.
+    - Changed the speed of crafting for a quantum computer and an advanced furnace.
+    - Reduced radar power consumption. 2.5MW-->1.8MW.
+---------------------------------------------------------------------------------------------------
+Version: 1.2.10
+Date: 07. 07. 2019
+  Features:
+    - Added Superior Long Filter Inserter.
+  Changes:
+    - Removed productivity modules from recipes with water and dirty water.
+    - Reduced time for recipes: "imersite-solar-panel", "imersite-accumulator", "k-dewar", "k-liquid-nitrogen".
+    - Increased capacity of large batteries.
+---------------------------------------------------------------------------------------------------
+Version: 1.2.9
+Date: 04. 07. 2019
+  Features:
+    - Added option to enable Krastorio Deep Mining Drills while playing with SE.
+    - Added new recipe for glass from matter.
+  Changes:
+    - Renamed "Liquid matter" to "Matter".
+  Bugfixes:
+    - Fixed deadlock crate machine crafting speed. 
+---------------------------------------------------------------------------------------------------
+Version: 1.2.8
+Date: 01. 07. 2019
+  Bugfixes:
+    - Fixed compability bug with Krastorio loaders and SE. 
+---------------------------------------------------------------------------------------------------
+Version: 1.2.7
+Date: 01. 07. 2019
+  Features:
+    - Added option to simplify the steel recipes.
+    - Added "next_upgrade" feature for some Krastorio entities.
+---------------------------------------------------------------------------------------------------
+Version: 1.2.6
+Date: 01. 07. 2019
+  Bugfixes:
+    - Fixed missing collision mask inheritance bug with SE installed.
+---------------------------------------------------------------------------------------------------
+Version: 1.2.5
+Date: 29. 06. 2019
+  Bugfixes:
+    - Fixed recipes with tritium.
+---------------------------------------------------------------------------------------------------
+Version: 1.2.4
+Date: 28. 06. 2019
+  Bugfixes:
+    - Fixed Glowing Laser Beams incompatibility.
+---------------------------------------------------------------------------------------------------
+Version: 1.2.3
+Date: 28. 06. 2019
+  Bugfixes:
+    - Added missing file.
+---------------------------------------------------------------------------------------------------
+Version: 1.2.2
+Date: 28. 06. 2019
+  Features:
+    - 0110010001101111011011000111000001101000011010010110111000100000011010010111001100100000011101110110000101110100011000110110100001101001011011100110011100100000011110010110111101110101
+  Changes:
+    - Changed locomotive grid size to 6x12.
+    - Decrease locomotive health.
+    - Rebalaced equpments technology cost.
+    - Changed superior inserters recipes.
+  Bugfixes:
+    - Fixed Deadlock mods prerequisites not complete.
+    - Fixed potential circuits changes bug with other mods.
+---------------------------------------------------------------------------------------------------
+Version: 1.2.1
+Date: 29. 06. 2019
+  Locale:
+    - Added Ukrainian localization. Thank to Andriy Soroka!
+  Bugfixes:
+    - Fix compatibility issues with reverse factory.
+    - Fix SE redundant collision check.
+---------------------------------------------------------------------------------------------------
+Version: 1.2.0
+Date: 26. 06. 2019
+  Features:
+    - Implemented a new code library for improve Krastorio compatibility, now aswil is a necessary mod to start Krastorio .
+    - Added Superior tier of inserter(is 50% faster than stack inserters and have 4 filter slots).
+    - Added new personal laser submachine gun.
+    - Added portable big solar panels.
+    - Added new personal big batteries.
+    - Added new big version bonus of some kind of personal equipents.
+    - Added compatibility equipment to Aircraft mods.
+    - Added compatibility equipment to Hovercrafts mods.
+    - Added full compatibility Deadlock's Crating Machine.
+    - Added heavy rocket launcher.
+    - New map icon for menarite and imersite and many products.
+  Changes:
+    - Renamed bpp to Singularity beacon.
+    - Reordered code.
+    - Optimized code.
+    - Significantly improves space exploration compatibility.
+    - Significantly improves aai industry compatibility.
+    - Reordered ingredients for "raw-imersite-processing-2".
+    - Full rebalance mineral processing.
+    - Full rebalance of matter ratios.
+    - Now deep mining drill and air purifier will autoselect the correct recipes.
+    - Reworked all equpments.
+    - Nerferd character armors grid size (4x4 6x6 8x8 10x10  12x12) to match new powerful equipments and make balacing with vehicles.
+    - Rebalaced all vehicles grid, car 6x6, tank 6x11,  battle tank 12x15, locomotive 12x12, wagons 6x16.
+    - Changed formula to calculate power produce by portable generators and solar panels: power = 40kW * grid_cells_occupied * tier_multiplier * big_version_multiplier and power = 40kW * grid_cells_occupied * tier_multiplier * big_version_multiplier.
+    - Divided equipent in 3 new category Universal, Characters only, Vehicles only, Vehicles with motor only and Aircraft only.
+    - Unified common equipment of characters and vehicles.
+    - Changed sorting order for some items.
+  Graphics:
+    - New bpp (Singularity beacon) sprites!
+    - Many icons have been redrawn
+  Bugfixes:
+    - Now is possible apply productivity effect on menarite processor recipe   
+---------------------------------------------------------------------------------------------------
+Version: 1.1.15
+Date: 21. 06. 2019
+  Bugfixes:
+    - Fixed satellite recipe.
+---------------------------------------------------------------------------------------------------
+Version: 1.1.14
+Date: 17. 06. 2019
+  Features:
+    - Added portable nuclear core description.
+    - Added ore icons.
+    - Added new options in the mod settings. We know that you like settings!
+  Changes:
+    - Remove production modules from some recipes.
+    - Rebalanced damage resistance for large buildings.
+    - Signed bobequipemt incompatible with Krastorio
+    - Reworked resistance for large buildings and battle tank. Now you can not so easily destroy some big buildings.
+    - "Matter factory" is now a furnace. Also removed "purified water" from recipes for the production of matter.
+    - Change burning fluids recipes to hidden, because player don't need to pick it, when flares or evaporators recive a fluid will pick it automatically
+  Bugfixes:
+    - Fixed umbalanced nuclear fuel reprocessing.
+    - May fix electric mining drills issues.
+    - Fixed rocket turret rotate on his own after shooting.
+---------------------------------------------------------------------------------------------------
+Version: 1.1.13
+Date: 09. 06. 2019
+  Features:
+    - Added partial compatibility with Deadlock's Stacking Beltboxes & Compact Loaders.
+  Changes:
+    - Boosted battle tank acid resistance to 80.
+    - Rebalanced new electric mining drills tiers.
+    - Removed technology for electric mining drill mk1.
+    - Update French locale, thanks to Redstylt again.
+    - New color for Menarite on the map.
+    - Restore electric mining drills recipe enabled at start game.
+  Graphics:
+    - Some new icons 64 pixels.
+  Bugfixes:
+    - Fixed tank bug that couldn't go back anymore(was to heavy).
+    - Boost air purifier efficiency.
+    - Fix tecnology issues.
+---------------------------------------------------------------------------------------------------
+Version: 1.1.12
+Date: 07. 06. 2019
+  Features:
+    - Added rock immunity for battle tank.
+    - Added new levels of mining drills.
+    - Now you can disable the stretching of icons for chests in the settings.
+  Graphics:
+    - New icons.
+    - New gold ore appearance.
+  Bugfixes:
+    - Again improved compatibility with Squeak Through.
+---------------------------------------------------------------------------------------------------
+Version: 1.1.11
+Date: 06. 06. 2019
+  Bugfixes:
+    - Improved compatibility with Squeak Through.
+---------------------------------------------------------------------------------------------------
+Version: 1.1.10
+Date: 06. 06. 2019
+  Changes:
+    - The production of "matter research data" has become more profitable.
+  Bugfixes:
+    - Fixed bug with gates.
+---------------------------------------------------------------------------------------------------
+Version: 1.1.9
+Date: 06. 06. 2019
+  Features:
+    - Added reinforced gate.
+    - Coal, coke and solid fuel give more energy. This should help in the early stages of the game.
+    - Increased crafting speed for quantum computer, advanced chemical plant and advanced furnace.
+    - The uranium enrichment process has become more profitable.
+  Graphics:
+    - Updated some icons.
+  Bugfixes:
+    - Fixed bug with the turrets, but for this I had to return the vanilla sound to the turrets.
+---------------------------------------------------------------------------------------------------
+Version: 1.1.8
+Date: 03. 06. 2019
+  Features:
+    - Updates localizations and slightly balances new equipment.
+    - Now you can use DT-fuel in antimatter reactors.
+  Graphics:
+    - Updated some icons.
+---------------------------------------------------------------------------------------------------
+Version: 1.1.7
+Date: 03. 06. 2019
+  Features:
+    - Introduced new power armors
+    - Introduced new player equipment
+    - Improved compatibility with "Space Exploration" equipment.
+  Graphics:
+    - Updated some icons.
+---------------------------------------------------------------------------------------------------
+Version: 1.1.6
+Date: 02. 06. 2019
+  Bugfixes:
+    - Fixed a bug in the Russian localization.
+---------------------------------------------------------------------------------------------------
+Version: 1.1.5
+Date: 01. 06. 2019
+  Features:
+    - Reorganized file structure. Now as in the vanilla game.
+    - Added new solar panels for vehicles and character.
+  Changes:
+    - Now generators for vehicles can hold more fuel.
+---------------------------------------------------------------------------------------------------
+Version: 1.1.4
+Date: 31. 05. 2019
+  Features:
+    - A new sprite compression method has been applied. This reduced the size of the mod file from ~65 to ~50 Mb.
+    - Added new mid-game recipes for steel and iron beam.
+    - Added optional dependency on AAI industry.
+    - Improved compatibility with "Space Exploration".
+  Graphics:
+    - Updated some icons.
+  Locale:
+    - Minor improvements in German localization.
+---------------------------------------------------------------------------------------------------
+Version: 1.1.3
+Date: 29. 05. 2019
+  Features:
+    - Added French localization! Thanks to Redstylt for localization.
+    - Added German localization! Thanks to Yofreak for localization.
+    - Now you can place belt immunity equipment into to vehicles. I don't know why it is not in vanilla...
+    - Improved compatibility with AAI industry.
+  Bugfixes:
+    - Fixed some small bugs.
+---------------------------------------------------------------------------------------------------
+Version: 1.1.2
+Date: 27. 05. 2019
+  Features:
+    - Added new setting which allows you to make vanilla atomic bomb for rocket launcher. This is necessary for compatibility with other mods.
+  Bugfixes:
+    - Fixed a problem with loaders when the player uses a blueprint. Thanks to Linver for the help!
+    - Fixed some small bugs.
+---------------------------------------------------------------------------------------------------
+Version: 1.1.1
+Date: 26. 05. 2019
+  Changes:
+    - Cheaper air cleaning.
+    - Faster cleaning of dirty water.
+---------------------------------------------------------------------------------------------------
+Version: 1.1.0
+Date: 26. 05. 2019
+  Features:
+    - Added battle tank!
+    - Equipment rebalance. Also added new items of equipment.
+    - Combat robots rebalance. Now they are not useless.
+  Changes:
+    - Changed the names of electronic circuits.
+    - Some recipes have become easier. Yes, again.
+    - Increased stacks for rockets, large-caliber projectiles and artillery.
+    - Now the laser turrets again have a vanilla sound, which is almost unheard of due to a short impulse. This had to be done because of the bug.
+  Bugfixes:
+    - Fixed a bug when laser turrets didn't cause damage to enemies.
+---------------------------------------------------------------------------------------------------
+Version: 1.0.21
+Date: 23. 05. 2019
+  Features:
+    - The list of items for which you can use the productivity module has been expanded.
+  Changes:
+    - Increased cost of technology "BPP". Also the recipe is made much more difficult.
+    - Now the Advanced chemical plant can't make recipes for electrolysis plant and air filter.
+    - Clearer display of recipe time for electrolysis plant and air filter.
+  Bugfixes:
+    - Fixed recipe for evaporation of salt water.
+---------------------------------------------------------------------------------------------------
+Version: 1.0.20
+Date: 23. 05. 2019
+  Features:
+    - Added option that returns waste. Disabled by default.
+---------------------------------------------------------------------------------------------------
+Version: 1.0.19
+Date: 22. 05. 2019
+  Changes:
+    - A cheaper recipe for empty memory card.
+  Bugfixes:
+    - Fixed problem with wall.
+---------------------------------------------------------------------------------------------------
+Version: 1.0.18
+Date: 22. 05. 2019
+  Changes:
+    - Now the enrichment of ore does not give a stone.
+    - The production of quartz from sand gives two times less stone.
+    - Changed requirements for some technologies.
+    - Warehouses have become larger. Now 6x6 instead of 5x5. Capacity increased to 750.
+    - Changed recipes for vanilla equipment.
+  Bugfixes:
+    - Fixed a bug when technologies didn't give a bonus to damage for cannon ammo.
+---------------------------------------------------------------------------------------------------
+Version: 1.0.17
+Date: 21. 05. 2019
+  Features:
+    - Minor update. Contains such things as reducing the mining time of some things, reducing the crafting time and so on.
+    - Added Italian localization! Thanks to Linver for localization!
+  Changes:
+    - The recipe for a iron furnace now requires a stone furnace, instead of bricks.
+    - Now Krastorio walls have great explosion resist. But they are more vulnerable to acid. Remember that no wall will save you from antimaterial bombs.
+  Graphics:
+    - Sprites for filtration plant made a little brighter.
+---------------------------------------------------------------------------------------------------
+Version: 1.0.15
+Date: 19. 05. 2019
+  Bugfixes:
+    - Fixed a problem with the lab.
+---------------------------------------------------------------------------------------------------
+Version: 1.0.14
+Date: 19. 05. 2019
+  Features:
+    - Improved compatibility with "Space Exploration". Thanks to Linver for the help!
+  Changes:
+    - Changed recipes for armor.
+  Bugfixes:
+    - Fixed incompatibility with AAI industry.
+---------------------------------------------------------------------------------------------------
+Version: 1.0.13
+Date: 19. 05. 2019
+  Changes:
+    - Cheaper recipe for "empty memory card" and data chips.
+    - Technology "Matter" and "Matter assembler" combined into one.
+    - Reduced "Matter factory" energy usage. 50 --> 20.
+    - Reduced "Matter converter" energy usage. 50 --> 35.
+---------------------------------------------------------------------------------------------------
+Version: 1.0.12
+Date: 18. 05. 2019
+  Changes:
+    - Now you can get a little tritium in a centrifuge, when processing uranium ore.
+  Bugfixes:
+    - Fixed problem with Matter research data.
+---------------------------------------------------------------------------------------------------
+Version: 1.0.11
+Date: 18. 05. 2019
+  Changes:
+    - Reduced the cost of loaders.
+    - Slightly corrected laser turret. 
+    - Reduced turret inventory size to vanilla size.
+    - Reduced train production time.
+    - Reduced cost of some technologies.
+    - To enrich the ore, ordinary water is needed instead of purified water. Also, the recipe is now more profitable.
+    - Filtration plant require electronic circuits instead of advanced circuits.
+    - Some recipes have been slightly modified. Basically reducing the number of ingredients.
+  Bugfixes:
+    - Fixed the crafting categories for "matter-to-imersite-powder" and "matter-to-menarite-powder".
+  Graphics:
+    - Updated some icons.
+---------------------------------------------------------------------------------------------------
+Version: 1.0.10
+Date: 17. 05. 2019
+  Features:
+    - Added equipment grid for vehicles. Now you can do construction trains with drones!
+  Changes:
+    - Some recipes are made cheaper.
+    - Changed recipe for portable fusion reactor
+---------------------------------------------------------------------------------------------------
+Version: 1.0.9
+Date: 16. 05. 2019
+  Features:
+    - Now you can use productivity modules for some recipes from the mod.
+  Changes:
+    - Another fuel rebalance...
+    - Various small changes that do not affect the gameplay, like "emissions = 1 / 10000" --> "emissions_per_minute = 1".
+    - Now, instead of transistors integrated circuit.
+    - Fixed an issue where big mining drills produce imersite and menarite instead of raw imersite and raw menarite.
+    - Fixed  speed for research server mk2.
+    - Removed "working drone speed 10" technology. But the base speed of the drone is increased. Now it’s 20 km / h for the logistic drone and 25 km / h for the construction drone. This is about two times higher than vanilla. The maximum speed will be 120 and 150 km / h.
+  Graphics:
+    - Updated some icons.
+---------------------------------------------------------------------------------------------------
+Version: 1.0.8
+Date: 15. 05. 2019
+  Changes:
+    - Military science pack rebalance.
+    - Antimatter power cell rebalance.
+    - Recipe "Sand from stone" require 2 stone instead of 1. It's more balanced.
+    - Reactors produce more pollution.
+    - Increased radius of sound from reactors.
+    - Impulse rifle ammo require 1 imersite battery instead of 3.
+    - Changed recipes for quartz production.
+---------------------------------------------------------------------------------------------------
+Version: 1.0.7
+Date: 14. 05. 2019
+  Changes:
+    - Small fuel rebalance. Now producing coke is more profitable.
+    - Now multifunctional electric furnace can produce coke.
+    - Added new recipe "sand from stone".
+    - Electronic circuits production rebalance. Now it's more easier.
+---------------------------------------------------------------------------------------------------
+Version: 1.0.6
+Date: 13. 05. 2019
+  Changes:
+    - Now Research server MK2 have 3 module slots instead of 2.
+    - Reactor sound is louder.
+  Graphics:
+    - New sprites for imersite-rift and menarite-rift.
+    - Improved sprites for sand.
+---------------------------------------------------------------------------------------------------
+Version: 1.0.5
+Date: 12. 05. 2019
+  Bugfixes:
+    - Fixed the crafting category for research servers.
+    - Fixed the filtration plant recipe.
+---------------------------------------------------------------------------------------------------
+Version: 1.0.4
+Date: 12. 05. 2019
+  Changes:
+    - Now firearm magazine cost 2 iron plate instead of 4.
+    - Loaders mining time reduced to 1.
+    - Reduced production time scientific data in half.
+  Bugfixes:
+    - Fixed bug with research servers.
+---------------------------------------------------------------------------------------------------
+Version: 1.0.3
+Date: 12. 05. 2019
+  Changes:
+    - Now 10 units of quartz give 2 ingots of silicon.
+    - Changed the time and ratio in some recipes.
+    - Changed battery capacity.
+  Bugfixes:
+    - Fixed some bugs in localization.
+---------------------------------------------------------------------------------------------------
+Version: 1.0.2
+Date: 12. 05. 2019
+  Bugfixes:
+    - Fixed some recipes.
+---------------------------------------------------------------------------------------------------
+Version: 1.0.1
+Date: 12. 05. 2019
+  Changes:
+    - Changed some vanilla technologies cost.
+    - Now to create an empty barrel, you need iron plates instead of iron beams.
+  Bugfixes:
+    - Fixed display of reactor remnants.
+    - Fixed broken sprites.
+    - Fixed some recipes.
+---------------------------------------------------------------------------------------------------
+Version: 1.0.0
+Date: 11. 05. 2019
+  Info:
+    - Release. The mod has been completely redone. Now all content is ready. If you don't like new version of Krastorio, then you can use the old versions, or delete this mod. Removing a mod will not break your save-file.
+  Features:
+    - Added 10+ new buildings.
+    - Added 20+ new technologies.
+    - Added new remnants for Krastorio buildings.
+    - Added chemistry. It is not difficult. Just basic elements like oxygen, hydrogen, nitrogen, etc.
+    - Added the ability to process raw ore and minerals.
+    - Vanilla science is almost completely redone. If it's too hard, let me know.
+  Changes:
+    - Changed many technology and recipes.
+    - Reactors now consume antimatter power cells, instead of liquid matter.
+    - Removed many options from the mod settings. This was necessary because many recipes are strongly related to each other.
+    - Vanilla enemies are made stronger.
+  Graphics:
+    - Improved animation and sprites for many buildings.
+---------------------------------------------------------------------------------------------------
+Version: 0.3.5
+Date: 02. 05. 2019
+  Changes:
+    - Player -> Character.
+---------------------------------------------------------------------------------------------------
+Version: 0.3.4
+Date: 23. 04. 2019
+  Features:
+    - Added Advanced chemical plant
+  Changes:
+    - Changed some technology.
+    - Steel furnace renamed to Iron furnace.
+  Graphics:
+    - Updated sprites for the filtration plant and all drills (improved animation + new render). 
+    - Now loaders are displayed more correctly.
+    - Compressed some sprites.
+---------------------------------------------------------------------------------------------------
+Version: 0.3.3
+Date: 22. 04. 2019
+  Features:
+    - Added new circuit production chain. You can disable this in the settings.
+    - Now, disabling all settings completely disables the changes that the Krastorio brings to the vanilla game...
+  Changes:
+    - Changed recipes for: quantum-processor, small-antimatter-rocket,rocket-for-turret, antimatter-artillery-shell, matter-stabilizer, modular-armor, power-armor, power-armor-2
+---------------------------------------------------------------------------------------------------
+Version: 0.3.2
+Date: 22. 04. 2019
+  Changes:
+    - Changed recipes for loaders and belts.
+  Locale:
+    - Updated Russian localization.
+---------------------------------------------------------------------------------------------------
+Version: 0.3.1
+Date: 21. 04. 2019
+  Changes:
+    - Changed the "Advanced electronics 3" technology. It's need for Bob's mods compatibility. 
+  Features:
+    - Added new belts.
+    - Added new loaders.
+    - Added Deep mining drill.
+    - Added new technologies and recipes.
+  Graphics:
+    - Updated sprites for the filtration plant.
+  Bugfixes:
+    - Fixed Advanced big drill deconstruction bug.
+---------------------------------------------------------------------------------------------------
+Version: 0.3.0
+Date: 20. 04. 2019
+  Changes:
+    - Changed the laser turret recipe. Now you need quartz instead of glass.
+    - Changed the low density structure recipe. Now you need titanium plate instead of steel plate.
+  Features:
+    - Added big mining drills for minerals extraction.
+    - Added new technologies and recipes.
+    - Added drill heads.
+  Bugfixes:
+    - Fixed a problem with "oil to matter" recipe, when Matter Factory did not take liquid from the pipe.
+---------------------------------------------------------------------------------------------------
+Version: 0.2.5
+Date: 18. 04. 2019
+  Changes:
+    - Changed recipe for steel furnace.
+  Graphics:
+    - Added glow for reactors.
+---------------------------------------------------------------------------------------------------
+Version: 0.2.4
+Date: 17. 04. 2019
+  Changes:
+    - Increase drone hub size.
+  Graphics:
+    - Added some details for drone hub model.
+    - Added glow for some buildings.
+  Bugfixes:
+    - Fixed a problem with freezing drones when they are trying to go down to the drone hub.
+---------------------------------------------------------------------------------------------------
+Version: 0.2.3
+Date: 16. 04. 2019
+  Locale:
+    - Added translation of mods settings into Russian
+    - Added extended description of some settings.
+---------------------------------------------------------------------------------------------------
+Version: 0.2.2
+Date: 15. 04. 2019
+  Features:
+    - Added menarite-ore. At the moment, this ore cannot be mined. This feature will be available soon.
+    - Some little improvements.
+---------------------------------------------------------------------------------------------------
+Version: 0.2.1
+Date: 15. 04. 2019
+  Features:
+    - Compressed sprites of ore and sand.
+  Graphics:
+    - Sand sprites are made less bright.
+  Bugfixes:
+    - Fix migration. "tantalum-plate" -> "k-tantalum-plate"
+---------------------------------------------------------------------------------------------------
+Version: 0.2.0
+Date: 15. 04. 2019
+  Info:
+    - Added new ores and a large number of new recipes and technologies. Now Krastorio is completely independent and don't need Simple Silicon mod.
+  Features:
+    - Added sand.
+    - Added gold.
+    - Added imersite-ore. At the moment, this ore cannot be mined. This feature will be available soon.
+    - Added new recipes and technologies.
+  Graphics:
+    - New icons for some items
+---------------------------------------------------------------------------------------------------
+Version: 0.1.3
+Date: 13. 04. 2019
+  Features:
+    - Added Small antimatter rocket.
+    - Added Antimatter artillery shell.
+    - Added the ability to create matter from wood.
+    - Added the ability to create wood from matter.
+  Graphics:
+    - More blue explosions from heavy weapon shells.
+  Balancing:
+    - Some recipes are made easier.
+  Other:
+    - Changed sorting for "Princessorio".
+---------------------------------------------------------------------------------------------------
+Version: 0.1.2
+Date: 13. 04. 2019
+  Changes:
+    - Changed some entity names to avoid incompatibility with the Darkstar Utilities mod.
+  Graphics:
+    - New icon for the steel plate.
+    - Lighter image for steel processing technology.
+  Locale:
+    - Minor adjustments in Russian localization.
+---------------------------------------------------------------------------------------------------
+Version: 0.1.1
+Date: 12. 04. 2019
+  Changes:
+    - Now Advanced assembler is called Advanced assembling machine.
+  Bugfixes:
+    - Fixed Advanced assembler deconstruction bug.
+---------------------------------------------------------------------------------------------------
+Version: 0.1.0
+Date: 12. 04. 2019
+  Changes:
+    - Alpha release.
